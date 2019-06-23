@@ -1,0 +1,447 @@
+<resources>
+    <string name="app_name_full" translatable="false">Game Server Control Panel</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_debug" translatable="false">Debug UI</string>
+    <string name="action_removeads">Remove ads</string>
+    <string name="action_ban">Ban</string>
+    <string name="action_kick">Kick</string>
+    <string name="action_mute">Mute</string>
+    <string name="action_steam">Steam Profile</string>
+
+    <string name="error_readgames">Error reading games list</string>
+    <string name="error_nonetwork">Сould not connect to the network</string>
+
+    <string name="srvlist_title">Servers list</string>
+    <string name="srvlist_empty">Servers list is empty</string>
+    <string name="srvlist_error_descr">An error occurred while loading the servers list</string>
+    <string name="srvlist_error_sendrep">Report a bug</string>
+
+    <string name="srvlist_item_ip" translatable="false">IP: %1$s:%2$d</string>
+    <string name="srvlist_item_ping">Ping: %1$d ms</string>
+    <string name="srvlist_item_map">Map: %1$s</string>
+    <string name="srvlist_item_players">Players: %1$d/%2$d</string>
+    <string name="srvlist_item_playersb">Players: %1$d(+%3$d)/%2$d</string>
+    <string name="srvlist_item_updated">Updated: %1$s</string>
+    <string name="srvlist_item_deleted">Server removed</string>
+    <string name="srvlist_item_delete_error">Failed to remove the server</string>
+
+    <string name="srvedit_title_add">Add server</string>
+    <string name="srvedit_title_edit">Edit server</string>
+
+    <string name="srvedit_group_main">Main</string>
+    <string name="srvedit_txt_name">Server name</string>
+    <string name="srvedit_txt_ip" translatable="false">IP</string>
+    <string name="srvedit_txt_port">Port</string>
+    <string name="srvedit_txt_game">Game</string>
+    <string name="srvedit_txt_rcon">RCON password</string>
+
+    <string name="srvedit_group_ftp" translatable="false">FTP</string>
+    <string name="srvedit_txt_ftp_ip" translatable="false">IP</string>
+    <string name="srvedit_txt_ftp_port">Port</string>
+    <string name="srvedit_txt_ftp_user">User</string>
+    <string name="srvedit_txt_ftp_pass">Password</string>
+    <string name="srvedit_txt_ftp_path">Path to server content (folder \"%1$s\")</string>
+
+    <string name="srvedit_group_api">API keys</string>
+    <string name="srvedit_spn_apitype">Hosting</string>
+    <string name="srvedit_txt_apikey">MyArena API key</string>
+    <!--<string name="srvedit_txt_apikey">Key</string>-->
+    <string name="srvedit_txt_apikey_helper">Only if you use this hosting</string>
+    <string name="srvedit_btn_qrcode">QR Code</string>
+    <string-array name="srvedit_spn_apitype_text" translatable="false">
+        <item>Myarena.ru</item>
+    </string-array>
+    <integer-array name="srvedit_spn_apitype_value">
+        <item>0</item>
+    </integer-array>
+
+
+    <string name="srvedit_group_extra">Extra</string>
+    <string name="srvedit_switch_checkversion">Alert if server is outdated</string>
+    <string name="srvedit_switch_listenlogs">Log listening</string>
+    <string name="srvedit_txt_fastcmds">RCON shortcuts</string>
+    <string name="srvedit_txt_appid" translatable="false">AppID</string>
+    <string name="srvedit_txt_appid_description">ID to check server version</string>
+    <string name="srvedit_txt_name_format" translatable="false">%1$s_%2$s:%3$d</string>
+
+    <string name="srvedit_txt_error_empty">Field must not be empty</string>
+    <string name="srvedit_txt_error_greater">Field must be greater than %1$d</string>
+    <string name="srvedit_txt_error_less">Field must be less than %1$d</string>
+    <string name="srvedit_error_unique">Server with the specified IP and port already exists</string>
+    <string name="srvedit_error_add">Add server error</string>
+    <string name="srvedit_error_edit">Edit server error</string>
+    <string name="srvedit_error_invalidopen">Incorrect attempt to open server add/edit screen</string>
+    <string name="srvedit_warning_port">This feature works only when connected to the network via WI-FI. In addition, you need to open port %1$d on the router.</string>
+
+
+    <string name="srvedit_btn_title">Check</string>
+    <string name="srvedit_btnapi_title">Check API Key</string>
+    <string name="srvedit_btn_progress">Loading</string>
+    <string name="srvedit_btn_ok">Success</string>
+    <string name="srvedit_btn_error_conn">Failed to connect</string>
+    <string name="srvedit_btn_error_auth">Authorization Error</string>
+    <string name="srvedit_btn_error_ban">Banned by server</string>
+    <string name="srvedit_btn_error_gamenotfound">Server content not found</string>
+    <string name="srvedit_btn_error_token">Invalid key</string>
+    <string name="srvedit_btn_error_wronggame">Wrong game</string>
+    <string name="srvedit_btn_error_invalidport">Invalid port</string>
+    <string name="srvedit_btn_error_unknownpacket">Unknown packet</string>
+    <string name="srvedit_btn_error_unknown">Unknown error</string>
+    <string name="srvedit_btn_error_reasonmsg">Reason: %1$s</string>
+
+    <string name="srvedit_dialog_fastcmd_title">Edit RCON shortcuts</string>
+
+    <string name="camera_title">QR code scanner</string>
+    <string name="camera_permsdenide">Unable to access camera</string>
+    <string name="camera_error">An error occurred when requesting permission</string>
+    <string name="camera_notfound">Сamera not found</string>
+
+    <string name="srvctrl_srvinfo_vac" translatable="false">VAC:</string>
+    <string name="srvctrl_srvinfo_pass">Pass:</string>
+    <string name="srvctrl_srvinfo_version">Version: %1$s</string>
+    <string name="srvctrl_srvinfo_renta">Rental expires in:</string>
+
+    <string name="srvctrl_outdated_title">Checking server version</string>
+    <string name="srvctrl_outdated_descr">Your server is outdated</string>
+    <string name="srvctrl_outdated_srvvrs">Server version:</string>
+    <string name="srvctrl_outdated_latestvrs">Latest version:</string>
+    <string name="srvctrl_outdated_reunion">Failed to get the server version. If you are using DProto/Reunion, set the value of <b>ServerInfoAnswerType</b> to 0</string>
+
+    <string name="srvctrl_changemap_copy">Map name copied to clipboard</string>
+    <string name="srvctrl_changemap_copyerror">Unable to copy map name to the clipboard</string>
+
+    <string name="srvctrl_menu_tooltip">Server Control</string>
+    <string name="srvctrl_menu_start">Start</string>
+    <string name="srvctrl_menu_restart">Restart</string>
+    <string name="srvctrl_menu_stop">Stop</string>
+    <string name="srvctrl_menu_map">Change map</string>
+    <string name="srvctrl_menu_fullrefresh">Full refresh</string>
+    <string name="srvctrl_menu_map_error_notfound">Maps not found</string>
+
+    <string name="srvctrl_error_request">Request failed</string>
+    <string name="srvctrl_error_conn">Failed to connect</string>
+    <string name="srvctrl_error_invalidserver">Invalid attempt to open a server CP</string>
+    <string name="srvctrl_succes_start">Server is starting</string>
+    <string name="srvctrl_succes_restart">Server is restarting</string>
+
+    <string name="srvctrl_players_empty">Server is empty</string>
+    <string name="srvctrl_players_index">Index: %1$d</string>
+    <string name="srvctrl_players_score">Score: %1$d</string>
+    <string name="srvctrl_players_time">Time: %1$s</string>
+    <string name="srvctrl_players_ping">Ping: %1$d ms</string>
+    <string name="srvctrl_players_isbot">Bot</string>
+    <string name="srvctrl_players_reqsended">Request sended</string>
+    <string name="srvctrl_players_emptysteamid">Failed to load player Steam ID. To try again refresh the server</string>
+
+    <string name="srvctrl_console_edit">Command</string>
+    <string name="srvctrl_console_type_rcon" translatable="false">RCON</string>
+    <string name="srvctrl_console_type_api">Hosting API</string>
+    <string name="srvctrl_console_action_send">Send</string>
+    <string name="srvctrl_console_action_prefs">Preferences</string>
+    <string name="srvctrl_console_autherror">Authorization error</string>
+
+    <string name="srvctrl_info_query_title">Monitoring</string>
+    <string name="srvctrl_info_query_copy">Value copied to clipboard</string>
+    <string name="srvctrl_info_query_copyerror">Unable to copy value to the clipboard</string>
+    <string name="srvctrl_info_query_ip" translatable="false">IP</string>
+    <string name="srvctrl_info_query_gamename">Game name/description</string>
+    <string name="srvctrl_info_query_game">Game</string>
+    <string name="srvctrl_info_query_os">Operating system</string>
+    <string name="srvctrl_info_query_id" translatable="false">ID</string>
+    <string name="srvctrl_info_query_location">Location</string>
+    <string name="srvctrl_info_query_type">Type</string>
+    <string name="srvctrl_info_query_blockdate">Rental end date</string>
+    <string name="srvctrl_info_query_realip">Real IP</string>
+    <string name="srvctrl_info_query_gameid">Game ID/Folder</string>
+    <string name="srvctrl_info_query_mapscount">Maps Count</string>
+    <string name="srvctrl_info_query_cvarscount">Cvars count</string>
+    <string name="srvctrl_info_query_lastfullrefresh">Last full refresh</string>
+    <string name="srvctrl_info_query_protocol">Protocol</string>
+    <string name="srvctrl_info_query_a2stype">Type (A2S)</string>
+    <string name="srvctrl_info_query_rcon" translatable="false">RCON</string>
+    <string name="srvctrl_info_query_api">Hosting API</string>
+    <string name="srvctrl_info_query_mm" translatable="false">Metamod</string>
+    <string name="srvctrl_info_query_amx" translatable="false">Amxmod</string>
+    <string name="srvctrl_info_query_sm" translatable="false">Sourcemod</string>
+    <string name="srvctrl_info_query_sc" translatable="false">Sourcecomms/SourceBans++</string>
+    <string name="srvctrl_info_query_ulx" translatable="false">Ulxmod</string>
+
+    <string name="srvctrl_info_perfs_title">Resources</string>
+    <string name="srvctrl_info_perfs_cpu">CPU</string>
+    <string name="srvctrl_info_perfs_intraff">Incoming traffic</string>
+    <string name="srvctrl_info_perfs_outtraff">Outbound traffic</string>
+    <string name="srvctrl_info_perfs_traffic_size">%1$s (KB/s)</string>
+    <string name="srvctrl_info_perfs_uptime">Uptime</string>
+    <string name="srvctrl_info_perfs_connects">Connects</string>
+    <string name="srvctrl_info_perfs_ram">RAM</string>
+    <string name="srvctrl_info_perfs_rom">Storage</string>
+    <string name="srvctrl_info_perfs_data_size">%1$d/%2$d MB (%3$d%%)</string>
+
+    <string name="srvctrl_info_perfs_error">Failed to load info about used resources.</string>
+
+    <string name="srvctrl_info_cmds_title">Commands</string>
+    <string name="srvctrl_info_cmds_copy">Command copied to clipboard</string>
+    <string name="srvctrl_info_cmds_copyerror">Unable to copy command to the clipboard</string>
+    <string name="srvctrl_info_cmd_notfound">Server commands not found</string>
+
+    <string name="srvctrl_info_vars_title">Variables</string>
+    <string name="srvctrl_info_vars_notfound">Server variables not found</string>
+    <string name="srvctrl_info_vars_error">Failed to get server variables list</string>
+    <string name="srvctrl_info_vars_copy">Variable name copied to clipboard</string>
+    <string name="srvctrl_info_vars_copyerror">Unable to copy variable name to the clipboard</string>
+
+    <string name="srvctrl_activity_mlog_title">Main Log</string>
+    <string name="srvctrl_activity_mlog_date">Date</string>
+    <string name="srvctrl_activity_mlog_time">Time</string>
+    <string name="srvctrl_activity_mlog_wrap">Linewrap</string>
+    <string name="srvctrl_activity_error_wifi">To listen logs you need to connect to wifi</string>
+    <string name="srvctrl_activity_error_offline">No network connection</string>
+    <string name="srvctrl_activity_error_publicip">Failed to get public IP address</string>
+    <string name="srvctrl_activity_error_port">Network port used by another app</string>
+    <string name="srvctrl_activity_error_rcon">Failed to add device IP to listen</string>
+    <string name="srvctrl_activity_error_unknown">Unknown error</string>
+    <string name="srvctrl_activity_error_rconremove">Failed to disable sending logs from server</string>
+    <string name="srvctrl_activity_error_startservice">Failed to start log listening service</string>
+
+    <string name="srvctrl_navbar_players">Players</string>
+    <string name="srvctrl_navbar_console">Console</string>
+    <!--<string name="srvctrl_navbar_activity">Activity</string>-->
+    <string name="srvctrl_navbar_activity">Log</string>
+    <string name="srvctrl_navbar_plugins">Plugins</string>
+    <string name="srvctrl_navbar_info">Info</string>
+
+    <string name="playerinfo_title">Player info</string>
+    <string name="playerinfo_index">Index:</string>
+    <string name="playerinfo_steamid" translatable="false">Steam ID:</string>
+    <string name="playerinfo_ip" translatable="false">IP:</string>
+    <string name="playerinfo_country">Country:</string>
+    <string name="playerinfo_city">City:</string>
+    <string name="playerinfo_ping">Ping: %1$d ms</string>
+    <string name="playerinfo_time">Play time: %1$s</string>
+    <string name="playerinfo_score">Score: %1$d</string>
+    <string name="playerinfo_flags">Admin flags:</string>
+    <string name="playerinfo_flagsgmod">Group/Admin flags:</string>
+    <string name="playerinfo_unknown">Unknown</string>
+    <string name="playerinfo_bansid">Steam ID bans</string>
+    <string name="playerinfo_bansip">IP bans</string>
+    <string name="playerinfo_mutes">Mutes</string>
+    <string name="playerinfo_stats">Game Stats</string>
+    <string name="playerinfo_actions">Actions</string>
+    <string name="playerinfo_name_copy">Player name copied to clipboard</string>
+    <string name="playerinfo_name_copyerror">Unable to copy player name to the clipboard</string>
+    <string name="playerinfo_error_invalidplayer">Incorrect attempt to open player info</string>
+
+    <string name="dialog_accept_title">Confirm action</string>
+    <string name="dialog_acceptdelete_descr">Exit without saving?</string>
+
+    <string name="dialog_ban_title">Ban player</string>
+    <string-array name="dialog_ban_cmd_text">
+        <item>Auto</item>
+        <item>Engine</item>
+        <item>Sourcemod</item>
+        <item>Amxmod</item>
+        <item>Ulysses mod</item>
+    </string-array>
+    <integer-array name="dialog_ban_cmd_value">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="dialog_ban_type_text" translatable="false">
+        <item>Steam ID</item>
+        <item>IP</item>
+    </string-array>
+    <integer-array name="dialog_ban_type_value">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+
+    <string name="dialog_kick_title">Kick player</string>
+    <string-array name="dialog_kick_cmd_text">
+        <item>Auto</item>
+        <item>Engine</item>
+        <item>Sourcemod</item>
+        <item>Amxmod</item>
+        <item>Ulysses mod</item>
+    </string-array>
+    <integer-array name="dialog_kick_cmd_value">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <string name="dialog_mute_title">Mute player</string>
+    <string-array name="dialog_mute_cmd_text">
+        <item>Auto</item>
+        <item>Sourcemod</item>
+        <item>Sourcecomms/Sourcebans++</item>
+        <item>Ulysses mod</item>
+    </string-array>
+    <integer-array name="dialog_mute_cmd_value">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="dialog_mute_type_text">
+        <item>Both</item>
+        <item>Voice</item>
+        <item>Chat</item>
+    </string-array>
+    <integer-array name="dialog_mute_type_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+
+    <string name="dialog_variable_oldvalue">Old value: %1$s</string>
+    <string name="dialog_variable_newvalue">New value</string>
+    <string name="dialog_variable_changed">Variable value changed</string>
+    <string name="dialog_variable_notchanged">Could not change variable value</string>
+    <string name="dialog_variable_notfound">Variable not found</string>
+
+    <string name="dialog_player_id" translatable="false">#%1$d - %2$s - %3$s</string>
+    <string name="dialog_cmd">Command/Plugin</string>
+    <string name="dialog_type">Type</string>
+    <string name="dialog_reason">Reason</string>
+    <string name="dialog_time_spn">Time</string>
+    <string name="dialog_time_edit">Time (in minutes)</string>
+    <string-array name="dialog_time_text">
+        <item>Permanent</item>
+        <item>Manually</item>
+        <item>10 minute</item>
+        <item>30 minute</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>4 hours</item>
+        <item>8 hours</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>3 days</item>
+        <item>4 days</item>
+        <item>5 days</item>
+        <item>6 days</item>
+        <item>1 week</item>
+        <item>2 weeks</item>
+        <item>3 weeks</item>
+        <item>1 month</item>
+        <item>2 months</item>
+        <item>3 months</item>
+        <item>6 months</item>
+        <item>12 months</item>
+        <item>1 year</item>
+    </string-array>
+    <integer-array name="dialog_time_value">
+        <item>0</item>
+        <item>-1</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>240</item>
+        <item>480</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>7200</item>
+        <item>8640</item>
+        <item>10080</item>
+        <item>20160</item>
+        <item>30240</item>
+        <item>43800</item>
+        <item>87600</item>
+        <item>131400</item>
+        <item>262800</item>
+        <item>525601</item>
+        <item>525600</item>
+    </integer-array>
+
+    <string name="widget_title">Server widget</string>
+    <string name="widget_pick_title">Widget preferences</string>
+    <string name="widget_pick_server_title">Server</string>
+    <string name="widget_pick_error_srvnotfound">Servers not found</string>
+    <string name="widget_pick_type_title">Widget style</string>
+    <string-array name="widget_pick_type_values">
+        <item>Image</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+    <string name="service_listener_title">Server Console Listener Service</string>
+
+    <string name="notify_title">Server is outdated</string>
+    <string name="notify_name">Server version checker</string>
+
+    <string name="pref_web_title">Web Resources</string>
+    <string name="pref_web_ab_title" translatable="false">AmxBans URL</string>
+    <string name="pref_web_sb_title" translatable="false">SourceBans URL</string>
+    <string name="pref_web_sc_title" translatable="false">SourceBans++/SourceComms</string>
+    <string name="pref_web_gm_title" translatable="false">gameMe URL</string>
+    <string name="pref_web_hlx_title" translatable="false">HLstatsX:CE URL</string>
+    <string name="pref_notify_title">Server outdate notification</string>
+    <string name="pref_notify_descr">Only if checking is enabled in the server settings</string>
+    <string name="pref_logsport_title">Logs listening port</string>
+    <string name="pref_logsport_descr">This port must be open on the router</string>
+    <string name="pref_logsport_error_empty">The field must not be empty</string>
+    <string name="pref_logsport_error_minmax">The field can have a value from 1024 to 65535</string>
+    <string name="pref_logsport_error_alrused">Port already in use</string>
+
+    <string name="pref_debug_title">Debug</string>
+    <string name="pref_debug_show_title">Debug settings</string>
+    <string name="pref_debug_extrasrvinfo_title">Extra server info</string>
+    <string name="pref_debug_stacktrace_title">Stack trace</string>
+    <string name="pref_debug_stacktrace_descr">Show stack trace if app crashed</string>
+    <string name="pref_debug_backgrounddialog_title">Bacgkround Crash Dialog</string>
+    <string name="pref_debug_backgrounddialog_descr">Display a dialog when an error occurs in the background</string>
+
+    <string name="pref_syncservice_title">Background sync frequency</string>
+    <string name="pref_syncservice_descr">Basic server info (Players, map, ping, etc.)</string>
+    <string name="pref_fullsyncservice_title">Background full sync frequency</string>
+    <string name="pref_fullsyncservice_descr">Map list, cvars, available features, etc.</string>
+    <string-array name="pref_syncservice_text">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>4 hours</item>
+        <item>6 hours</item>
+        <item>8 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_syncservice_value" translatable="false">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>240</item>
+        <item>360</item>
+        <item>480</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="pref_fullsyncservice_text">
+        <item>12 hours</item>
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>3 days</item>
+        <item>4 days</item>
+        <item>1 week</item>
+    </string-array>
+    <string-array name="pref_fullsyncservice_value" translatable="false">
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+    </string-array>
+
+    <string name="about_enabledebug">Debug settings are available for use</string>
+
+</resources>

@@ -1,0 +1,49 @@
+App for easy management game servers
+
+Supported features:
+- Servers monitoring
+- Player Details
+- Banning, kicking and muting players
+- Server map change
+- RCON with autocomplete and shortcuts
+- Detailed server info
+- Used resources by server
+- View and change server cvars
+- Myarena API (Console, stop/start server, extra data)
+- Version check
+- Widgets
+
+Planned features: 
+- Server plugins management (Metamod, Sourcemod, Amxmod)
+- Chatting with players
+- Adding support for new games
+- Adding support for new hosting’s
+- Improvement of old features
+
+Supported games:
+- Source engine
+- CS:S
+- CS:GO
+- HL: DM Source
+- HL2: DM
+- Black Mesa
+- DOD:S
+- TF 2
+- Gmod
+- L4D
+- L4D 2
+- Alien Swarm
+- Insurgency
+- DOI
+- NMRIH
+- Codename CURE
+- ZP! Source
+
+- GoldSource Engine
+- CS
+- CS:CZ
+- HL
+- HL:OP
+- DOD
+- DM Classic
+- TF Classic

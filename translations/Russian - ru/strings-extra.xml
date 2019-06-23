@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="o_action_exit_confirm">Нажмите ещё раз для выхода</string>
+    <string name="o_action_accept">Подтвердить</string>
+    <string name="o_action_apply">Применить</string>
+    <string name="o_action_find">Найти</string>
+    <string name="o_action_refresh">Обновить</string>
+    <string name="o_action_upload">Загрузить</string>
+    <string name="o_action_remove">Удалить</string>
+    <string name="o_action_add">Добавить</string>
+    <string name="o_action_edit">Изменить</string>
+    <string name="o_action_delete">Удалить</string>
+    <string name="o_action_error">Ошибка</string>
+    <string name="o_action_filter">Фильтр</string>
+    <string name="o_action_search">Поиск</string>
+    <string name="o_action_criterror">Критическая ошибка</string>
+    <string name="o_action_yes">Да</string>
+    <string name="o_action_no">Нет</string>
+    <string name="o_action_loading">Загрузка…</string>
+    <string name="o_action_load">Загрузить</string>
+    <string name="o_action_save">Сохранить</string>
+    <string name="o_tab_prefs">Настройки</string>
+    <string name="o_tab_about">О приложении</string>
+    <string name="o_tab_debug">Отладка</string>
+    <string name="o_tab_login">Авторизация</string>
+    <string name="o_tab_reg">Регистрация</string>
+    <string name="o_tab_profile">Профиль</string>
+
+    <string name="o_text_readmore">Открыть полностью</string>
+    <string name="o_text_readless">Скрыть</string>
+
+    <string name="o_dialog_del_title">Удаление</string>
+    <string name="o_dialog_del_accept">Вы подтверждаете удаление?</string>
+
+    <string name="o_dialog_download">Загрузка файла</string>
+
+    <plurals name="o_plural_days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="other">%d дней</item>
+        <item quantity="many">%d дней</item>
+    </plurals>
+
+    <string name="appbundle_warning_full">Вы неправильно установили App Bundle.\nПожалуйста, установите это приложение из Google Play или apkpure.com</string>
+    <string name="appbundle_warning_lite">Вы неправильно установили App Bundle.\nПожалуйста, установите это приложение из Google Play</string>
+
+    <string name="changelog_dialog_title">Изменения</string>
+    <string name="changelog_dialog_rate">Оставить отзыв</string>
+    <string name="changelog_error_invalidopen">Некорректная попытка открыть экран</string>
+
+    <string name="about_title">@string/o_tab_about</string>
+    <string name="aboutLibraries_description_special1_name">Оставить отзыв</string>
+    <string name="aboutLibraries_description_special2_name">Изменения</string>
+
+    <string name="customactivityoncrash_error_invalidopen">Некорректная попытка открыть экран</string>
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">Произошло аварийное закрытие приложения.</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Перезапустить приложение</string>
+    <string name="customactivityoncrash_error_activity_close_app">Закрыть приложение</string>
+    <string name="customactivityoncrash_error_activity_error_details">Подробности ошибки</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Подробности ошибки</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Закрыть</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Скопировать текст</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Скопировано</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Информация об ошибке</string>
+</resources>

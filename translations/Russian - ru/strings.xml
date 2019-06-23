@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Настройки</string>
+    <string name="action_removeads">Удалить рекламу</string>
+    <string name="action_ban">Бан</string>
+    <string name="action_kick">Кик</string>
+    <string name="action_mute">Мут</string>
+    <string name="error_readgames">Ошибка чтения списка игр</string>
+    <string name="srvlist_title">Список серверов</string>
+    <string name="srvlist_empty">Список серверов пуст</string>
+    <string name="srvlist_error_descr">При чтении списка серверов произошла ошибка</string>
+    <string name="srvlist_error_sendrep">Сообщить об ошибке</string>
+    <string name="srvlist_item_ping">Пинг: %1$d мс</string>
+    <string name="srvlist_item_map">Карта: %1$s</string>
+    <string name="srvlist_item_players">Игроки: %1$d/%2$d</string>
+    <string name="srvlist_item_playersb">Игроки: %1$d(+%3$d)/%2$d</string>
+    <string name="srvlist_item_updated">Обновлено: %1$s</string>
+    <string name="srvlist_item_delete_error">При удалении сервера произошла ошибка</string>
+    <string name="srvedit_title_add">Добавить сервер</string>
+    <string name="srvedit_title_edit">Изменить сервер</string>
+    <string name="srvedit_group_main">Основное</string>
+    <string name="srvedit_txt_name">Название сервера</string>
+    <string name="srvedit_txt_port">Порт</string>
+    <string name="srvedit_txt_game">Игра</string>
+    <string name="srvedit_txt_rcon">RCON пароль</string>
+    <string name="srvedit_txt_ftp_port">Порт</string>
+    <string name="srvedit_txt_ftp_user">Пользователь</string>
+    <string name="srvedit_txt_ftp_pass">Пароль</string>
+    <string name="srvedit_txt_ftp_path">Путь до контента сервера (папка %1$s)</string>
+    <string name="srvedit_group_extra">Дополнительно</string>
+    <string name="srvedit_txt_apikey">Ключ Myarena API</string>
+    <string name="srvedit_txt_apikey_helper">Только если вы используете данный хостинг</string>
+    <string name="srvedit_btn_qrcode">QR Код</string>
+    <string name="srvedit_txt_error_empty">Поле не должно быть пустым</string>
+    <string name="srvedit_error_unique">Сервер с таким IP и портом уже существует</string>
+    <string name="srvedit_error_add">Ошибка добавления сервера</string>
+    <string name="srvedit_error_edit">Ошибка изменения сервера</string>
+    <string name="srvedit_btn_title">Проверить</string>
+    <string name="srvedit_btnapi_title">Проверить ключ API</string>
+    <string name="srvedit_btn_progress">Загрузка</string>
+    <string name="srvedit_btn_ok">Успех</string>
+    <string name="srvedit_btn_error_conn">Не удалось подключится</string>
+    <string name="srvedit_btn_error_auth">Ошибка авторизации</string>
+    <string name="srvedit_btn_error_ban">Забанен серверов</string>
+    <string name="srvedit_btn_error_gamenotfound">Контент сервера не найден</string>
+    <string name="srvedit_btn_error_token">Неверный ключ</string>
+    <string name="srvedit_btn_error_unknown">Неизвестная ошибка</string>
+    <string name="srvctrl_srvinfo_pass">Пароль:</string>
+    <string name="srvctrl_srvinfo_version">Версия: %1$s</string>
+    <string name="srvctrl_srvinfo_renta">До конца аренды:</string>
+    <string name="srvctrl_menu_start">Старт</string>
+    <string name="srvctrl_menu_restart">Рестарт</string>
+    <string name="srvctrl_menu_stop">Стоп</string>
+    <string name="srvctrl_menu_map">Сменить карту</string>
+    <string name="srvctrl_menu_fullrefresh">Полное обновление</string>
+    <string name="srvctrl_error_request">Ошибка запроса</string>
+    <string name="srvctrl_error_conn">Не удалось подключится</string>
+    <string name="srvctrl_players_empty">Сервер пуст</string>
+    <string name="srvctrl_players_score">Счёт: %1$d</string>
+    <string name="srvctrl_players_time">Время: %1$s</string>
+    <string name="srvctrl_players_ping">Пинг: %1$d мс</string>
+    <string name="srvctrl_players_isbot">Бот</string>
+    <string name="srvctrl_console_edit">Команда</string>
+    <string name="srvctrl_console_autherror">Ошибка авторизации</string>
+    <string name="srvctrl_info_query_realip">Реальный IP</string>
+    <string name="srvctrl_info_query_gamename">Название/описание игры</string>
+    <string name="srvctrl_info_query_game">Игра</string>
+    <string name="srvctrl_info_query_gameid">ID игры/папка мода</string>
+    <string name="srvctrl_info_vars_notfound">Серверные переменные не найдены</string>
+    <string name="srvctrl_info_cmds_title">Команды</string>
+    <string name="srvctrl_info_vars_title">Переменные</string>
+    <string name="srvctrl_info_query_title">Мониторинг</string>
+    <string name="srvctrl_navbar_players">Игроки</string>
+    <string name="srvctrl_navbar_console">Консоль</string>
+    <!--<string name="srvctrl_navbar_activity">Активность</string>-->
+    <string name="srvctrl_navbar_activity">Лог</string>
+    <string name="srvctrl_navbar_plugins">Плагины</string>
+    <string name="srvctrl_navbar_info">Информация</string>
+    <string name="dialog_accept_title">Подтвердить действие</string>
+    <string name="dialog_ban_title">Забанить игрока</string>
+    <string name="dialog_kick_title">Кикнуть игрока</string>
+    <string name="dialog_mute_title">Замутить игрока</string>
+    <string name="dialog_cmd">Команда/Плагин</string>
+    <string name="dialog_type">Тип</string>
+    <string name="dialog_reason">Причина</string>
+    <string name="dialog_time_spn">Время</string>
+    <string name="dialog_time_edit">Время (в минутах)</string>
+    <string name="camera_title">QR сканер</string>
+    <string name="widget_title">Виджет сервера</string>
+    <string name="widget_pick_title">Параметры виджета</string>
+    <string name="widget_pick_server_title">Сервер</string>
+    <string name="widget_pick_error_srvnotfound">Сервера не найдены</string>
+    <string name="widget_pick_type_title">Стиль виджета</string>
+    <string name="pref_syncservice_title">Частота обновления</string>
+    <string name="pref_syncservice_descr">Основная информации о сервере (Игроки, карта, пинг и т.д.)</string>
+    <string name="pref_fullsyncservice_title">Частота полного обновления</string>
+    <string name="pref_fullsyncservice_descr">Список карт, переменные, доступные возможности и т.д.</string>
+
+    <string-array name="dialog_ban_cmd_text">
+        <item>Автоматически</item>
+        <item>Стандартная</item>
+        <item>Sourcemod</item>
+        <item>Amxmod</item>
+        <item>Ulysses mod</item>
+    </string-array>
+    <string-array name="dialog_kick_cmd_text">
+        <item>Автоматически</item>
+        <item>Стандартная</item>
+        <item>Sourcemod</item>
+        <item>Amxmod</item>
+        <item>Ulysses mod</item>
+    </string-array>
+    <string-array name="dialog_mute_cmd_text">
+        <item>Автоматически</item>
+        <item>Sourcemod</item>
+        <item>Sourcecomms/Sourcebans++</item>
+        <item>Ulysses mod</item>
+    </string-array>
+    <string-array name="dialog_mute_type_text">
+        <item>Голос и чат</item>
+        <item>Голос</item>
+        <item>Чат</item>
+    </string-array>
+    <string-array name="dialog_time_text">
+        <item>Навсегда</item>
+        <item>Вручную</item>
+        <item>10 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>4 часа</item>
+        <item>8 часов</item>
+        <item>12 часов</item>
+        <item>1 день</item>
+        <item>2 дня</item>
+        <item>3 дня</item>
+        <item>4 дня</item>
+        <item>5 дней</item>
+        <item>6 дней</item>
+        <item>1 неделя</item>
+        <item>2 недели</item>
+        <item>3 недели</item>
+        <item>1 месяц</item>
+        <item>2 месяца</item>
+        <item>3 месяца</item>
+        <item>6 месяцев</item>
+        <item>12 месяцев</item>
+        <item>1 год</item>
+    </string-array>
+    <string-array name="widget_pick_type_values">
+        <item>Изображение</item>
+        <item>Тёмный</item>
+        <item>Светлый</item>
+    </string-array>
+    <string-array name="pref_syncservice_text">
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>4 часа</item>
+        <item>6 часов</item>
+        <item>8 часов</item>
+        <item>Никогда</item>
+    </string-array>
+    <string-array name="pref_fullsyncservice_text">
+        <item>12 часов</item>
+        <item>1 день</item>
+        <item>2 дня</item>
+        <item>3 дня</item>
+        <item>4 дня</item>
+        <item>1 неделя</item>
+    </string-array>
+    <string name="srvctrl_menu_map_error_notfound">Карты не найдены</string>
+    <string name="srvedit_txt_appid_description">ID для проверки версии</string>
+    <string name="srvedit_switch_checkversion">Проверять актуальность версии сервера</string>
+    <string name="srvctrl_outdated_title">Проверка версии сервера</string>
+    <string name="srvctrl_outdated_descr">Ваш сервер устарел</string>
+    <string name="srvctrl_outdated_srvvrs">Версия сервера:</string>
+    <string name="srvctrl_outdated_latestvrs">Актуальная версия:</string>
+    <string name="camera_permsdenide">Не удалось получить разрешение на доступ к камере</string>
+    <string name="camera_error">При запросе разрешения на доступ к камере произошла ошибка</string>
+    <string name="srvctrl_succes_start">Сервер запускается</string>
+    <string name="srvctrl_succes_restart">Сервер перезапускается</string>
+    <string name="srvctrl_changemap_copy">Название карты скопировано в буфер обмена</string>
+    <string name="srvctrl_changemap_copyerror">Не удалось скопировать название карты в буфер обмена</string>
+    <string name="srvctrl_info_query_copy">Значение скопировано в буфер обмена</string>
+    <string name="srvctrl_info_query_copyerror">Не удалось скопировать значение в буфер обмена</string>
+    <string name="srvctrl_info_query_os">Операционная система</string>
+    <string name="srvctrl_info_query_location">Локация</string>
+    <string name="srvctrl_info_query_type">Тип</string>
+    <string name="srvctrl_info_query_blockdate">Дата окончания аренды</string>
+    <string name="srvctrl_info_perfs_title">Ресурсы</string>
+    <string name="srvctrl_info_perfs_cpu">ЦП</string>
+    <string name="srvctrl_info_perfs_intraff">Входящий трафик</string>
+    <string name="srvctrl_info_perfs_outtraff">Исходящий трафик</string>
+    <string name="srvctrl_info_perfs_uptime">Время работы</string>
+    <string name="srvctrl_info_perfs_connects">Подключений</string>
+    <string name="srvctrl_info_perfs_rom">Диск</string>
+    <string name="srvctrl_info_perfs_error">Не удалось загрузить информацию о используемых ресурсах</string>
+    <string name="srvctrl_info_cmds_copy">Команда скопирована в буфер обмена</string>
+    <string name="srvctrl_info_cmds_copyerror">Не удалось скопировать команду в буфер обмена</string>
+    <string name="srvctrl_info_vars_copyerror">Не удалось скопировать название переменной в буфер обмена</string>
+    <string name="srvctrl_info_vars_copy">Название переменной скопировано в буфер обмена</string>
+    <string name="playerinfo_title">Информация о игроке</string>
+    <string name="playerinfo_index">Индекс:</string>
+    <string name="playerinfo_country">Страна:</string>
+    <string name="playerinfo_city">Город:</string>
+    <string name="playerinfo_ping">Пинг: %1$d мс</string>
+    <string name="playerinfo_time">Время игры: %1$s</string>
+    <string name="playerinfo_score">Счёт: %1$d</string>
+    <string name="playerinfo_flags">Флаги доступа:</string>
+    <string name="playerinfo_unknown">Неизвестно</string>
+    <string name="playerinfo_bansid">Баны по Steam ID</string>
+    <string name="playerinfo_bansip">Баны по IP</string>
+    <string name="playerinfo_mutes">Муты</string>
+    <string name="playerinfo_stats">Игровая статистика</string>
+    <string name="playerinfo_name_copy">Ник игрока скопирован в буфер обмена</string>
+    <string name="playerinfo_name_copyerror">Не удалось скопировать ник игрока в буфер обмена</string>
+    <string name="action_steam">Профиль в Steam</string>
+    <string name="dialog_variable_oldvalue">Старое значение: %1$s</string>
+    <string name="dialog_variable_newvalue">Новое значение</string>
+    <string name="dialog_variable_changed">Значение переменной изменено</string>
+    <string name="dialog_variable_notchanged">Не удалось изменить значение переменной</string>
+    <string name="notify_title">Сервер устарела</string>
+    <string name="notify_name">Проверка версии сервера</string>
+    <string name="pref_web_title">Web сайты</string>
+    <string name="pref_notify_title">Уведомление о том, что сервер устарел</string>
+    <string name="pref_notify_descr">Отображается только в том случае, если проверка версии включена в настройках сервера</string>
+    <string name="srvedit_group_api">Ключи API</string>
+    <string name="srvedit_switch_listenlogs">Чтение логов</string>
+    <string name="srvedit_txt_fastcmds">Быстрые RCON команды</string>
+    <string name="srvedit_warning_port">Данная возможность доступна только при подключении к сети через WI-FI и наличии открытого %1$d порта.</string>
+    <string name="srvedit_dialog_fastcmd_title">RCON команды</string>
+    <string name="srvctrl_info_perfs_traffic_size">%1$s (КБ/с)</string>
+    <string name="srvctrl_info_perfs_data_size">%1$d/%2$d МБ (%3$d%%)</string>
+    <string name="srvctrl_info_cmd_notfound">Серверные команды не найдены</string>
+    <string name="srvctrl_info_vars_error">Не удалось загрузить список серверных переменных</string>
+    <string name="srvctrl_activity_mlog_title">Основной лог</string>
+    <string name="srvctrl_activity_mlog_date">Дата</string>
+    <string name="srvctrl_activity_mlog_time">Время</string>
+    <string name="srvctrl_activity_mlog_wrap">Перенос</string>
+    <string name="srvctrl_activity_error_wifi">Для чтения логов необходимо подключение к WI-FI</string>
+    <string name="srvctrl_activity_error_offline">Отсутствует подключение к сети</string>
+    <string name="srvctrl_activity_error_publicip">Не удалось получить внешний IP адрес</string>
+    <string name="srvctrl_activity_error_port">Сетевой порт уже используется другим приложением</string>
+    <string name="srvctrl_activity_error_rcon">Не удалось добавить IP адрес в список для отправки</string>
+    <string name="srvctrl_activity_error_unknown">Неизвестная ошибка</string>
+    <string name="srvctrl_activity_error_rconremove">Не удалось остановить отправку логов на устройство</string>
+    <string name="playerinfo_flagsgmod">Группа/Флаги доступа:</string>
+    <string name="service_listener_title">Сервис чтения логов</string>
+    <string name="pref_logsport_title">Порт для чтения логов</string>
+    <string name="pref_logsport_descr">Данный порт должен быть открыть на маршрутизаторе</string>
+    <string name="pref_logsport_error_empty">Поле не должно быть пустым</string>
+    <string name="pref_logsport_error_minmax">Поле может иметь значение от 1024 до 65535</string>
+    <string name="pref_logsport_error_alrused">Порт уже используется</string>
+    <string name="srvctrl_players_reqsended">Запрос отправлен</string>
+    <string name="srvedit_spn_apitype">Хостинг</string>
+    <string name="srvctrl_console_type_api">API хостинга</string>
+    <string name="error_nonetwork">Не удалось подключится к сети</string>
+    <string name="srvctrl_info_perfs_ram">ОЗУ</string>
+    <string name="dialog_variable_notfound">Переменная не найдена</string>
+    <string name="srvctrl_players_emptysteamid">Не удалось загрузить Steam ID игрока. Для повторной попытки обновите информацию о сервере</string>
+    <string name="camera_notfound">Камера не найдена</string>
+    <string name="pref_debug_title">Отладка</string>
+    <string name="pref_debug_show_title">Настройки отладки</string>
+    <string name="pref_debug_stacktrace_title">Stack trace</string>
+    <string name="about_enabledebug">Настройки отладки доступны для использования</string>
+    <string name="srvctrl_activity_error_startservice">Не удалось запустить сервис чтения логов</string>
+    <string name="pref_debug_stacktrace_descr">Отображать stack trace после падения</string>
+    <string name="pref_debug_backgrounddialog_title">Диалог при фоновом падении</string>
+    <string name="pref_debug_backgrounddialog_descr">Отображать диалог при падении в фоне</string>
+    <string name="srvctrl_error_invalidserver">Некорректная попытка открыть ПУ сервера</string>
+    <string name="pref_debug_extrasrvinfo_title">Дополнительная информация о сервере</string>
+    <string name="srvctrl_info_query_a2stype">Тип (A2S)</string>
+    <string name="srvctrl_info_query_cvarscount">Кол-во переменных и команд</string>
+    <string name="srvctrl_info_query_lastfullrefresh">Последнее полное обновление</string>
+    <string name="srvctrl_info_query_mapscount">Кол-во карт</string>
+    <string name="srvctrl_info_query_protocol">Протокол</string>
+    <string name="srvctrl_info_query_api">API хостинга</string>
+    <string name="srvlist_item_deleted">Сервер удалён</string>
+    <string name="srvctrl_outdated_reunion">Не удалось получить версию сервера. Если вы используете DProto/Reunion измени значение <b>ServerInfoAnswerType</b> на 0</string>
+    <string name="srvctrl_players_index">Индекс: %1$d</string>
+    <string name="srvedit_btn_error_wronggame">Неправильная игра</string>
+    <string name="srvedit_error_invalidopen">Некорректная попытка открыть экран создания/редактирования сервера</string>
+    <string name="playerinfo_error_invalidplayer">Некорректная попытка открыть экран информации о игроке</string>
+    <string name="srvctrl_menu_tooltip">Управление сервером</string>
+    <string name="playerinfo_actions">Действия</string>
+    <string name="srvctrl_console_action_prefs">Параметры</string>
+    <string name="srvctrl_console_action_send">Отправить</string>
+    <string name="dialog_acceptdelete_descr">Выйти без сохранения?</string>
+    <string name="srvedit_btn_error_invalidport">Некорректный порт</string>
+    <string name="srvedit_btn_error_unknownpacket">Неизвестный пакет</string>
+    <string name="srvedit_txt_error_greater">Поле должно быть больше %1$d</string>
+    <string name="srvedit_txt_error_less">Поле должно быть меньше %1$d</string>
+    <string name="srvedit_btn_error_reasonmsg">Причина: %1$s</string>
+
+</resources>

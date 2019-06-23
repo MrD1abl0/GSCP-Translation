@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release versionCode="17" versionName="0.8.5" date="01.06.2019">
+        <bugfix>Fixed crashes after an invalid attempt to open app</bugfix>
+        <bugfix>Fixed rare crashes after changing section in CP</bugfix>
+        <bugfix>Fixed detection of SB++ if using Material Admin</bugfix>
+        <bugfix>Fixed display of cvars list after closing search bar</bugfix>
+        <info>Removed requirement to enter server name in add server screen</info>
+        <info>Improved stability of cvars list loading</info>
+        <info>Improved error handling after checking server connection</info>
+        <info>Replaced «server outdated» icon</info>
+        <info>Redesigned players list item layout</info>
+        <info>Improved UI on Android 4.4</info>
+        <info>Many minor improvements and fixes</info>
+    </release>
+    <release versionCode="16" versionName="0.8.4" date="04.05.2019">
+        <bugfix>Fixed crashes after an invalid attempt to open a server CP</bugfix>
+        <bugfix>Fixed crashes after incorrect App Bundle install</bugfix>
+        <bugfix>Fixed rare crashes after trying to start log listening service</bugfix>
+        <bugfix>Fixed incorrect disabling of settings items</bugfix>
+        <bugfix>Fixed missing avatars of players after a failed download</bugfix>
+        <bugfix>Fixed ban on GoldSource servers using «engine» ban type</bugfix>
+        <bugfix>Fixed bugs when using old style queries on GoldSource servers</bugfix>
+        <info>Minor improvements and bug fixes</info>
+    </release>
+    <release versionCode="15" versionName="0.8.3" date="09.04.2019">
+        <bugfix>Fixed crashes when app is installed not from Google Play</bugfix>
+        <bugfix>Fixed crashes in changelog dialog on some devices</bugfix>
+        <bugfix>Fixed crashes after kick/ban/mute player from main screen</bugfix>
+        <bugfix>Fixed crashes after rotating settings screen</bugfix>
+        <bugfix>Fixed crashes on devices without a back camera</bugfix>
+        <bugfix>Fixed rare crashes when trying to delete RCON shortcut</bugfix>
+        <bugfix>Fixed rare crashes after refreshing server info from the main screen</bugfix>
+        <info>Minor UI changes</info>
+    </release>
+    <release versionCode="14" versionName="0.8.2" date="15.03.2019">
+        <bugfix>Fixed crash when trying to view player info without Steam ID</bugfix>
+        <bugfix>Fixed crash during a long press on Samsung devices</bugfix>
+        <bugfix>Fixed errors when updating app DB structure</bugfix>
+        <bugfix>Fixed incorrect display of access flags</bugfix>
+        <info>Minor UI fixes</info>
+    </release>
+    <release versionCode="13" versionName="0.8.1" date="11.03.2019">
+        <bugfix>Fixed crashes when server variables could not be loaded</bugfix>
+        <bugfix>Fixed displaying a false error after changing a variable</bugfix>
+        <info>Reduced the number of requests cvars list</info>
+    </release>
+    <release versionCode="12" versionName="0.8.0" date="09.03.2019">
+        <new>Support Android 4.4 and 9.0</new>
+        <new>Support Ulysses Mod</new>
+        <new>Resources used by server</new>
+        <new>Detailed players info</new>
+        <new>RCON shortcuts</new>
+        <new>Listening server logs</new>
+        <new>Notification if server is outdated</new>
+        <info>Reworked detailed monitoring</info>
+        <info>Reworked server info section</info>
+        <info>Reduced app size</info>
+        <info>Optimized screen layouts</info>
+        <info>Minor UI changes</info>
+        <info>Many minor improvements and fixes</info>
+    </release>
+    <release versionCode="11" versionName="0.7.1" date="09.09.2018">
+        <bugfix>Fixed crashes when entering wrong AppID</bugfix>
+    </release>
+    <release versionCode="10" versionName="0.7.0" date="25.08.2018">
+        <new>Support GoldSource Engine</new>
+        <new>Support for 13 games</new>
+        <new>Support AmxMod</new>
+        <new>Checking server version feature</new>
+        <new>App shortcuts (Android 7.1+)</new>
+        <bugfix>Fixed displaying of progress after add/edit server</bugfix>
+        <info>Fixed dialogs on small devices and tablets</info>
+        <info>Replaced error dialog</info>
+        <info>Minor UI fixes</info>
+    </release>
+    <release versionCode="9" versionName="0.6.8" date="04.08.2018">
+        <bugfix>Fixed crashes when the device uses a 12-hour time format</bugfix>
+    </release>
+    <release versionCode="8" versionName="0.6.7" date="29.07.2018">
+        <bugfix>Fixed crashes when initializing in-app purchases</bugfix>
+        <info>Reduced server info refresh time</info>
+    </release>
+    <release versionCode="7" versionName="0.6.6" date="15.07.2018">
+        <bugfix>Fixed crashes while checking server settings</bugfix>
+        <bugfix>Fixed sync crashes after add new server</bugfix>
+        <bugfix>Fixed checking availability Myarena API</bugfix>
+    </release>
+    <release versionCode="6" versionName="0.6.5" date="08.07.2018">
+        <bugfix>Fixed crashes when loading avatars</bugfix>
+        <info>Minor UI fixes</info>
+    </release>
+    <release versionCode="5" versionName="0.6.4" date="21.06.2018">
+        <bugfix>Fixed crashes after screen rotation</bugfix>
+        <bugfix>Fixed crashes after minimizing app</bugfix>
+    </release>
+    <release versionCode="4" versionName="0.6.3" date="18.06.2018">
+        <info>Increased stability when using slow internet connection</info>
+        <bugfix>Fixed auto-refresh after ban/kick/mute</bugfix>
+    </release>
+    <release versionCode="3" versionName="0.6.2" date="14.06.2018">
+        <bugfix>Fixed background sync on Android 8.0</bugfix>
+        <bugfix>Fixed cvar list in CS:GO</bugfix>
+    </release>
+    <release versionCode="2" versionName="0.6.1" date="07.06.2018">
+        <new>Added disable ad feature</new>
+        <info>Fixes</info>
+    </release>
+    <release versionCode="1" versionName="0.6.0" date="05.06.2018">
+        <info>Initial Release</info>
+    </release>
+</changelog>

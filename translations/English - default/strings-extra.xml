@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="o_action_exit_confirm">Press again to exit</string>
+	<string name="o_action_accept">Accept</string>
+	<string name="o_action_apply">Apply</string>
+	<string name="o_action_find">Find</string>
+	<string name="o_action_add">Add</string>
+	<string name="o_action_edit">Edit</string>
+	<string name="o_action_delete">Delete</string>
+	<string name="o_action_error">Error</string>
+	<string name="o_action_refresh">Refresh</string>
+	<string name="o_action_upload">Upload</string>
+	<string name="o_action_remove">Remove</string>
+	<string name="o_action_filter">Filter</string>
+	<string name="o_action_search">Search</string>
+	<string name="o_action_criterror">Critical Error</string>
+	<string name="o_action_yes">Yes</string>
+	<string name="o_action_no">No</string>
+	<string name="o_action_loading">Loading…</string>
+	<string name="o_action_load">Load</string>
+	<string name="o_action_save">Save</string>
+	<string name="o_tab_prefs">Settings</string>
+	<string name="o_tab_about">About</string>
+	<string name="o_tab_debug">Debug</string>
+	<string name="o_tab_login">Login</string>
+	<string name="o_tab_reg">Registration</string>
+	<string name="o_tab_profile">Profile</string>
+
+	<string name="o_text_readmore">Read more</string>
+	<string name="o_text_readless">Hide</string>
+
+	<string name="o_dialog_del_title">Deleting</string>
+	<string name="o_dialog_del_accept">You confirm removal?</string>
+
+	<string name="o_dialog_download">Downloading</string>
+
+	<plurals name="o_plural_days">
+		<item quantity="one">%d day</item>
+		<item quantity="other">%d days</item>
+	</plurals>
+
+	<string name="appbundle_warning_full">You have incorrectly installed App Bundle.\nPlease install this app from Google Play or apkpure.com</string>
+	<string name="appbundle_warning_lite">You have incorrectly installed App Bundle.\nPlease install this app from Google Play</string>
+	<string name="appbundle_googleplay" translatable="false">Google Play</string>
+	<string name="appbundle_apkpure" translatable="false">Apkpure.com</string>
+
+	<string name="changelog_dialog_title">Changelog</string>
+	<string name="changelog_dialog_rate">Rate app</string>
+	<string name="changelog_error_invalidopen">Incorrect attempt to open screen</string>
+
+	<string name="about_title">@string/o_tab_about</string>
+	<string name="aboutLibraries_description_showIcon" translatable="false">true</string>
+	<string name="aboutLibraries_description_showVersion" translatable="false">true</string>
+	<string name="aboutLibraries_description_special1_name">Rate app</string>
+	<string name="aboutLibraries_description_special2_name">Changelog</string>
+
+	<string name="customactivityoncrash_error_invalidopen">Incorrect attempt to open screen</string>
+	<string name="customactivityoncrash_error_activity_close_app">Close app</string>
+	<string name="customactivityoncrash_error_activity_error_details">Error details</string>
+	<string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
+	<string name="customactivityoncrash_error_activity_error_details_close">Close</string>
+	<string name="customactivityoncrash_error_activity_error_details_copied">Copied to clipboard</string>
+	<string name="customactivityoncrash_error_activity_error_details_copy">Copy to clipboard</string>
+	<string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
+	<string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred.\nSorry for the inconvenience.</string>
+	<string name="customactivityoncrash_error_activity_restart_app">Restart app</string>
+</resources>
