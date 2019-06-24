@@ -1,0 +1,49 @@
+Aplikacion për menaxhimin e lojërave 
+
+Mbështetja:
+- Mbikqyrëja serveit
+- Detajet e lojtarit
+- Ndalim, largim si dhe ndalim bisede për lojtarët
+- Ndryshim të Hartës
+- RCON së bashku me të gjitha elementet
+- Detaje të serverit
+- Burimet e përdorura nga serveri
+- Shikimi dhe ndryshimi i cvar
+- Myarena API (Konzole, ndalo/fillo server, të dhëna tjera)
+- Kontrollimi Verzionit
+- Tabelat
+
+Planet e ardhëshme: 
+- Menaxhmenti Pluginsave (Metamod, Sourcemod, Amxmod)
+- Bisedë me lojtarët
+- Shtim i mbështetjes për lojra tjera
+- Shtim i mbështetjes për hostinga
+- Përmirësimi i karakteristikave të vjetra
+
+Lojrat e Mbështetura:
+- Source engine
+- CS:S
+- CS:GO
+- HL: DM Source
+- HL2: DM
+- Black Mesa
+- DOD:S
+- TF 2
+- Gmod
+- L4D
+- L4D 2
+- Alien Swarm
+- Insurgency
+- DOI
+- NMRIH
+- Codename CURE
+- ZP! Source
+
+- GoldSource Engine
+- CS
+- CS:CZ
+- HL
+- HL:OP
+- DOD
+- DM Classic
+- TF Classic

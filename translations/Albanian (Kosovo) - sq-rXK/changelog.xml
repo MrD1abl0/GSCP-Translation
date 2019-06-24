@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release versionCode="17" versionName="0.8.5" date="01.06.2019">
+        <bugfix>Rregullimi bllokimit gjatë hapjes së Open GP</bugfix>
+        <bugfix>Rregullimi në CP pas ndryshimeve</bugfix>
+        <bugfix>Rregullimi diktimit SB++ nëse përdor Material Admin</bugfix>
+        <bugfix>Rregullimi i cvar pas disa problemeve</bugfix>
+        <info>Fshirja e disa kërkesave pas emërit të serverit</info>
+        <info>Improvizimi i listës së Cvar gjatë ngarkimit</info>
+        <info>Improvizimi i gabimit të lidhjes në internet</info>
+        <info>Rivendosur «server outdated» ikona</info>
+        <info>Ridizajnim i listës së lojtarëve</info>
+        <info>Improvizimi UI në Android 4.4</info>
+        <info>Përditësim i plotë</info>
+    </release>
+    <release versionCode="16" versionName="0.8.4" date="04.05.2019">
+        <bugfix>Rregullimi problemit gjatë hapjes së CP</bugfix>
+        <bugfix>Rregullimi problemit të shfaqur gjatë instalimit App</bugfix>
+        <bugfix>Rregullimi i regjistrit tek serveri</bugfix>
+        <bugfix>Rregullimi i problemit të gjërave</bugfix>
+        <bugfix>Rregullimi i avatareve të lojtarëve të humbur mungojnë pas një shkarkimi të dështuar</bugfix>
+        <bugfix>Rregullimi i bllokimit të komandës së ndalimit tek «engine»</bugfix>
+        <bugfix>Rregullimi i problemit gjatë përdorimit të stilit të vjetër tek GoldSource servers</bugfix>
+        <info>Përditësim i të gjithave pjesëve</info>
+    </release>
+    <release versionCode="15" versionName="0.8.3" date="09.04.2019">
+        <bugfix>Rregullimi i bllokimit kur app nuk është instaluar nga Google Play</bugfix>
+        <bugfix>Rregullimi i bllokimit tek disa paisje tek pjesa historisë</bugfix>
+        <bugfix>Rregullimi bllokimit pas përdorimit të ndalimit/largimit</bugfix>
+        <bugfix>Rregullimi pas rrotullimit të ndryshimeve</bugfix>
+        <bugfix>Rregullimi i paisjeve me kamerë mbrapa</bugfix>
+        <bugfix>Rregullimi pas tentimit të fshirjes së RCON Menus</bugfix>
+        <bugfix>Rregullimi i bllokimit pas rifreskimit të informatave</bugfix>
+        <info>Minor UI ndryshim</info>
+    </release>
+    <release versionCode="14" versionName="0.8.2" date="15.03.2019">
+        <bugfix>Rregullimi bllokimit gjatë shikimit të lojtarëve me Steam ID</bugfix>
+        <bugfix>Rregullimi tek paisja e Samsung</bugfix>
+        <bugfix>Rregullimi gabimeve gjatë Databazës</bugfix>
+        <bugfix>Rregullimi shfaqjes së gabuar të flamujve të qasjes</bugfix>
+        <info>Minor UI rregullimi</info>
+    </release>
+    <release versionCode="13" versionName="0.8.1" date="11.03.2019">
+        <bugfix>Rregullimi bllokimit kur variable variablave nuk mund të ngarkohet</bugfix>
+        <bugfix>Rregullimi duke shfaqur një gabim të gabuar pas ndryshimit të një ndryshoreje</bugfix>
+        <info>Ulja e listës së cvar për kërkesa</info>
+    </release>
+    <release versionCode="12" versionName="0.8.0" date="09.03.2019">
+        <new>Mbështetje Android 4.4 and 9.0</new>
+        <new>Mbështetje Ulysses Mod</new>
+        <new>Burimet e përdorura nga serveri</new>
+        <new>Detajet e lojtarëve</new>
+        <new>RCON menu shpejtë</new>
+        <new>Dëgjimi i regjistrave të serverit</new>
+        <new>Njoftim nëse serveri është i vjetëruar</new>
+        <info>Rirregullimi monitorimit të serverave</info>
+        <info>Rirregullimi i serverave në info</info>
+        <info>Ulja madhësinë e aplikacionit</info>
+        <info>Layouts të ekranit të optimizuar</info>
+        <info>Minor UI ndryshim</info>
+        <info>Shumë gjëra të vogla janë rregulluar</info>
+    </release>
+    <release versionCode="11" versionName="0.7.1" date="09.09.2018">
+        <bugfix>Rregullimi gjatë shkruarjes gabim të AppID</bugfix>
+    </release>
+    <release versionCode="10" versionName="0.7.0" date="25.08.2018">
+        <new>Mbështetje GoldSource Engine</new>
+        <new>Mbështetje për 13 lojëra</new>
+        <new>Mbështetje AmxMod</new>
+        <new>Kontrolli i verzionit të serverit</new>
+        <new>App menu shpejtë (Android 7.1+)</new>
+        <bugfix>Rregullimi problemit gjatë shtim/ndryshim të serverit</bugfix>
+        <info>Rregullimi i historisë në aplikacione më të vogla dhe tableta</info>
+        <info>Rivendosja e historisës së gabimeve</info>
+        <info>Minor UI rregullimi</info>
+    </release>
+    <release versionCode="9" versionName="0.6.8" date="04.08.2018">
+        <bugfix>Rregullimi bllokimit gjatë kohës 12 orë të aplikacionit</bugfix>
+    </release>
+    <release versionCode="8" versionName="0.6.7" date="29.07.2018">
+        <bugfix>Rregullimi app gjatë blerjeve</bugfix>
+        <info>Reduktimi kohës për rifreskim të serverit</info>
+    </release>
+    <release versionCode="7" versionName="0.6.6" date="15.07.2018">
+        <bugfix>Rregullimi problemit gjatë ndryshimeve në server</bugfix>
+        <bugfix>Rregullimi problemit gjatë shtimit të një serveri</bugfix>
+        <bugfix>Rregullimi kontrollës tek Myarena API</bugfix>
+    </release>
+    <release versionCode="6" versionName="0.6.5" date="08.07.2018">
+        <bugfix>Rregullimi bllokimit gjatë ngarkimit të imazheve</bugfix>
+        <info>Minor UI rregullimi</info>
+    </release>
+    <release versionCode="5" versionName="0.6.4" date="21.06.2018">
+        <bugfix>Rregullimi bllokimit pas rrotullisjes së ekranit</bugfix>
+        <bugfix>Rregullimi bllokimit gjatë zvogëlimit aplikacionit</bugfix>
+    </release>
+    <release versionCode="4" versionName="0.6.3" date="18.06.2018">
+        <info>Rritja e stabilitetit kur përdoret lidhja e ngadaltë në internet</info>
+        <bugfix>Rregullimi auto-rifreskimit pas ndalimit/largimit/ndalimit bisedës</bugfix>
+    </release>
+    <release versionCode="3" versionName="0.6.2" date="14.06.2018">
+        <bugfix>Rregullimi prapavijës në Android 8.0</bugfix>
+        <bugfix>Rregullimi i listës së cvar në CS:GO</bugfix>
+    </release>
+    <release versionCode="2" versionName="0.6.1" date="07.06.2018">
+        <new>Shtimi i ndalimit reklamës</new>
+        <info>Rregullimi</info>
+    </release>
+    <release versionCode="1" versionName="0.6.0" date="05.06.2018">
+        <info>Publikimi</info>
+    </release>
+</changelog>

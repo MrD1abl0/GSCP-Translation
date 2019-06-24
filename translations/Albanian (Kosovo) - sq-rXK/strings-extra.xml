@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="o_action_exit_confirm">Kliko përsëri për të mbyllur</string>
+	<string name="o_action_accept">Prano</string>
+	<string name="o_action_apply">Zbato</string>
+	<string name="o_action_find">Gjejë</string>
+	<string name="o_action_add">Shto</string>
+	<string name="o_action_edit">Ndrysho</string>
+	<string name="o_action_delete">Fshijë</string>
+	<string name="o_action_error">Gabim</string>
+	<string name="o_action_refresh">Rifresko</string>
+	<string name="o_action_upload">Ngarko</string>
+	<string name="o_action_remove">Fshijë</string>
+	<string name="o_action_filter">Filterë</string>
+	<string name="o_action_search">Kërko</string>
+	<string name="o_action_criterror">Gabim i Madhë</string>
+	<string name="o_action_yes">Po</string>
+	<string name="o_action_no">Jo</string>
+	<string name="o_action_loading">Duke ngarkuar…</string>
+	<string name="o_action_load">Ngarkuar</string>
+	<string name="o_action_save">Ruaj</string>
+	<string name="o_tab_prefs">Ndryshimet</string>
+	<string name="o_tab_about">Rreth</string>
+	<string name="o_tab_debug">Rregulloj</string>
+	<string name="o_tab_login">Kyqu</string>
+	<string name="o_tab_reg">Regjistrohu</string>
+	<string name="o_tab_profile">Profili</string>
+
+	<string name="o_text_readmore">Lexo më shumë</string>
+	<string name="o_text_readless">Fshihe</string>
+
+	<string name="o_dialog_del_title">Fshije</string>
+	<string name="o_dialog_del_accept">A e konfirmoni fshirjen?</string>
+
+	<string name="o_dialog_download">Shkarkim</string>
+
+	<plurals name="o_plural_days">
+		<item quantity="one">%d ditë</item>
+		<item quantity="other">%d ditë</item>
+	</plurals>
+
+	<string name="appbundle_warning_full">Ju e keni instaluar gabimisht App Bundle.\nJu lutem instaloni prej Google Play ose apkpure.com</string>
+	<string name="appbundle_warning_lite">Ju e keni instaluar gabimisht App Bundle.\nJu lutem instaloni prej Google Play</string>
+
+	<string name="changelog_dialog_title">Lista Rregullimeve</string>
+	<string name="changelog_dialog_rate">Vlerëso app</string>
+	<string name="changelog_error_invalidopen">Përpjekje e gabuar për të hapur ekranin</string>
+
+	<string name="about_title">@string/o_tab_about</string>
+	<string name="aboutLibraries_description_special1_name">Vlerëso app</string>
+	<string name="aboutLibraries_description_special2_name">Lista Rregullimeve</string>
+
+	<string name="customactivityoncrash_error_invalidopen">Përpjekje e gabuar për të hapur ekranin</string>
+	<string name="customactivityoncrash_error_activity_close_app">Mbylle app</string>
+	<string name="customactivityoncrash_error_activity_error_details">Detajet e gabimeve</string>
+	<string name="customactivityoncrash_error_activity_error_details_clipboard_label">Informatat e gabimeve</string>
+	<string name="customactivityoncrash_error_activity_error_details_close">Mbylle</string>
+	<string name="customactivityoncrash_error_activity_error_details_copied">Kopjoje për kujtesë</string>
+	<string name="customactivityoncrash_error_activity_error_details_copy">Kopjo për kujtesë</string>
+	<string name="customactivityoncrash_error_activity_error_details_title">Detajet e gabimeve</string>
+	<string name="customactivityoncrash_error_activity_error_occurred_explanation">Një gabim ndodhi.\nNa vjen keq, do të rregullohet shumë shpejtë.</string>
+	<string name="customactivityoncrash_error_activity_restart_app">Restarto app</string>
+</resources>
