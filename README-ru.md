@@ -47,6 +47,9 @@
 </integer-array>
 ```
 
+### Обновление перевода в приложении
+Добавление изменений перевода в приложение происходит вместе с публикацией крупного или мелкого обновления в Google Play.
+
 ### Примеры UI (Nexus One - 3,7" 480x800 hdpi)
 <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/1.png?raw=true" width="280"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/2.png?raw=true" width="280"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/3.png?raw=true" width="280">
 

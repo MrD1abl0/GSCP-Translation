@@ -47,6 +47,9 @@ If you want to add support for a new language or improve the having translation,
 </integer-array>
 ```
 
+### Updating translations in the app
+Adding translation changes in app occurs with publication of a major or minor update in Google Play.
+
 ### UI examples (Nexus One - 3,7" 480x800 hdpi)
 <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/1.png?raw=true" width="280"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/2.png?raw=true" width="280"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/3.png?raw=true" width="280">
 
