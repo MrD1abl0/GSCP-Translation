@@ -69,7 +69,7 @@
     <string name="srvedit_btn_error_ban">Dënoj prej serverit</string>
     <string name="srvedit_btn_error_gamenotfound">Përmbajtja serverit nuk u gjetë</string>
     <string name="srvedit_btn_error_token">Qelës i pavlefshëm</string>
-    <string name="srvedit_btn_error_wronggame">Emëri Gabim</string>
+    <string name="srvedit_btn_error_wronggameorban">Emëri Gabim/Dënoj prej serverit</string>
     <string name="srvedit_btn_error_invalidport">Port i pavlefshëm</string>
     <string name="srvedit_btn_error_unknownpacket">Paket e Panjohur</string>
     <string name="srvedit_btn_error_unknown">Gabim i Panjohur</string>
@@ -105,6 +105,7 @@
 
     <string name="srvctrl_error_request">Kërkesa dështoi</string>
     <string name="srvctrl_error_conn">Dështoi të lidhet</string>
+    <string name="srvctrl_error_invaluddata">An error occurred while loading data</string>
     <string name="srvctrl_error_invalidserver">Përpjekje e pavlefshme për të hapur një CP të serverit</string>
     <string name="srvctrl_succes_start">Serveri po fillon</string>
     <string name="srvctrl_succes_restart">Serveri është duke rifilluar</string>
@@ -122,6 +123,7 @@
     <string name="srvctrl_console_type_api">Hosting API</string>
     <string name="srvctrl_console_action_send">Dërgo</string>
     <string name="srvctrl_console_action_prefs">Përparësit</string>
+    <string name="srvctrl_console_sended">Command sended</string>
     <string name="srvctrl_console_autherror">Gabimi Autorizimit</string>
 
     <string name="srvctrl_info_query_title">Vëzhgimi</string>
@@ -334,5 +336,10 @@
     </string-array>
 
     <string name="about_enabledebug">Rregullimet e debugimit janë të disponueshme për përdorim</string>
+    <string name="about_description"><![CDATA[<strong>Translation authors:</strong><br>%1$s]]></string>
+    <!--Should be as short as possible-->
+    <string name="about_special1_name">Rate app</string>
+    <string name="about_special2_name">Changelog</string>
+    <string name="about_special3_name">Translation</string>
 
 </resources>

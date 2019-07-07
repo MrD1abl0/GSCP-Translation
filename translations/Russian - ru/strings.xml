@@ -280,7 +280,7 @@
     <string name="srvlist_item_deleted">Сервер удалён</string>
     <string name="srvctrl_outdated_reunion">Не удалось получить версию сервера. Если вы используете DProto/Reunion измени значение <b>ServerInfoAnswerType</b> на 0</string>
     <string name="srvctrl_players_index">Индекс: %1$d</string>
-    <string name="srvedit_btn_error_wronggame">Неправильная игра</string>
+    <string name="srvedit_btn_error_wronggameorban">Неправильная игра или\nЗабанен сервером</string>
     <string name="srvedit_error_invalidopen">Некорректная попытка открыть экран создания/редактирования сервера</string>
     <string name="playerinfo_error_invalidplayer">Некорректная попытка открыть экран информации о игроке</string>
     <string name="srvctrl_menu_tooltip">Управление сервером</string>
@@ -293,5 +293,12 @@
     <string name="srvedit_txt_error_greater">Поле должно быть больше %1$d</string>
     <string name="srvedit_txt_error_less">Поле должно быть меньше %1$d</string>
     <string name="srvedit_btn_error_reasonmsg">Причина: %1$s</string>
+
+    <string name="about_description"><![CDATA[<strong>Авторы перевода:</strong><br>%1$s]]></string>
+    <string name="about_special1_name">Отзыв</string>
+    <string name="about_special2_name">Изменения</string>
+    <string name="about_special3_name">Перевод</string>
+    <string name="srvctrl_error_invaluddata">При загрузке данных произошла ошибка</string>
+    <string name="srvctrl_console_sended">Команда отправлена</string>
 
 </resources>

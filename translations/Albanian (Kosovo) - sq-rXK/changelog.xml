@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="18" versionName="0.8.6" date="07.07.2019">
+        <bugfix>Fixed rare crashes after checking network connection</bugfix>
+        <bugfix>Fixed rare crashes after trying to open camera</bugfix>
+        <bugfix>Fixed loading of available commands on goldsource servers</bugfix>
+        <bugfix>Fixed loading of players list if goldsource server using HLTV</bugfix>
+        <bugfix>Fixed loading avatars after scrolling players list</bugfix>
+        <info>Minor UI changes</info>
+        <info>Reduced app size</info>
+        <info>Updated supported languages list[br](Thanks Pjeter Jetishi)</info>
+    </release>
     <release versionCode="17" versionName="0.8.5" date="01.06.2019">
         <bugfix>Rregullimi bllokimit gjatë hapjes së Open GP</bugfix>
         <bugfix>Rregullimi në CP pas ndryshimeve</bugfix>

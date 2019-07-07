@@ -83,7 +83,7 @@
     <string name="srvedit_btn_error_ban">Banned by server</string>
     <string name="srvedit_btn_error_gamenotfound">Server content not found</string>
     <string name="srvedit_btn_error_token">Invalid key</string>
-    <string name="srvedit_btn_error_wronggame">Wrong game</string>
+    <string name="srvedit_btn_error_wronggameorban">Wrong game or\n Banned by server</string>
     <string name="srvedit_btn_error_invalidport">Invalid port</string>
     <string name="srvedit_btn_error_unknownpacket">Unknown packet</string>
     <string name="srvedit_btn_error_unknown">Unknown error</string>
@@ -120,6 +120,7 @@
 
     <string name="srvctrl_error_request">Request failed</string>
     <string name="srvctrl_error_conn">Failed to connect</string>
+    <string name="srvctrl_error_invaluddata">An error occurred while loading data</string>
     <string name="srvctrl_error_invalidserver">Invalid attempt to open a server CP</string>
     <string name="srvctrl_succes_start">Server is starting</string>
     <string name="srvctrl_succes_restart">Server is restarting</string>
@@ -138,6 +139,7 @@
     <string name="srvctrl_console_type_api">Hosting API</string>
     <string name="srvctrl_console_action_send">Send</string>
     <string name="srvctrl_console_action_prefs">Preferences</string>
+    <string name="srvctrl_console_sended">Command sended</string>
     <string name="srvctrl_console_autherror">Authorization error</string>
 
     <string name="srvctrl_info_query_title">Monitoring</string>
@@ -443,5 +445,10 @@
     </string-array>
 
     <string name="about_enabledebug">Debug settings are available for use</string>
+    <string name="about_description"><![CDATA[<strong>Translation authors:</strong><br>%1$s]]></string>
+    <!--Should be as short as possible-->
+    <string name="about_special1_name">Rate app</string>
+    <string name="about_special2_name">Changelog</string>
+    <string name="about_special3_name">Translation</string>
 
 </resources>
