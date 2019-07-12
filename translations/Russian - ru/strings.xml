@@ -28,7 +28,7 @@
     <string name="srvedit_txt_ftp_pass">Пароль</string>
     <string name="srvedit_txt_ftp_path">Путь до контента сервера (папка %1$s)</string>
     <string name="srvedit_group_extra">Дополнительно</string>
-    <string name="srvedit_txt_apikey">Ключ Myarena API</string>
+    <string name="srvedit_txt_apikey">Ключ MyArena API</string>
     <string name="srvedit_txt_apikey_helper">Только если вы используете данный хостинг</string>
     <string name="srvedit_btn_qrcode">QR Код</string>
     <string name="srvedit_txt_error_empty">Поле не должно быть пустым</string>
@@ -39,9 +39,9 @@
     <string name="srvedit_btnapi_title">Проверить ключ API</string>
     <string name="srvedit_btn_progress">Загрузка</string>
     <string name="srvedit_btn_ok">Успех</string>
-    <string name="srvedit_btn_error_conn">Не удалось подключится</string>
+    <string name="srvedit_btn_error_conn">Не удалось подключиться</string>
     <string name="srvedit_btn_error_auth">Ошибка авторизации</string>
-    <string name="srvedit_btn_error_ban">Забанен серверов</string>
+    <string name="srvedit_btn_error_ban">Забанен сервером</string>
     <string name="srvedit_btn_error_gamenotfound">Контент сервера не найден</string>
     <string name="srvedit_btn_error_token">Неверный ключ</string>
     <string name="srvedit_btn_error_unknown">Неизвестная ошибка</string>
@@ -54,7 +54,7 @@
     <string name="srvctrl_menu_map">Сменить карту</string>
     <string name="srvctrl_menu_fullrefresh">Полное обновление</string>
     <string name="srvctrl_error_request">Ошибка запроса</string>
-    <string name="srvctrl_error_conn">Не удалось подключится</string>
+    <string name="srvctrl_error_conn">Не удалось подключиться</string>
     <string name="srvctrl_players_empty">Сервер пуст</string>
     <string name="srvctrl_players_score">Счёт: %1$d</string>
     <string name="srvctrl_players_time">Время: %1$s</string>
@@ -256,7 +256,7 @@
     <string name="srvctrl_players_reqsended">Запрос отправлен</string>
     <string name="srvedit_spn_apitype">Хостинг</string>
     <string name="srvctrl_console_type_api">API хостинга</string>
-    <string name="error_nonetwork">Не удалось подключится к сети</string>
+    <string name="error_nonetwork">Не удалось подключиться к сети</string>
     <string name="srvctrl_info_perfs_ram">ОЗУ</string>
     <string name="dialog_variable_notfound">Переменная не найдена</string>
     <string name="srvctrl_players_emptysteamid">Не удалось загрузить Steam ID игрока. Для повторной попытки обновите информацию о сервере</string>
