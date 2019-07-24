@@ -20,6 +20,9 @@ Planet e ardhëshme:
 - Shtim i mbështetjes për hostinga
 - Përmirësimi i karakteristikave të vjetra
 
+Improve translation:
+https://github.com/MrD1abl0/GSCP-Translation
+
 Lojrat e Mbështetura:
 - Source engine
 - CS:S

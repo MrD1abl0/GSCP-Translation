@@ -20,6 +20,9 @@
 - Добавление поддержки новых хостингов
 - Расширение и доработка старых возможностей
 
+Улучшить перевод:
+https://github.com/MrD1abl0/GSCP-Translation/blob/master/README-ru.md
+
 Поддерживаемые игры:
 - Source engine
 - CS:S

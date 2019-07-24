@@ -20,6 +20,9 @@ Planned features:
 - Adding support for new hosting’s
 - Improvement of old features
 
+Improve translation:
+https://github.com/MrD1abl0/GSCP-Translation
+
 Supported games:
 - Source engine
 - CS:S
