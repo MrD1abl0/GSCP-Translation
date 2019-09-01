@@ -10,6 +10,8 @@
     <string name="error_nonetwork">Nuk mund të lidhet në Internet</string>
 
     <string name="srvlist_title">Lista Serverave</string>
+    <string name="srvlist_subtitle">Total players: %1$d/%2$d</string>
+    <string name="srvlist_subtitleb">Total players: %1$d(+%3$d)/%2$d</string>
     <string name="srvlist_empty">Lista Serverave është e zbrazët</string>
     <string name="srvlist_error_descr">Ndodhi një gabim gjatë ngarkimit të listës së serverave</string>
     <string name="srvlist_error_sendrep">Raporto ndonje Problem</string>
@@ -198,6 +200,7 @@
     <string name="playerinfo_flags">Akceset Adminit:</string>
     <string name="playerinfo_flagsgmod">Group/Admin akceset:</string>
     <string name="playerinfo_unknown">Panjohur</string>
+    <string name="playerinfo_required">Required %1$s</string><!--SteamID or CommunnityID-->
     <string name="playerinfo_bansid">Steam ID ndalimi</string>
     <string name="playerinfo_bansip">IP ndalimi</string>
     <string name="playerinfo_mutes">Pa zë</string>
@@ -206,6 +209,7 @@
     <string name="playerinfo_name_copy">Emëri lojtarit është kopjuar për kujtesë</string>
     <string name="playerinfo_name_copyerror">Nuk mund të kopjohet emëri lojtarit për kujtesë</string>
     <string name="playerinfo_error_invalidplayer">Përpjekje e gabuar për të hapur info e lojtarit</string>
+    <string name="playerinfo_error_failedget">Failed to get %1$s</string><!--SteamID or CommunnityID-->
 
     <string name="dialog_accept_title">Konfirmo veprimin</string>
     <string name="dialog_acceptdelete_descr">Mbylle pa ruajtjen e të dhënave?</string>

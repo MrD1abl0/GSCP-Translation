@@ -26,6 +26,8 @@
 	<string name="o_tab_reg">Registration</string>
 	<string name="o_tab_profile">Profile</string>
 
+	<string name="o_error_invalidopen">Incorrect attempt to open screen</string>
+
 	<string name="o_text_readmore">Read more</string>
 	<string name="o_text_readless">Hide</string>
 
@@ -46,7 +48,7 @@
 
 	<string name="changelog_dialog_title">Changelog</string>
 	<string name="changelog_dialog_rate">Rate app</string>
-	<string name="changelog_error_invalidopen">Incorrect attempt to open screen</string>
+	<string name="changelog_error_invalidopen">@string/o_error_invalidopen</string>
 
 	<string name="about_title">@string/o_tab_about</string>
 	<string name="aboutLibraries_description_showIcon" translatable="false">true</string>
@@ -54,7 +56,7 @@
 	<string name="aboutLibraries_description_special1_name">Rate app</string>
 	<string name="aboutLibraries_description_special2_name">Changelog</string>
 
-	<string name="customactivityoncrash_error_invalidopen">Incorrect attempt to open screen</string>
+	<string name="customactivityoncrash_error_invalidopen">@string/o_error_invalidopen</string>
 	<string name="customactivityoncrash_error_activity_close_app">Close app</string>
 	<string name="customactivityoncrash_error_activity_error_details">Error details</string>
 	<string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>

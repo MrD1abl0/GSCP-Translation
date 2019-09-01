@@ -300,5 +300,9 @@
     <string name="about_special3_name">Перевод</string>
     <string name="srvctrl_error_invaluddata">При загрузке данных произошла ошибка</string>
     <string name="srvctrl_console_sended">Команда отправлена</string>
+    <string name="srvlist_subtitle">Всего игроков: %1$d/%2$d</string>
+    <string name="srvlist_subtitleb">Всего игроков: %1$d(+%3$d)/%2$d</string>
+    <string name="playerinfo_error_failedget">Не удалось получить %1$s</string>
+    <string name="playerinfo_required">Требуется %1$s</string>
 
 </resources>

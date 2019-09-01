@@ -12,6 +12,8 @@
     <string name="error_nonetwork">Сould not connect to the network</string>
 
     <string name="srvlist_title">Servers list</string>
+    <string name="srvlist_subtitle">Total players: %1$d/%2$d</string>
+    <string name="srvlist_subtitleb">Total players: %1$d(+%3$d)/%2$d</string>
     <string name="srvlist_empty">Servers list is empty</string>
     <string name="srvlist_error_descr">An error occurred while loading the servers list</string>
     <string name="srvlist_error_sendrep">Report a bug</string>
@@ -214,7 +216,9 @@
 
     <string name="playerinfo_title">Player info</string>
     <string name="playerinfo_index">Index:</string>
-    <string name="playerinfo_steamid" translatable="false">Steam ID:</string>
+    <string name="playerinfo_steamid2" translatable="false">SteamID2:</string>
+    <string name="playerinfo_steamid3" translatable="false">SteamID3:</string>
+    <string name="playerinfo_communityid" translatable="false">CommunityID:</string>
     <string name="playerinfo_ip" translatable="false">IP:</string>
     <string name="playerinfo_country">Country:</string>
     <string name="playerinfo_city">City:</string>
@@ -224,6 +228,7 @@
     <string name="playerinfo_flags">Admin flags:</string>
     <string name="playerinfo_flagsgmod">Group/Admin flags:</string>
     <string name="playerinfo_unknown">Unknown</string>
+    <string name="playerinfo_required">Required %1$s</string><!--SteamID or CommunnityID-->
     <string name="playerinfo_bansid">Steam ID bans</string>
     <string name="playerinfo_bansip">IP bans</string>
     <string name="playerinfo_mutes">Mutes</string>
@@ -232,6 +237,7 @@
     <string name="playerinfo_name_copy">Player name copied to clipboard</string>
     <string name="playerinfo_name_copyerror">Unable to copy player name to the clipboard</string>
     <string name="playerinfo_error_invalidplayer">Incorrect attempt to open player info</string>
+    <string name="playerinfo_error_failedget">Failed to get %1$s</string><!--SteamID or CommunnityID-->
 
     <string name="dialog_accept_title">Confirm action</string>
     <string name="dialog_acceptdelete_descr">Exit without saving?</string>
@@ -400,7 +406,7 @@
     <string name="pref_debug_extrasrvinfo_title">Extra server info</string>
     <string name="pref_debug_stacktrace_title">Stack trace</string>
     <string name="pref_debug_stacktrace_descr">Show stack trace if app crashed</string>
-    <string name="pref_debug_backgrounddialog_title">Bacgkround Crash Dialog</string>
+    <string name="pref_debug_backgrounddialog_title">Background crash dialog</string>
     <string name="pref_debug_backgrounddialog_descr">Display a dialog when an error occurs in the background</string>
 
     <string name="pref_syncservice_title">Background sync frequency</string>

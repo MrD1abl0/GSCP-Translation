@@ -26,6 +26,8 @@
 	<string name="o_tab_reg">Regjistrohu</string>
 	<string name="o_tab_profile">Profili</string>
 
+	<string name="o_error_invalidopen">Përpjekje e gabuar për të hapur ekranin</string>
+
 	<string name="o_text_readmore">Lexo më shumë</string>
 	<string name="o_text_readless">Fshihe</string>
 
@@ -44,13 +46,13 @@
 
 	<string name="changelog_dialog_title">Lista Rregullimeve</string>
 	<string name="changelog_dialog_rate">Vlerëso app</string>
-	<string name="changelog_error_invalidopen">Përpjekje e gabuar për të hapur ekranin</string>
+	<string name="changelog_error_invalidopen">@string/o_error_invalidopen</string>
 
 	<string name="about_title">@string/o_tab_about</string>
 	<string name="aboutLibraries_description_special1_name">Vlerëso app</string>
 	<string name="aboutLibraries_description_special2_name">Lista Rregullimeve</string>
 
-	<string name="customactivityoncrash_error_invalidopen">Përpjekje e gabuar për të hapur ekranin</string>
+	<string name="customactivityoncrash_error_invalidopen">@string/o_error_invalidopen</string>
 	<string name="customactivityoncrash_error_activity_close_app">Mbylle app</string>
 	<string name="customactivityoncrash_error_activity_error_details">Detajet e gabimeve</string>
 	<string name="customactivityoncrash_error_activity_error_details_clipboard_label">Informatat e gabimeve</string>

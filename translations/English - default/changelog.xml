@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="19" versionName="0.8.7" date="01.09.2019">
+        <bugfix>Fixed search players bans and stats</bugfix>
+        <bugfix>Fixed wrong calculation of bots count when using HLTV on goldsource</bugfix>
+        <bugfix>Fixed display of bots count if RevEmu hides them</bugfix>
+        <bugfix>Fixed incorrect swipes on some devices</bugfix>
+        <info>Updated date formatting</info>
+        <info>Minor UI Improvements</info>
+        <info>Updated translation[br](Thanks Paranoiiik)</info>
+    </release>
     <release versionCode="18" versionName="0.8.6" date="07.07.2019">
         <bugfix>Fixed rare crashes after checking network connection</bugfix>
         <bugfix>Fixed rare crashes after trying to open camera</bugfix>
