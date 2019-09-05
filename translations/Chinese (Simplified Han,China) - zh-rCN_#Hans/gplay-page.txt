@@ -1,0 +1,52 @@
+一款操作简单的游戏服务器管理软件
+
+现支持的功能:
+- 服务器监视
+- 玩家详细信息查看
+- 封禁，踢出和禁言玩家
+- 服务器地图更换
+- 带有自动键入和快捷方式的RCON
+- 服务器详细信息
+- 服务器资源监视
+- 查看和修改服务器的CVARS
+- Myarena API密钥 (控制台, 关闭/启动服务器, 附加数据信息)
+- 版本检查
+- 小部件
+
+下一步计划的新功能: 
+- 服务器插件管理 (Metamod, Sourcemod, Amxmod)
+- 实现与在线玩家交流
+- 添加新游戏服务器监视支持
+- Adding support for new hosting’s
+- 改进已有功能
+
+改进翻译:
+https://github.com/MrD1abl0/GSCP-Translation
+
+支持的游戏列表:
+- Source engine 起源引擎
+- CS:S
+- CS:GO
+- HL: DM Source
+- HL2: DM
+- Black Mesa
+- DOD:S
+- TF 2
+- Gmod
+- L4D
+- L4D 2
+- Alien Swarm
+- Insurgency
+- DOI
+- NMRIH
+- Codename CURE
+- ZP! Source
+
+- GoldSource Engine 金源引擎
+- CS
+- CS:CZ
+- HL
+- HL:OP
+- DOD
+- DM Classic
+- TF Classic

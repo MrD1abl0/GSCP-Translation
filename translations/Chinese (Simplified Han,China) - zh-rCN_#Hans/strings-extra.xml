@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="o_action_exit_confirm">再按一次退出</string>
+	<string name="o_action_accept">接受</string>
+	<string name="o_action_apply">应用</string>
+	<string name="o_action_find">查找</string>
+	<string name="o_action_add">添加</string>
+	<string name="o_action_edit">编辑</string>
+	<string name="o_action_delete">删除</string>
+	<string name="o_action_error">错误</string>
+	<string name="o_action_refresh">刷新</string>
+	<string name="o_action_upload">上传</string>
+	<string name="o_action_remove">移除</string>
+	<string name="o_action_filter">过滤器</string>
+	<string name="o_action_search">查找</string>
+	<string name="o_action_criterror">严重错误</string>
+	<string name="o_action_yes">是</string>
+	<string name="o_action_no">否</string>
+	<string name="o_action_loading">加载中…</string>
+	<string name="o_action_load">读取</string>
+	<string name="o_action_save">保存</string>
+	<string name="o_tab_prefs">设置</string>
+	<string name="o_tab_about">关于</string>
+	<string name="o_tab_debug">调试</string>
+	<string name="o_tab_login">登录</string>
+	<string name="o_tab_reg">注册</string>
+	<string name="o_tab_profile">个人资料</string>
+
+	<string name="o_error_invalidopen">打开方式错误</string>
+
+	<string name="o_text_readmore">更多</string>
+	<string name="o_text_readless">隐藏</string>
+
+	<string name="o_dialog_del_title">删除</string>
+	<string name="o_dialog_del_accept">确定删除?</string>
+
+	<string name="o_dialog_download">下载</string>
+
+	<plurals name="o_plural_days">
+		<item quantity="one">%d 天</item>
+		<item quantity="other">%d 天</item>
+	</plurals>
+
+	<string name="appbundle_warning_full">您安装的应用程序包不正确\n请从Google Play或apkpure.com安装此应用程序</string>
+	<string name="appbundle_warning_lite">您安装的应用程序包不正确\n请从Google Play安装此应用程序</string>
+	
+	<string name="changelog_dialog_title">更新日志</string>
+	<string name="changelog_dialog_rate">评价</string>
+
+	<string name="aboutLibraries_description_special1_name">评价</string>
+	<string name="aboutLibraries_description_special2_name">更新日志</string>
+
+	<string name="customactivityoncrash_error_activity_close_app">关闭应用程序</string>
+	<string name="customactivityoncrash_error_activity_error_details">详细错误</string>
+	<string name="customactivityoncrash_error_activity_error_details_clipboard_label">错误信息</string>
+	<string name="customactivityoncrash_error_activity_error_details_close">关闭</string>
+	<string name="customactivityoncrash_error_activity_error_details_copied">已复制到粘贴板</string>
+	<string name="customactivityoncrash_error_activity_error_details_copy">复制到粘贴板</string>
+	<string name="customactivityoncrash_error_activity_error_details_title">详细错误</string>
+	<string name="customactivityoncrash_error_activity_error_occurred_explanation">发生意外错误\n很抱歉为您带来不便</string>
+	<string name="customactivityoncrash_error_activity_restart_app">重启应用</string>
+</resources>
