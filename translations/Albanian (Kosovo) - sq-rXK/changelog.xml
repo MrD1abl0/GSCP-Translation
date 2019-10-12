@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="20" versionName="0.8.8" date="12.10.2019">
+        <bugfix>Fixed crashes after trying to edit removed server</bugfix>
+        <bugfix>Fixed rare crashes after trying to send an RCON command</bugfix>
+        <bugfix>Fixed loading untitled maps via Myarena API</bugfix>
+        <bugfix>Fixed wrong calculation of players count on CS:GO servers with bots</bugfix>
+        <bugfix>Partially fixed wrong calculation of players count on servers with GOTV</bugfix>
+        <info>Minor UI Improvements</info>
+        <info>Updated supported languages list[br](Thanks Augus Salon)</info>
+    </release>
     <release versionCode="19" versionName="0.8.7" date="01.09.2019">
         <bugfix>Fixed search players bans and stats</bugfix>
         <bugfix>Fixed wrong calculation of bots count when using HLTV on goldsource</bugfix>

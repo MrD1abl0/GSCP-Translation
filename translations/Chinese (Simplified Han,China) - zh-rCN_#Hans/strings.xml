@@ -142,8 +142,10 @@
     <string name="srvctrl_info_query_lastfullrefresh">上次完全刷新</string>
     <string name="srvctrl_info_query_protocol">协议</string>
     <string name="srvctrl_info_query_a2stype">类型 (A2S)</string>
+    <string name="srvctrl_info_query_api">Hosting API</string>
 
     <string name="srvctrl_info_perfs_title">资源</string>
+    <string name="srvctrl_info_perfs_cpu">CPU</string>
     <string name="srvctrl_info_perfs_intraff">入站流量</string>
     <string name="srvctrl_info_perfs_outtraff">出站流量</string>
     <string name="srvctrl_info_perfs_traffic_size">%1$s (KB/s)</string>
@@ -151,6 +153,7 @@
     <string name="srvctrl_info_perfs_connects">连接数</string>
     <string name="srvctrl_info_perfs_ram">内存占用</string>
     <string name="srvctrl_info_perfs_rom">储存占用</string>
+    <string name="srvctrl_info_perfs_data_size">%1$d/%2$d MB (%3$d%%)</string>
 
     <string name="srvctrl_info_perfs_error">无法读取资源信息</string>
 
@@ -279,7 +282,7 @@
     <string name="pref_logsport_title">日志监听端口</string>
     <string name="pref_logsport_descr">此端口必须在路由器上开放</string>
     <string name="pref_logsport_error_empty">此字段不能为空</string>
-    <string name="pref_logsport_error_minmax">此字段的数值只能在1024 - 65535之间</string>
+    <string name="pref_logsport_error_minmax">此字段的数值只能在1024 – 65535之间</string>
     <string name="pref_logsport_error_alrused">此端口已被占用</string>
 
     <string name="pref_debug_title">调试</string>
@@ -289,6 +292,7 @@
     <string name="pref_debug_stacktrace_descr">如果应用程序崩溃，显示堆栈跟踪</string>
     <string name="pref_debug_backgrounddialog_title">后台崩溃对话框</string>
     <string name="pref_debug_backgrounddialog_descr">在后台发生错误时显示对话框</string>
+    <string name="prefs_debug_remoteconfig_descr">Reduce fetching interval</string>
 
     <string name="pref_syncservice_title">后台同步频率</string>
     <string name="pref_syncservice_descr">基本服务器信息 (玩家, 地图, Ping等)</string>
@@ -314,6 +318,7 @@
     </string-array>
 
     <string name="about_enabledebug">调试设置已启用</string>
+    <string name="about_description"><![CDATA[<strong>Translation authors:</strong><br>%1$s]]></string>
     <!--Should be as short as possible-->
     <string name="about_special1_name">评价</string>
     <string name="about_special2_name">更新日志</string>

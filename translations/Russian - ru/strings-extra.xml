@@ -5,6 +5,7 @@
     <string name="o_action_apply">Применить</string>
     <string name="o_action_find">Найти</string>
     <string name="o_action_refresh">Обновить</string>
+    <string name="o_action_retry">Повторить</string>
     <string name="o_action_upload">Загрузить</string>
     <string name="o_action_remove">Удалить</string>
     <string name="o_action_add">Добавить</string>
@@ -48,13 +49,10 @@
 
     <string name="changelog_dialog_title">Изменения</string>
     <string name="changelog_dialog_rate">Оставить отзыв</string>
-    <string name="changelog_error_invalidopen">@string/o_error_invalidopen</string>
 
-    <string name="about_title">@string/o_tab_about</string>
     <string name="aboutLibraries_description_special1_name">Оставить отзыв</string>
     <string name="aboutLibraries_description_special2_name">Изменения</string>
 
-    <string name="customactivityoncrash_error_invalidopen">@string/o_error_invalidopen</string>
     <string name="customactivityoncrash_error_activity_error_occurred_explanation">Произошло аварийное закрытие приложения.</string>
     <string name="customactivityoncrash_error_activity_restart_app">Перезапустить приложение</string>
     <string name="customactivityoncrash_error_activity_close_app">Закрыть приложение</string>

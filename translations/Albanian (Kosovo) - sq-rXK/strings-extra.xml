@@ -9,6 +9,7 @@
 	<string name="o_action_delete">Fshijë</string>
 	<string name="o_action_error">Gabim</string>
 	<string name="o_action_refresh">Rifresko</string>
+	<string name="o_action_retry">Retry</string>
 	<string name="o_action_upload">Ngarko</string>
 	<string name="o_action_remove">Fshijë</string>
 	<string name="o_action_filter">Filterë</string>
@@ -46,13 +47,10 @@
 
 	<string name="changelog_dialog_title">Lista Rregullimeve</string>
 	<string name="changelog_dialog_rate">Vlerëso app</string>
-	<string name="changelog_error_invalidopen">@string/o_error_invalidopen</string>
 
-	<string name="about_title">@string/o_tab_about</string>
 	<string name="aboutLibraries_description_special1_name">Vlerëso app</string>
 	<string name="aboutLibraries_description_special2_name">Lista Rregullimeve</string>
 
-	<string name="customactivityoncrash_error_invalidopen">@string/o_error_invalidopen</string>
 	<string name="customactivityoncrash_error_activity_close_app">Mbylle app</string>
 	<string name="customactivityoncrash_error_activity_error_details">Detajet e gabimeve</string>
 	<string name="customactivityoncrash_error_activity_error_details_clipboard_label">Informatat e gabimeve</string>

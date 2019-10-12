@@ -304,5 +304,5 @@
     <string name="srvlist_subtitleb">Всего игроков: %1$d(+%3$d)/%2$d</string>
     <string name="playerinfo_error_failedget">Не удалось получить %1$s</string>
     <string name="playerinfo_required">Требуется %1$s</string>
-
+    <string name="prefs_debug_remoteconfig_descr">Чаще проверять наличие обновлений конфигурации</string>
 </resources>

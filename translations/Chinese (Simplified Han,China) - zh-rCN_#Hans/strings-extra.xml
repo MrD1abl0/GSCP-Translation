@@ -9,6 +9,7 @@
 	<string name="o_action_delete">删除</string>
 	<string name="o_action_error">错误</string>
 	<string name="o_action_refresh">刷新</string>
+	<string name="o_action_retry">Retry</string>
 	<string name="o_action_upload">上传</string>
 	<string name="o_action_remove">移除</string>
 	<string name="o_action_filter">过滤器</string>

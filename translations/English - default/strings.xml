@@ -408,6 +408,8 @@
     <string name="pref_debug_stacktrace_descr">Show stack trace if app crashed</string>
     <string name="pref_debug_backgrounddialog_title">Background crash dialog</string>
     <string name="pref_debug_backgrounddialog_descr">Display a dialog when an error occurs in the background</string>
+    <string name="prefs_debug_remoteconfig_title" translatable="false">Remote Config</string>
+    <string name="prefs_debug_remoteconfig_descr">Reduce fetching interval</string>
 
     <string name="pref_syncservice_title">Background sync frequency</string>
     <string name="pref_syncservice_descr">Basic server info (Players, map, ping, etc.)</string>

@@ -9,6 +9,7 @@
 	<string name="o_action_delete">Delete</string>
 	<string name="o_action_error">Error</string>
 	<string name="o_action_refresh">Refresh</string>
+	<string name="o_action_retry">Retry</string>
 	<string name="o_action_upload">Upload</string>
 	<string name="o_action_remove">Remove</string>
 	<string name="o_action_filter">Filter</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
-    <release versionCode="20" versionName="0.8.8" date="12.10.2019">
+    <release versionCode="20" versionName="0.8.8" date="__.10.2019">
         <bugfix>Fixed crashes after trying to edit removed server</bugfix>
         <bugfix>Fixed rare crashes after trying to send an RCON command</bugfix>
         <bugfix>Fixed loading untitled maps via Myarena API</bugfix>

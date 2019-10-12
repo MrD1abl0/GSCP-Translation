@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="20" versionName="0.8.8" date="12.10.2019">
+        <bugfix>Исправлены падения после попытки отредактировать удалённый сервер</bugfix>
+        <bugfix>Исправлены редкие падения после попытки отправить RCON команду</bugfix>
+        <bugfix>Исправлена загрузка карт без названия через Myarena API</bugfix>
+        <bugfix>Исправлен подсчёт кол-ва игроков на CS:GO серверах с ботами</bugfix>
+        <bugfix>Частично исправлен подсчёт кол-ва игроков на серверах CS:GO с GOTV</bugfix>
+        <info>Мелкие улучшения интерфейса</info>
+        <info>Обновлён список поддерживаемых языков[br](Спасибо Augus Salon)</info>
+    </release>
     <release versionCode="19" versionName="0.8.7" date="01.09.2019">
         <bugfix>Исправлен поиск банов и статистики игроков</bugfix>
         <bugfix>Исправлен подсчёт кол-ва ботов при использовании HLTV на goldsource</bugfix>

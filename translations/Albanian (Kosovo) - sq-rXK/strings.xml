@@ -315,6 +315,7 @@
     <string name="pref_debug_stacktrace_descr">Trego gjurmën e pirgjeve nëse app u rrëzua</string>
     <string name="pref_debug_backgrounddialog_title">Dialogu i Historisë së Çastit</string>
     <string name="pref_debug_backgrounddialog_descr">Shfaq një dialog kur ndodh një gabim në sfond</string>
+    <string name="prefs_debug_remoteconfig_descr">Reduce fetching interval</string>
 
     <string name="pref_syncservice_title">Frekuenca e sinkronizimit të plotë</string>
     <string name="pref_syncservice_descr">Informacionet bazë të serverit (Lojtarët, harta, ping, etj.)</string>
