@@ -221,7 +221,7 @@
     <string name="dialog_variable_newvalue">Новое значение</string>
     <string name="dialog_variable_changed">Значение переменной изменено</string>
     <string name="dialog_variable_notchanged">Не удалось изменить значение переменной</string>
-    <string name="notify_title">Сервер устарела</string>
+    <string name="notify_title">Сервер устарел</string>
     <string name="notify_name">Проверка версии сервера</string>
     <string name="pref_web_title">Web сайты</string>
     <string name="pref_notify_title">Уведомление о том, что сервер устарел</string>
