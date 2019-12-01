@@ -256,6 +256,8 @@
     <string name="dialog_reason">Arsyeja</string>
     <string name="dialog_time_spn">Ora</string>
     <string name="dialog_time_edit">Ora (ne minuta)</string>
+    <string name="dialog_time_error_ban">Incorrect ban time</string>
+    <string name="dialog_time_error_mute">Incorrect mute time</string>
     <string-array name="dialog_time_text">
         <item>Përgjithëmon</item>
         <item>Manualisht</item>

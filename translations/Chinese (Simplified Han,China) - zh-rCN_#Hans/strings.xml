@@ -233,6 +233,8 @@
     <string name="dialog_reason">原因</string>
     <string name="dialog_time_spn">时间</string>
     <string name="dialog_time_edit">时间 (单位分钟)</string>
+    <string name="dialog_time_error_ban">Incorrect ban time</string>
+    <string name="dialog_time_error_mute">Incorrect mute time</string>
     <string-array name="dialog_time_text">
         <item>永久</item>
         <item>手动</item>

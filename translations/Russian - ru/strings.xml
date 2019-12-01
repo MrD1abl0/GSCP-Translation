@@ -305,4 +305,6 @@
     <string name="playerinfo_error_failedget">Не удалось получить %1$s</string>
     <string name="playerinfo_required">Требуется %1$s</string>
     <string name="prefs_debug_remoteconfig_descr">Чаще проверять наличие обновлений конфигурации</string>
+    <string name="dialog_time_error_ban">Введено некорректное время бана</string>
+    <string name="dialog_time_error_mute">Введено некорректное время мута</string>
 </resources>

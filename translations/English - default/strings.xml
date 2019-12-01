@@ -318,6 +318,8 @@
     <string name="dialog_reason">Reason</string>
     <string name="dialog_time_spn">Time</string>
     <string name="dialog_time_edit">Time (in minutes)</string>
+    <string name="dialog_time_error_ban">Incorrect ban time</string>
+    <string name="dialog_time_error_mute">Incorrect mute time</string>
     <string-array name="dialog_time_text">
         <item>Permanent</item>
         <item>Manually</item>

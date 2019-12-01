@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="21" versionName="0.8.9" date="01.12.2019">
+        <bugfix>Исправлены падения после неправильной установки App Bundle</bugfix>
+        <bugfix>Исправлены падения при вводе некорректного AppID</bugfix>
+        <bugfix>Исправлены падения после ввода некорректного времени бана/мута</bugfix>
+        <bugfix>Исправлена работа RCON на goldsource если rcon_password содержит спецсимволы</bugfix>
+        <bugfix>Исправлена загрузка стран игроков</bugfix>
+        <info>Мелкие улучшения интерфейса</info>
+        <info>Обновлён перевод[br](Спасибо Kruzya)</info>
+    </release>
     <release versionCode="20" versionName="0.8.8" date="12.10.2019">
         <bugfix>Исправлены падения после попытки отредактировать удалённый сервер</bugfix>
         <bugfix>Исправлены редкие падения после попытки отправить RCON команду</bugfix>
