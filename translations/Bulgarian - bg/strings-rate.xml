@@ -1,0 +1,10 @@
+<resources>
+    <string name="libname" translatable="false">Gene-rate</string>
+    <string name="please_rate">Здравейте! Изглежда, че това приложение ви харесва, бихте ли имали против да посетите Play Store и да дадете оценка? Ще ни помогне много!\n\nАко вместо това не харесвате това приложение, ще се радваме да чуем вашите отзиви и да се подобрим. Благодаря!</string>
+    <string name="please_rate_short">Здравейте, изглежда, че това приложение ви харесва. Бихте ни помогнали много с 5-звезден рейтинг!</string>
+    <string name="button_yes">Гласувай!</string>
+    <string name="button_no">Не, благодаря</string>
+    <string name="button_feedback">Изпрати отзив</string>
+    <string name="button_dont_ask">Не ме питай повече</string>
+    <string name="swipe_to_dismiss">Прекарайте пръст, за да го отхвърлите</string>
+</resources>

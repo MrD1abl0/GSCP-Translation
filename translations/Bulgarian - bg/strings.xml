@@ -1,0 +1,464 @@
+<resources>
+    <string name="app_name_full" translatable="false">Game Server Control Panel</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_debug" translatable="false">Дебъг UI</string>
+    <string name="action_removeads">Премахни рекламите</string>
+    <string name="action_ban">Бан</string>
+    <string name="action_kick">Кик</string>
+    <string name="action_mute">Мютване</string>
+    <string name="action_steam">Steam Профил</string>
+
+    <string name="error_readgames">Грешка при четене на списъка с игри</string>
+    <string name="error_nonetwork">Не мога да се свърже с мрежата</string>
+
+    <string name="srvlist_title">Списък с сървъри</string>
+    <string name="srvlist_subtitle">Общо играчи: %1$d/%2$d</string>
+    <string name="srvlist_subtitleb">Общо играчи: %1$d(+%3$d)/%2$d</string>
+    <string name="srvlist_empty">Списъка с сървъри е празен</string>
+    <string name="srvlist_error_descr">Възникна грешка при зареждането на списъка със сървъри</string>
+    <string name="srvlist_error_sendrep">Докладвай бъг</string>
+
+    <string name="srvlist_item_ip" translatable="false">IP: %1$s:%2$d</string>
+    <string name="srvlist_item_ping">Пинг: %1$d ms</string>
+    <string name="srvlist_item_map">Карта: %1$s</string>
+    <string name="srvlist_item_players">Играчи: %1$d/%2$d</string>
+    <string name="srvlist_item_playersb">Играчи: %1$d(+%3$d)/%2$d</string>
+    <string name="srvlist_item_updated">Обновен на: %1$s</string>
+    <string name="srvlist_item_deleted">Сървъра е изтрит</string>
+    <string name="srvlist_item_delete_error">Грешка при изтриване на сървъра</string>
+
+    <string name="srvedit_title_add">Добави сървър</string>
+    <string name="srvedit_title_edit">Настройки на сървър</string>
+
+    <string name="srvedit_group_main">Начало</string>
+    <string name="srvedit_txt_name">Име на сървъра</string>
+    <string name="srvedit_txt_ip" translatable="false">IP</string>
+    <string name="srvedit_txt_port">Порт</string>
+    <string name="srvedit_txt_game">Игра</string>
+    <string name="srvedit_txt_rcon">RCON парола</string>
+
+    <string name="srvedit_group_ftp" translatable="false">FTP</string>
+    <string name="srvedit_txt_ftp_ip" translatable="false">IP</string>
+    <string name="srvedit_txt_ftp_port">Порт</string>
+    <string name="srvedit_txt_ftp_user">Потребител</string>
+    <string name="srvedit_txt_ftp_pass">Парола</string>
+    <string name="srvedit_txt_ftp_path">Път до папката на сървъра ( \"%1$s\")</string>
+
+    <string name="srvedit_group_api">API ключове</string>
+    <string name="srvedit_spn_apitype">Хостинг</string>
+    <string name="srvedit_txt_apikey">MyArena API ключ</string>
+    <!--<string name="srvedit_txt_apikey">Key</string>-->
+    <string name="srvedit_txt_apikey_helper">Само ако използвате този хостинг</string>
+    <string name="srvedit_btn_qrcode">QR код</string>
+    <string-array name="srvedit_spn_apitype_text" translatable="false">
+        <item>Myarena.ru</item>
+    </string-array>
+    <integer-array name="srvedit_spn_apitype_value">
+        <item>0</item>
+    </integer-array>
+
+
+    <string name="srvedit_group_extra">Екстри</string>
+    <string name="srvedit_switch_checkversion">Известие ако сървъра спре</string>
+    <string name="srvedit_switch_listenlogs">Лог файлове</string>
+    <string name="srvedit_txt_fastcmds">RCON икона (прякпът)</string>
+    <string name="srvedit_txt_appid" translatable="false">AppID</string>
+    <string name="srvedit_txt_appid_description">ID за проверка на сървърната версия</string>
+    <string name="srvedit_txt_name_format" translatable="false">%1$s_%2$s:%3$d</string>
+
+    <string name="srvedit_txt_error_empty">Полето не трябва да бъде празно</string>
+    <string name="srvedit_txt_error_greater">Полето трябва да е по-голямо от %1$d</string>
+    <string name="srvedit_txt_error_less">Полето трябва да е по-малко от %1$d</string>
+    <string name="srvedit_error_unique">Сървър с посочения IP и порт вече съществува</string>
+    <string name="srvedit_error_add">Грешка при добавяне на сървър</string>
+    <string name="srvedit_error_edit">Грешка при редактиране на сървър</string>
+    <string name="srvedit_error_invalidopen">Неправилен опит за отваряне на екрана за добавяне / редактиране на сървър</string>
+    <string name="srvedit_warning_port">Тази функция работи само когато е свързана към мрежата чрез WI-FI. В допълнение, трябва да отворите порт %1$d на рутера ви.</string>
+
+
+    <string name="srvedit_btn_title">Проверка</string>
+    <string name="srvedit_btnapi_title">Провери API ключа</string>
+    <string name="srvedit_btn_progress">Зареждане</string>
+    <string name="srvedit_btn_ok">Успешно</string>
+    <string name="srvedit_btn_error_conn">Грешка при свързавне</string>
+    <string name="srvedit_btn_error_auth">Грешка при аутеникация</string>
+    <string name="srvedit_btn_error_ban">Баннати играчи от сървъра</string>
+    <string name="srvedit_btn_error_gamenotfound">Съдържанието на сървъра не е намерено</string>
+    <string name="srvedit_btn_error_token">Грешен ключ</string>
+    <string name="srvedit_btn_error_wronggameorban">Грешна игра</string>
+    <string name="srvedit_btn_error_invalidport">Грешен порт</string>
+    <string name="srvedit_btn_error_unknownpacket">Неизвестен пакет</string>
+    <string name="srvedit_btn_error_unknown">Неизвестна грешка</string>
+    <string name="srvedit_btn_error_reasonmsg">Причина: %1$s</string>
+
+    <string name="srvedit_dialog_fastcmd_title">Редактиране на RCON прякпът</string>
+
+    <string name="camera_title">QR код скенер</string>
+    <string name="camera_permsdenide">Не може да се получи достъп до камера</string>
+    <string name="camera_error">Възникна грешка при заявяване на разрешение</string>
+    <string name="camera_notfound">Камерата не е намерена</string>
+
+    <string name="srvctrl_srvinfo_vac" translatable="false">VAC:</string>
+    <string name="srvctrl_srvinfo_pass">Парола:</string>
+    <string name="srvctrl_srvinfo_version">Версия: %1$s</string>
+    <string name="srvctrl_srvinfo_renta">Изтича на:</string>
+
+    <string name="srvctrl_outdated_title">Провери версията на сървъра</string>
+    <string name="srvctrl_outdated_descr">Вашият сървър не е ъпдейтнат</string>
+    <string name="srvctrl_outdated_srvvrs">Версия на сървъра:</string>
+    <string name="srvctrl_outdated_latestvrs">Последна версия:</string>
+    <string name="srvctrl_outdated_reunion">Грешка при изискване на информация за сървърната версия. Ако използвате DProto/Reunion, Направете настройките: <b>ServerInfoAnswerType</b> to 0</string>
+
+    <string name="srvctrl_changemap_copy">Името на картата е копирано в клиборд</string>
+    <string name="srvctrl_changemap_copyerror">Грешка при коиране на името на картата в клипборда</string>
+
+    <string name="srvctrl_menu_tooltip">Сървър контрол</string>
+    <string name="srvctrl_menu_start">Старт</string>
+    <string name="srvctrl_menu_restart">Рестарт</string>
+    <string name="srvctrl_menu_stop">Стоп</string>
+    <string name="srvctrl_menu_map">Промени карта</string>
+    <string name="srvctrl_menu_fullrefresh">Пълен рефреш на сървъра</string>
+    <string name="srvctrl_menu_map_error_notfound">Картите не са намерени</string>
+
+    <string name="srvctrl_error_request">Грешка</string>
+    <string name="srvctrl_error_conn">Неуспех при свързване</string>
+    <string name="srvctrl_error_invaluddata">При зареждането на данни възникна грешка</string>
+    <string name="srvctrl_error_invalidserver">Невалиден опит за отваряне на контролният панел</string>
+    <string name="srvctrl_succes_start">Сървъра е стартиран</string>
+    <string name="srvctrl_succes_restart">Сървъра е рестартиран</string>
+
+    <string name="srvctrl_players_empty">Сървъра е празен</string>
+    <string name="srvctrl_players_index">Индекс: %1$d</string>
+    <string name="srvctrl_players_score">Точки: %1$d</string>
+    <string name="srvctrl_players_time">Време: %1$s</string>
+    <string name="srvctrl_players_ping">Пинг: %1$d ms</string>
+    <string name="srvctrl_players_isbot">Бот</string>
+    <string name="srvctrl_players_reqsended">Заявката е изпратена</string>
+    <string name="srvctrl_players_emptysteamid">Неуспешно зареждане на Steam ID на играча. Опитайте да опресните сървъра</string>
+
+    <string name="srvctrl_console_edit">Конзола</string>
+    <string name="srvctrl_console_type_rcon" translatable="false">RCON</string>
+    <string name="srvctrl_console_type_api">Хостинг API</string>
+    <string name="srvctrl_console_action_send">Изпрати</string>
+    <string name="srvctrl_console_action_prefs">Предпочитания</string>
+    <string name="srvctrl_console_sended">Командата е изпратена</string>
+    <string name="srvctrl_console_autherror">Грешка при аутеникация</string>
+
+    <string name="srvctrl_info_query_title">Мониторинг</string>
+    <string name="srvctrl_info_query_copy">Стойноста е копирана в клипборда</string>
+    <string name="srvctrl_info_query_copyerror">Грешка при копиране на стойността в клипборда</string>
+    <string name="srvctrl_info_query_ip" translatable="false">IP</string>
+    <string name="srvctrl_info_query_gamename">Име / описание на играта</string>
+    <string name="srvctrl_info_query_game">Игра</string>
+    <string name="srvctrl_info_query_os">Операционна система</string>
+    <string name="srvctrl_info_query_id" translatable="false">ID</string>
+    <string name="srvctrl_info_query_location">Държава</string>
+    <string name="srvctrl_info_query_type">Тип</string>
+    <string name="srvctrl_info_query_blockdate">Изтича на</string>
+    <string name="srvctrl_info_query_realip">Реален IP</string>
+    <string name="srvctrl_info_query_gameid">Папка на сървъра</string>
+    <string name="srvctrl_info_query_mapscount">Брой на картите</string>
+    <string name="srvctrl_info_query_cvarscount">Брой на кваровете</string>
+    <string name="srvctrl_info_query_lastfullrefresh">Последно пълно обновяване на сървъра</string>
+    <string name="srvctrl_info_query_protocol">Протокол</string>
+    <string name="srvctrl_info_query_a2stype">Тип (A2S)</string>
+    <string name="srvctrl_info_query_rcon" translatable="false">RCON</string>
+    <string name="srvctrl_info_query_api">Хостинг API</string>
+    <string name="srvctrl_info_query_mm" translatable="false">Метамод</string>
+    <string name="srvctrl_info_query_amx" translatable="false">АМХ МОД</string>
+    <string name="srvctrl_info_query_sm" translatable="false">Сорс Мод</string>
+    <string name="srvctrl_info_query_sc" translatable="false">Sourcecomms/SourceBans++</string>
+    <string name="srvctrl_info_query_ulx" translatable="false">Ulxmod</string>
+
+    <string name="srvctrl_info_perfs_title">Ресурси</string>
+    <string name="srvctrl_info_perfs_cpu">Процесор</string>
+    <string name="srvctrl_info_perfs_intraff">Входящ трафик</string>
+    <string name="srvctrl_info_perfs_outtraff">Изходящ трафик</string>
+    <string name="srvctrl_info_perfs_traffic_size">%1$s (KB/s)</string>
+    <string name="srvctrl_info_perfs_uptime">Ъптайм</string>
+    <string name="srvctrl_info_perfs_connects">Свързани</string>
+    <string name="srvctrl_info_perfs_ram">RAM</string>
+    <string name="srvctrl_info_perfs_rom">Дисково пространство</string>
+    <string name="srvctrl_info_perfs_data_size">%1$d/%2$d MB (%3$d%%)</string>
+
+    <string name="srvctrl_info_perfs_error">Неуспешно зареждане на информация за използваните ресурси.</string>
+
+    <string name="srvctrl_info_cmds_title">Команди</string>
+    <string name="srvctrl_info_cmds_copy">Командите са копирани в клипборда</string>
+    <string name="srvctrl_info_cmds_copyerror">Грешка при копиране на командите в клипборда</string>
+    <string name="srvctrl_info_cmd_notfound">Не са намерени сървърни команди</string>
+
+    <string name="srvctrl_info_vars_title">Променливи</string>
+    <string name="srvctrl_info_vars_notfound">Променливите на сървъра не са намерени</string>
+    <string name="srvctrl_info_vars_error">Неуспешно получаване на списък на променливите на сървъра</string>
+    <string name="srvctrl_info_vars_copy">Името на променлива се копира в клипборда</string>
+    <string name="srvctrl_info_vars_copyerror">Грешка при копирането на името на променливата в клиборда</string>
+
+    <string name="srvctrl_activity_mlog_title">Лог файл</string>
+    <string name="srvctrl_activity_mlog_date">Дата</string>
+    <string name="srvctrl_activity_mlog_time">Час</string>
+    <string name="srvctrl_activity_mlog_wrap">Линии</string>
+    <string name="srvctrl_activity_error_wifi">За да видите лог файла трябва да сте свързан към WI-FI интернет</string>
+    <string name="srvctrl_activity_error_offline">Няма връзка с интернет</string>
+    <string name="srvctrl_activity_error_publicip">Грешка при извличане на Реален IP адрес</string>
+    <string name="srvctrl_activity_error_port">Порта се използва от друго приложение</string>
+    <string name="srvctrl_activity_error_rcon">Неуспешно добавяне на IP устройство за слушане</string>
+    <string name="srvctrl_activity_error_unknown">Неизвестна грешка</string>
+    <string name="srvctrl_activity_error_rconremove">Грешка при изпращане на команда за спиране на логовете на сървъра</string>
+    <string name="srvctrl_activity_error_startservice">Грешка при изпращане на команда за стартиране на логовете на сървъра</string>
+
+    <string name="srvctrl_navbar_players">Играчи</string>
+    <string name="srvctrl_navbar_console">Конзола</string>
+    <!--<string name="srvctrl_navbar_activity">Activity</string>-->
+    <string name="srvctrl_navbar_activity">Лог</string>
+    <string name="srvctrl_navbar_plugins">Плъгини</string>
+    <string name="srvctrl_navbar_info">Инфо</string>
+
+    <string name="playerinfo_title">Информация за играч</string>
+    <string name="playerinfo_index">Индекс:</string>
+    <string name="playerinfo_steamid2" translatable="false">SteamID2:</string>
+    <string name="playerinfo_steamid3" translatable="false">SteamID3:</string>
+    <string name="playerinfo_communityid" translatable="false">CommunityID:</string>
+    <string name="playerinfo_ip" translatable="false">IP:</string>
+    <string name="playerinfo_country">Държава:</string>
+    <string name="playerinfo_city">Град:</string>
+    <string name="playerinfo_ping">Пинг: %1$d ms</string>
+    <string name="playerinfo_time">Изиграно време: %1$s</string>
+    <string name="playerinfo_score">Точки: %1$d</string>
+    <string name="playerinfo_flags">Админ флагове:</string>
+    <string name="playerinfo_flagsgmod">Групи/админ флагове:</string>
+    <string name="playerinfo_unknown">Неизвестно</string>
+    <string name="playerinfo_required">Искане на %1$s</string><!--SteamID or CommunnityID-->
+    <string name="playerinfo_bansid">Steam ID Банове</string>
+    <string name="playerinfo_bansip">IP Банове</string>
+    <string name="playerinfo_mutes">Мютвания</string>
+    <string name="playerinfo_stats">Игрова статистика</string>
+    <string name="playerinfo_actions">Действия</string>
+    <string name="playerinfo_name_copy">Името на играча е копирано в клипборда</string>
+    <string name="playerinfo_name_copyerror">Името на играча не може да се копира в клипборда</string>
+    <string name="playerinfo_error_invalidplayer">Неправилен опит за отваряне на информация за играча</string>
+    <string name="playerinfo_error_failedget">Неуспешно получаване на %1$s</string><!--SteamID or CommunnityID-->
+
+    <string name="dialog_accept_title">Потвърдете действието</string>
+    <string name="dialog_acceptdelete_descr">Излезте, без да запазите?</string>
+
+    <string name="dialog_ban_title">Ban на играч</string>
+    <string-array name="dialog_ban_cmd_text">
+        <item>Auto</item>
+        <item>Engine</item>
+        <item>Sourcemod</item>
+        <item>Amxmod</item>
+        <item>Ulysses mod</item>
+    </string-array>
+    <integer-array name="dialog_ban_cmd_value">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="dialog_ban_type_text" translatable="false">
+        <item>Steam ID</item>
+        <item>IP</item>
+    </string-array>
+    <integer-array name="dialog_ban_type_value">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+
+    <string name="dialog_kick_title">Kick на играч</string>
+    <string-array name="dialog_kick_cmd_text">
+        <item>Auto</item>
+        <item>Engine</item>
+        <item>Sourcemod</item>
+        <item>Amxmod</item>
+        <item>Ulysses mod</item>
+    </string-array>
+    <integer-array name="dialog_kick_cmd_value">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <string name="dialog_mute_title">Заглувашане на играч (mute)</string>
+    <string-array name="dialog_mute_cmd_text">
+        <item>Auto</item>
+        <item>Sourcemod</item>
+        <item>Sourcecomms/Sourcebans++</item>
+        <item>Ulysses mod</item>
+    </string-array>
+    <integer-array name="dialog_mute_cmd_value">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="dialog_mute_type_text">
+        <item>Both</item>
+        <item>Voice</item>
+        <item>Chat</item>
+    </string-array>
+    <integer-array name="dialog_mute_type_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+
+    <string name="dialog_variable_oldvalue">Стара стойност: %1$s</string>
+    <string name="dialog_variable_newvalue">Нова стойност</string>
+    <string name="dialog_variable_changed">Променлива стойност е променена</string>
+    <string name="dialog_variable_notchanged">Променливата стойност не може да бъде променена</string>
+    <string name="dialog_variable_notfound">Променлива не е намерена</string>
+
+    <string name="dialog_player_id" translatable="false">#%1$d - %2$s - %3$s</string>
+    <string name="dialog_cmd">Конзола/Плъгин</string>
+    <string name="dialog_type">Тип</string>
+    <string name="dialog_reason">Причина</string>
+    <string name="dialog_time_spn">Време</string>
+    <string name="dialog_time_edit">Време (в минути)</string>
+    <string name="dialog_time_error_ban">Неправилно време за бан</string>
+    <string name="dialog_time_error_mute">Неправилно време за заглушаване</string>
+    <string-array name="dialog_time_text">
+        <item>Перманент</item>
+        <item>По избор</item>
+        <item>10 минути</item>
+        <item>30 минути</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>4 часа</item>
+        <item>8 часа</item>
+        <item>12 часа</item>
+        <item>1 ден</item>
+        <item>2 дена</item>
+        <item>3 дена</item>
+        <item>4 дена</item>
+        <item>5 дена</item>
+        <item>6 дена</item>
+        <item>1 седмица</item>
+        <item>2 седмици</item>
+        <item>3 седмици</item>
+        <item>1 месец</item>
+        <item>2 месеца</item>
+        <item>3 месеца</item>
+        <item>6 месеца</item>
+        <item>12 месеца</item>
+        <item>1 година</item>
+    </string-array>
+    <integer-array name="dialog_time_value">
+        <item>0</item>
+        <item>-1</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>240</item>
+        <item>480</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>7200</item>
+        <item>8640</item>
+        <item>10080</item>
+        <item>20160</item>
+        <item>30240</item>
+        <item>43800</item>
+        <item>87600</item>
+        <item>131400</item>
+        <item>262800</item>
+        <item>525601</item>
+        <item>525600</item>
+    </integer-array>
+
+    <string name="widget_title">Изглед на сървъра (големина- височина)</string>
+    <string name="widget_pick_title">Настройки на изгледа </string>
+    <string name="widget_pick_server_title">Сървър</string>
+    <string name="widget_pick_error_srvnotfound">Сървъра не е намерен</string>
+    <string name="widget_pick_type_title">Стил на изгледа</string>
+    <string-array name="widget_pick_type_values">
+        <item>Снимка</item>
+        <item>Тъмно</item>
+        <item>Светло</item>
+    </string-array>
+
+    <string name="service_listener_title">Услуги за слушане на сървърната конзола</string>
+
+    <string name="notify_title">Сървърът е остарял</string>
+    <string name="notify_name">Проверка на версията на сървъра</string>
+
+    <string name="pref_web_title">Web Resources</string>
+    <string name="pref_web_ab_title" translatable="false">AmxBans линк</string>
+    <string name="pref_web_sb_title" translatable="false">SourceBans линк</string>
+    <string name="pref_web_sc_title" translatable="false">SourceBans++/SourceComms</string>
+    <string name="pref_web_gm_title" translatable="false">gameMe линк</string>
+    <string name="pref_web_hlx_title" translatable="false">HLstatsX:CE линк</string>
+    <string name="pref_notify_title">Уведомяване за актуализация на сървъра</string>
+    <string name="pref_notify_descr">Само ако проверката е активирана в настройките на сървъра</string>
+    <string name="pref_logsport_title">Порт на логовете</string>
+    <string name="pref_logsport_descr">Този порт трябва да бъде отворен</string>
+    <string name="pref_logsport_error_empty">Полето не трябва да бъде празно</string>
+    <string name="pref_logsport_error_minmax">Полето може да има стойност от 1024 до 65535</string>
+    <string name="pref_logsport_error_alrused">Порта вече се използва</string>
+
+    <string name="pref_debug_title">Дебъг</string>
+    <string name="pref_debug_show_title">Дебъг настройки</string>
+    <string name="pref_debug_extrasrvinfo_title">Допълнителни сървърни настройки</string>
+    <string name="pref_debug_stacktrace_title">Информация при грешка</string>
+    <string name="pref_debug_stacktrace_descr">Покажи информация ако приложението спре</string>
+    <string name="pref_debug_backgrounddialog_title">Диалогов прозорец за срив</string>
+    <string name="pref_debug_backgrounddialog_descr">Показва диалогов прозорец, когато възникне грешка във фонов режим</string>
+    <string name="prefs_debug_remoteconfig_title" translatable="false">Дистанционна конфигурация</string>
+    <string name="prefs_debug_remoteconfig_descr">Намалете интервала на получаване</string>
+
+    <string name="pref_syncservice_title">Честота на фоновата синхронизация</string>
+    <string name="pref_syncservice_descr">Основна информация за сървъра (Играчи, карта, пинг и т.н.)</string>
+    <string name="pref_fullsyncservice_title">Пълна честота на синхронизация на фона</string>
+    <string name="pref_fullsyncservice_descr">Списък с карти, cvars, налични функции и т.н.</string>
+    <string-array name="pref_syncservice_text">
+        <item>15 минути</item>
+        <item>30 минути</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>4 часа</item>
+        <item>6 часа</item>
+        <item>8 часа</item>
+        <item>Никога</item>
+    </string-array>
+    <string-array name="pref_syncservice_value" translatable="false">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>240</item>
+        <item>360</item>
+        <item>480</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="pref_fullsyncservice_text">
+        <item>12 часа</item>
+        <item>1 ден</item>
+        <item>2 дена</item>
+        <item>3 дена</item>
+        <item>4 дена</item>
+        <item>1 седмица</item>
+    </string-array>
+    <string-array name="pref_fullsyncservice_value" translatable="false">
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>5760</item>
+        <item>10080</item>
+    </string-array>
+
+    <string name="about_enabledebug">Дебъг настройките са достъпни за използване</string>
+    <string name="about_description"><![CDATA[<strong>Translation authors:</strong><br>%1$s]]></string>
+    <!--Should be as short as possible-->
+    <string name="about_special1_name">Гласувай за приложението</string>
+    <string name="about_special2_name">Информация с промените</string>
+    <string name="about_special3_name">Преводи</string>
+
+</resources>
