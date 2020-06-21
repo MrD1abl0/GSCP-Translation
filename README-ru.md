@@ -7,7 +7,7 @@
 ------------
 
 ### Обновление доступных переводов
-Если вы хотите добавить поддержку нового языка или улучшить имеющий перевод отправьте новые файлы с переводом через:
+Если вы хотите добавить поддержку нового языка или улучшить имеющийся перевод отправьте новые файлы с переводом через:
 - [Pull request](https://github.com/MrD1abl0/GSCP-Translation/pulls "Pull request")
 - Форумы ([hlmod](https://hlmod.ru/threads/android-game-server-control-panel.48657/ "hlmod"), [devcs](https://dev-cs.ru/threads/6759/ "devcs"), [goldsrc](https://goldsrc.ru/threads/3948/ "goldsrc"))
 - Мессенджеры ([Telegram](https://t.me/MrD1ablo "Telegram"), [Steam](http://steamcommunity.com/id/wh40k/ "Steam"), [VK](http://vk.com/wh40k "VK"))
