@@ -14,12 +14,16 @@
 	<string name="o_action_remove">Fshijë</string>
 	<string name="o_action_filter">Filterë</string>
 	<string name="o_action_search">Kërko</string>
-	<string name="o_action_criterror">Gabim i Madhë</string>
 	<string name="o_action_yes">Po</string>
 	<string name="o_action_no">Jo</string>
-	<string name="o_action_loading">Duke ngarkuar…</string>
 	<string name="o_action_load">Ngarkuar</string>
 	<string name="o_action_save">Ruaj</string>
+	<string name="o_action_criterror">Gabim i Madhë</string>
+	<string name="o_action_loading">Duke ngarkuar…</string>
+	<string name="o_action_unknown">Panjohur</string>
+	<string name="o_action_on">Enabled</string>
+	<string name="o_action_off">Disabled</string>
+
 	<string name="o_tab_prefs">Ndryshimet</string>
 	<string name="o_tab_about">Rreth</string>
 	<string name="o_tab_debug">Rregulloj</string>

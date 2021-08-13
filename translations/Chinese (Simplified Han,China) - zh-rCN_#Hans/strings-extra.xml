@@ -14,12 +14,16 @@
 	<string name="o_action_remove">移除</string>
 	<string name="o_action_filter">过滤器</string>
 	<string name="o_action_search">查找</string>
-	<string name="o_action_criterror">严重错误</string>
 	<string name="o_action_yes">是</string>
 	<string name="o_action_no">否</string>
-	<string name="o_action_loading">加载中…</string>
 	<string name="o_action_load">读取</string>
 	<string name="o_action_save">保存</string>
+	<string name="o_action_criterror">严重错误</string>
+	<string name="o_action_loading">加载中…</string>
+	<string name="o_action_unknown">位置</string>
+	<string name="o_action_on">Enabled</string>
+	<string name="o_action_off">Disabled</string>
+
 	<string name="o_tab_prefs">设置</string>
 	<string name="o_tab_about">关于</string>
 	<string name="o_tab_debug">调试</string>
@@ -38,7 +42,6 @@
 	<string name="o_dialog_download">下载</string>
 
 	<plurals name="o_plural_days">
-		<item quantity="one">%d 天</item>
 		<item quantity="other">%d 天</item>
 	</plurals>
 

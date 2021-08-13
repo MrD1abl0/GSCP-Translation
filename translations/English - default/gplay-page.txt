@@ -1,5 +1,6 @@
 App for easy management game servers
 
+
 Supported features:
 - Servers monitoring
 - Player Details
@@ -9,44 +10,62 @@ Supported features:
 - Detailed server info
 - Used resources by server
 - View and change server cvars
-- Myarena API (Console, stop/start server, extra data)
+- OGP, CW-SERV.RU, CSHost.com.ua and Myarena.ru (Console, stop/start server, extra data)
 - Version check
 - Widgets
 
-Planned features: 
-- Server plugins management (Metamod, Sourcemod, Amxmod)
-- Chatting with players
-- Adding support for new games
-- Adding support for new hosting’s
-- Improvement of old features
 
 Improve translation:
 https://github.com/MrD1abl0/GSCP-Translation
 
+
 Supported games:
+
+Full support:
 - Source engine
+- Alien Swarm
+- Black Mesa
 - CS:S
 - CS:GO
+- Codename CURE
+- DOD:S
+- DOI
+- Gmod
 - HL: DM Source
 - HL2: DM
-- Black Mesa
-- DOD:S
-- TF 2
-- Gmod
+- Insurgency
 - L4D
 - L4D 2
-- Alien Swarm
-- Insurgency
-- DOI
 - NMRIH
-- Codename CURE
+- Synergy
+- TF 2
 - ZP! Source
 
 - GoldSource Engine
+- Adrenaline Gamer
 - CS
 - CS:CZ
-- HL
-- HL:OP
 - DOD
 - DM Classic
+- HL
+- HL:OP
+- Sven Co-op
 - TF Classic
+
+- Insurgency: Sandstorm
+- Q II
+- Q III Arena
+- SA-MP
+- W: ET
+- Xash3D Engine
+
+Partial support:
+- ARK: SE
+- Q World
+- Terraria
+
+Basic support:
+- KF
+- KF 2
+- Q Live
+- Valheim

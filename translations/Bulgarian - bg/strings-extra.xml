@@ -4,22 +4,26 @@
 	<string name="o_action_accept">Приемам</string>
 	<string name="o_action_apply">Запази</string>
 	<string name="o_action_find">Търсене</string>
-	<string name="o_action_add">Добави</string>
-	<string name="o_action_edit">Редактиране</string>
-	<string name="o_action_delete">Изтрии</string>
-	<string name="o_action_error">Грешка</string>
 	<string name="o_action_refresh">Обнови</string>
 	<string name="o_action_retry">Рестарт</string>
 	<string name="o_action_upload">Качи</string>
 	<string name="o_action_remove">Изтрии</string>
+	<string name="o_action_add">Добави</string>
+	<string name="o_action_edit">Редактиране</string>
+	<string name="o_action_delete">Изтрии</string>
+	<string name="o_action_error">Грешка</string>
 	<string name="o_action_filter">Филтър</string>
 	<string name="o_action_search">Търсене</string>
-	<string name="o_action_criterror">Критична грешка</string>
 	<string name="o_action_yes">Да</string>
 	<string name="o_action_no">Не</string>
-	<string name="o_action_loading">Зареждане…</string>
 	<string name="o_action_load">Зарежда</string>
 	<string name="o_action_save">Запази</string>
+	<string name="o_action_criterror">Критична грешка</string>
+	<string name="o_action_loading">Зареждане…</string>
+	<string name="o_action_unknown">Неизвестно</string>
+	<string name="o_action_on">Enabled</string>
+	<string name="o_action_off">Disabled</string>
+
 	<string name="o_tab_prefs">Настройки</string>
 	<string name="o_tab_about">Относно</string>
 	<string name="o_tab_debug">Дебъг</string>
@@ -29,7 +33,7 @@
 
 	<string name="o_error_invalidopen">Неправилен опит за отваряне на екрана</string>
 
-	<string name="o_text_readmore">Прочети още...</string>
+	<string name="o_text_readmore">Прочети още…</string>
 	<string name="o_text_readless">Скрии</string>
 
 	<string name="o_dialog_del_title">Изтриване</string>
@@ -42,22 +46,15 @@
 		<item quantity="other">%d дни</item>
 	</plurals>
 
-	<string name="appbundle_warning_full">Неправилно сте инсталирали приложението. \ NМоля, инсталирайте това приложение от Google Play или apkpure.com</string>
-	<string name="appbundle_warning_lite">Неправилно сте инсталирали пакета. \ NМоля, инсталирайте това приложение от Google Play</string>
-	<string name="appbundle_googleplay" translatable="false">Google Play</string>
-	<string name="appbundle_apkpure" translatable="false">Apkpure.com</string>
+	<string name="appbundle_warning_full">Неправилно сте инсталирали приложението.\nМоля, инсталирайте това приложение от Google Play или apkpure.com</string>
+	<string name="appbundle_warning_lite">Неправилно сте инсталирали пакета.\nМоля, инсталирайте това приложение от Google Play</string>
 
 	<string name="changelog_dialog_title">Информация с промените</string>
 	<string name="changelog_dialog_rate">Гласувай за приложението</string>
-	<string name="changelog_error_invalidopen">@string/o_error_invalidopen</string>
 
-	<string name="about_title">@string/o_tab_about</string>
-	<string name="aboutLibraries_description_showIcon" translatable="false">true</string>
-	<string name="aboutLibraries_description_showVersion" translatable="false">true</string>
 	<string name="aboutLibraries_description_special1_name">Гласувай за приложението</string>
 	<string name="aboutLibraries_description_special2_name">Информация с промените</string>
 
-	<string name="customactivityoncrash_error_invalidopen">@string/o_error_invalidopen</string>
 	<string name="customactivityoncrash_error_activity_close_app">Изход</string>
 	<string name="customactivityoncrash_error_activity_error_details">Подробности за грешка</string>
 	<string name="customactivityoncrash_error_activity_error_details_clipboard_label">Информация за грешка</string>
@@ -65,6 +62,6 @@
 	<string name="customactivityoncrash_error_activity_error_details_copied">Копирано в клипборда</string>
 	<string name="customactivityoncrash_error_activity_error_details_copy">Копиране в клипборда</string>
 	<string name="customactivityoncrash_error_activity_error_details_title">Подробности за грешка</string>
-	<string name="customactivityoncrash_error_activity_error_occurred_explanation">Възникна неочаквана грешка. \ N Извинете за неудобството.</string>
+	<string name="customactivityoncrash_error_activity_error_occurred_explanation">Възникна неочаквана грешка.\nИзвинете за неудобството.</string>
 	<string name="customactivityoncrash_error_activity_restart_app">Рестартиране на приложението</string>
 </resources>

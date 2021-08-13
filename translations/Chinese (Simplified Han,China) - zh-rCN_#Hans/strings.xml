@@ -1,20 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="action_settings">设置</string>
+    <!--Actions-->
     <string name="action_removeads">移除广告</string>
     <string name="action_ban">封禁</string>
     <string name="action_kick">踢出</string>
     <string name="action_mute">禁言</string>
     <string name="action_steam">Steam个人资料</string>
 
-    <string name="error_readgames">读取游戏列表时发生错误</string>
-    <string name="error_nonetwork">无法连接至网络</string>
 
+    <!--Server statuses-->
+    <string name="status_unknown">Unknown</string>
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline</string>
+    <string name="status_restarting">Restarting</string>
+    <string name="status_refreshing">Refreshing…</string>
+    <string name="status_error">Error</string>
+
+
+    <!--Server implementation-->
+    <string name="game_indicator_basic_info">Basic server info</string>
+    <string name="game_indicator_version_checking">Server outdated alert</string>
+    <string name="game_indicator_console">Console</string>
+    <string name="game_indicator_console_autocomplete">Console autocomplete and cvars list</string>
+    <string name="game_indicator_performance">Used resources</string>
+    <string name="game_indicator_map_change">Map change</string>
+    <string name="game_indicator_players_info">Extended players info</string>
+    <string name="game_indicator_players_actions">Ban/Kick/Mute</string>
+    <string name="game_indicator_log_listen">Log listening</string>
+
+    <string name="any_type_auto">Auto</string>
+    <string name="any_type_engine">Engine</string>
+    <string name="any_type_engine2">Engine 2</string>
+
+    <string name="ban_mode_name">Nickname</string>
+
+    <string name="mute_mode_both">语音和聊天</string>
+    <string name="mute_mode_voice">语音</string>
+    <string name="mute_mode_chat">聊天</string>
+
+    <string name="host_indicator_extra_info">Extra server info</string>
+    <string name="host_indicator_server_actions">Server start/restart/stop</string>
+
+
+    <!--Servers List-->
     <string name="srvlist_title">服务器列表</string>
     <string name="srvlist_subtitle">玩家人数: %1$d/%2$d</string>
     <string name="srvlist_subtitleb">玩家人数: %1$d(+%3$d)/%2$d</string>
     <string name="srvlist_empty">服务器列表为空</string>
-    <string name="srvlist_error_descr">加载服务器列表时发生错误</string>
-    <string name="srvlist_error_sendrep">报告错误</string>
+    <string name="srvlist_error_db_text">加载服务器列表时发生错误</string>
+    <string name="srvlist_error_db_btn">Clear database</string>
 
     <string name="srvlist_item_ping">Ping: %1$d ms</string>
     <string name="srvlist_item_map">当前地图: %1$s</string>
@@ -24,31 +58,39 @@
     <string name="srvlist_item_deleted">已删除服务器</string>
     <string name="srvlist_item_delete_error">删除服务器失败</string>
 
+
+    <!--Server edit-->
     <string name="srvedit_title_add">添加服务器</string>
     <string name="srvedit_title_edit">编辑服务器</string>
 
     <string name="srvedit_group_main">主要</string>
-    <string name="srvedit_txt_name">服务器名称</string>
     <string name="srvedit_txt_port">端口</string>
     <string name="srvedit_txt_game">游戏类型</string>
     <string name="srvedit_txt_rcon">RCON密码</string>
+    <string name="srvedit_txt_rconPort">RCON port</string>
+
+    <string name="srvedit_group_web">Web server</string>
+    <string name="srvedit_txt_web_login">Login</string>
+    <string name="srvedit_txt_web_pass">密码</string>
 
     <string name="srvedit_txt_ftp_port">端口</string>
     <string name="srvedit_txt_ftp_user">用户名</string>
-    <string name="srvedit_txt_ftp_pass">密码</string>
     <string name="srvedit_txt_ftp_path">服务器内容路径 (文件夹 \"%1$s\")</string>
 
-    <string name="srvedit_group_api">API密钥</string>
-    <string name="srvedit_spn_apitype">架设</string>
-    <string name="srvedit_txt_apikey">MyArena API密钥</string>
-    <string name="srvedit_txt_apikey_helper">只有当你使用此API架设才需填写</string>
+    <string name="srvedit_group_host">API key</string>
+    <string name="srvedit_txt_host_key">密钥</string>
+    <string name="srvedit_txt_host_key_helper">只有当你使用此API架设才需填写</string>
     <string name="srvedit_btn_qrcode">二维码</string>
 
     <string name="srvedit_group_extra">附加</string>
+    <string name="srvedit_txt_color">Server Color</string>
+    <string name="srvedit_switch_compactplayers">Compact players list</string>
+    <string name="srvedit_switch_hideplayers">Hide bots in the players list</string>
     <string name="srvedit_switch_checkversion">服务器版本过旧时发出警告</string>
     <string name="srvedit_switch_listenlogs">服务器日志监听</string>
     <string name="srvedit_txt_fastcmds">RCON快捷命令</string>
     <string name="srvedit_txt_appid_description">检查服务器版本的ID</string>
+    <string name="srvedit_btn_fastcmds_recreate">Restore default list</string>
 
     <string name="srvedit_txt_error_empty">此字段不能为空</string>
     <string name="srvedit_txt_error_greater">此字段必须大于 %1$d</string>
@@ -59,9 +101,8 @@
     <string name="srvedit_error_invalidopen">打开服务器添加/编辑界面的方式错误</string>
     <string name="srvedit_warning_port">此功能仅在通过WI-FI连接到网络时可用，此外你还需要在路由器上开放端口 %1$d </string>
 
-
     <string name="srvedit_btn_title">校验</string>
-    <string name="srvedit_btnapi_title">校验API密钥</string>
+    <string name="srvedit_btn_host_title">校验API密钥</string>
     <string name="srvedit_btn_progress">读取中</string>
     <string name="srvedit_btn_ok">成功</string>
     <string name="srvedit_btn_error_conn">连接失败</string>
@@ -69,31 +110,27 @@
     <string name="srvedit_btn_error_ban">被服务器封禁</string>
     <string name="srvedit_btn_error_gamenotfound">找不到服务器内容</string>
     <string name="srvedit_btn_error_token">无效密钥</string>
+    <string name="srvedit_btn_error_url">Invalid URL</string>
+    <string name="srvedit_btn_error_invalid_response">Invalid API response</string>
+    <string name="srvedit_btn_error_empty_response">Empty response</string>
     <string name="srvedit_btn_error_wronggameorban">错误游戏类型\n 或被服务器封禁</string>
     <string name="srvedit_btn_error_invalidport">无效端口</string>
+    <string name="srvedit_btn_error_hosting">API error</string>
     <string name="srvedit_btn_error_unknownpacket">未知数据包</string>
     <string name="srvedit_btn_error_unknown">未知错误</string>
     <string name="srvedit_btn_error_reasonmsg">原因: %1$s</string>
 
-    <string name="srvedit_dialog_fastcmd_title">编辑RCON快捷命令</string>
 
+    <!--QR Code Scanner-->
     <string name="camera_title">二维码扫描</string>
     <string name="camera_permsdenide">没有访问摄像头设备的权限</string>
     <string name="camera_error">请求权限时发生错误</string>
     <string name="camera_notfound">未找到摄像头设备</string>
 
-    <string name="srvctrl_srvinfo_pass">密码:</string>
-    <string name="srvctrl_srvinfo_version">版本: %1$s</string>
+
+    <!--Server Control-->
+    <string name="srvctrl_srvinfo_status">Status: %1$s</string>
     <string name="srvctrl_srvinfo_renta">租期至:</string>
-
-    <string name="srvctrl_outdated_title">正在检查服务器版本</string>
-    <string name="srvctrl_outdated_descr">你的服务器版本过旧</string>
-    <string name="srvctrl_outdated_srvvrs">服务器版本:</string>
-    <string name="srvctrl_outdated_latestvrs">最新服务器版本:</string>
-    <string name="srvctrl_outdated_reunion">无法获取服务器版本. 如果你使用了 DProto/Reunion，请将 <b>ServerInfoAnswerType</b> 的值设置为 0</string>
-
-    <string name="srvctrl_changemap_copy">地图名已复制到剪贴板</string>
-    <string name="srvctrl_changemap_copyerror">无法将地图名复制到粘贴板</string>
 
     <string name="srvctrl_menu_tooltip">服务器管理</string>
     <string name="srvctrl_menu_start">启动</string>
@@ -101,30 +138,37 @@
     <string name="srvctrl_menu_stop">停止</string>
     <string name="srvctrl_menu_map">更换地图</string>
     <string name="srvctrl_menu_fullrefresh">完全刷新</string>
-    <string name="srvctrl_menu_map_error_notfound">未找到地图</string>
 
     <string name="srvctrl_error_request">请求错误</string>
     <string name="srvctrl_error_conn">无法连接</string>
     <string name="srvctrl_error_invaluddata">读取数据时发生错误</string>
     <string name="srvctrl_error_invalidserver">打开服务器控制面板的方式错误</string>
-    <string name="srvctrl_succes_start">服务器正在启动</string>
-    <string name="srvctrl_succes_restart">服务器正在重启</string>
+    <string name="srvctrl_error_unknownmap">Failed to change the map because the selected map was not found on the server</string>
+    <string name="srvctrl_success_start">服务器正在启动</string>
+    <string name="srvctrl_success_restart">服务器正在重启</string>
 
+    <string name="srvctrl_players_sort">Sorting</string>
+    <string name="srvctrl_players_sort_ascending">Sort Ascending</string>
+    <string name="srvctrl_players_sort_nickname">Nickname</string>
+    <string name="srvctrl_players_sort_score">Score</string>
+    <string name="srvctrl_players_sort_time">Duration</string>
+    <string name="srvctrl_players_sort_ping">Ping</string>
     <string name="srvctrl_players_empty">服务器为空</string>
-    <string name="srvctrl_players_index">索引: %1$d</string>
-    <string name="srvctrl_players_score">比分: %1$d</string>
+    <string name="srvctrl_players_error">Failed to load player list</string>
+    <string name="srvctrl_players_index">索引: %1$s</string>
+    <string name="srvctrl_players_score">比分: %1$s</string>
+    <string name="srvctrl_players_kills">Kills: %1$s</string>
+    <string name="srvctrl_players_deaths">Deaths: %1$s</string>
     <string name="srvctrl_players_time">时间: %1$s</string>
-    <string name="srvctrl_players_ping">Ping: %1$d ms</string>
+    <string name="srvctrl_players_ping">Ping: %1$s ms</string>
     <string name="srvctrl_players_isbot">机器人</string>
     <string name="srvctrl_players_reqsended">请求已发送</string>
-    <string name="srvctrl_players_emptysteamid">读取玩家Steam ID失败，请尝试刷新服务器</string>
 
     <string name="srvctrl_console_edit">命令</string>
-    <string name="srvctrl_console_type_api">架设API</string>
     <string name="srvctrl_console_action_send">发送</string>
-    <string name="srvctrl_console_action_prefs">偏好</string>
     <string name="srvctrl_console_sended">命令已发送</string>
     <string name="srvctrl_console_autherror">授权错误</string>
+    <string name="srvctrl_console_unknowncmd">Unknown command \"%1$s\"</string>
 
     <string name="srvctrl_info_query_title">服务器信息</string>
     <string name="srvctrl_info_query_copy">数值已复制到粘贴板</string>
@@ -132,6 +176,9 @@
     <string name="srvctrl_info_query_gamename">游戏类型</string>
     <string name="srvctrl_info_query_game">游戏</string>
     <string name="srvctrl_info_query_os">操作系统</string>
+    <string name="srvctrl_info_query_anticheat">Anti-Cheat</string>
+    <string name="srvctrl_info_query_pass">密码</string>
+    <string name="srvctrl_info_query_version">版本</string>
     <string name="srvctrl_info_query_location">地区</string>
     <string name="srvctrl_info_query_type">配置</string>
     <string name="srvctrl_info_query_blockdate">租期</string>
@@ -140,21 +187,18 @@
     <string name="srvctrl_info_query_mapscount">地图总数</string>
     <string name="srvctrl_info_query_cvarscount">Cvars总数</string>
     <string name="srvctrl_info_query_lastfullrefresh">上次完全刷新</string>
-    <string name="srvctrl_info_query_protocol">协议</string>
-    <string name="srvctrl_info_query_a2stype">类型 (A2S)</string>
     <string name="srvctrl_info_query_api">Hosting API</string>
 
     <string name="srvctrl_info_perfs_title">资源</string>
     <string name="srvctrl_info_perfs_cpu">CPU</string>
+    <string name="srvctrl_info_perfs_ram">内存占用</string>
+    <string name="srvctrl_info_perfs_rom">储存占用</string>
     <string name="srvctrl_info_perfs_intraff">入站流量</string>
     <string name="srvctrl_info_perfs_outtraff">出站流量</string>
     <string name="srvctrl_info_perfs_traffic_size">%1$s (KB/s)</string>
     <string name="srvctrl_info_perfs_uptime">运行时间</string>
     <string name="srvctrl_info_perfs_connects">连接数</string>
-    <string name="srvctrl_info_perfs_ram">内存占用</string>
-    <string name="srvctrl_info_perfs_rom">储存占用</string>
     <string name="srvctrl_info_perfs_data_size">%1$d/%2$d MB (%3$d%%)</string>
-
     <string name="srvctrl_info_perfs_error">无法读取资源信息</string>
 
     <string name="srvctrl_info_cmds_title">命令</string>
@@ -163,40 +207,53 @@
     <string name="srvctrl_info_cmd_notfound">找不到服务器命令</string>
 
     <string name="srvctrl_info_vars_title">变量</string>
-    <string name="srvctrl_info_vars_notfound">找不到服务器变量</string>
     <string name="srvctrl_info_vars_error">无法获取服务器变量列表</string>
     <string name="srvctrl_info_vars_copy">变量名已复制到粘贴板</string>
     <string name="srvctrl_info_vars_copyerror">无法将变量名复制到粘贴板</string>
 
-    <string name="srvctrl_activity_mlog_title">主要日志</string>
-    <string name="srvctrl_activity_mlog_date">日期</string>
-    <string name="srvctrl_activity_mlog_time">时间</string>
-    <string name="srvctrl_activity_mlog_wrap">换行</string>
-    <string name="srvctrl_activity_error_wifi">监听日志功能仅在通过WI-FI连接到网络时可用</string>
-    <string name="srvctrl_activity_error_offline">无网络连接</string>
-    <string name="srvctrl_activity_error_publicip">无法获得公网IP</string>
-    <string name="srvctrl_activity_error_port">端口被其他应用占用</string>
-    <string name="srvctrl_activity_error_rcon">无法添加设备IP监听</string>
-    <string name="srvctrl_activity_error_unknown">未知错误</string>
-    <string name="srvctrl_activity_error_rconremove">无法在服务器上禁用发送日志</string>
-    <string name="srvctrl_activity_error_startservice">无法启动日志监听服务</string>
+    <string name="srvctrl_activity_log_title">主要日志</string>
+    <string name="srvctrl_activity_log_date">日期</string>
+    <string name="srvctrl_activity_log_time">时间</string>
+    <string name="srvctrl_activity_log_wrap">换行</string>
+    <string name="srvctrl_activity_log_tag_error">ERROR</string>
+    <string name="srvctrl_activity_log_tag_msg">MESSAGE</string>
+    <string name="srvctrl_activity_log_msg_checknetwork">Network Checking</string>
+    <string name="srvctrl_activity_log_msg_findip">Getting a public device IP</string>
+    <string name="srvctrl_activity_log_msg_rconadd">Enabling sending logs from the server</string>
+    <string name="srvctrl_activity_log_msg_listening">Listening…</string>
+    <string name="srvctrl_activity_log_error_wifi">监听日志功能仅在通过WI-FI连接到网络时可用</string>
+    <string name="srvctrl_activity_log_error_offline">无网络连接</string>
+    <string name="srvctrl_activity_log_error_publicip">无法获得公网IP</string>
+    <string name="srvctrl_activity_log_error_port">端口被其他应用占用</string>
+    <string name="srvctrl_activity_log_error_rcon">无法添加设备IP监听</string>
+    <string name="srvctrl_activity_log_error_unknown">未知错误</string>
+    <string name="srvctrl_activity_log_error_rconremove">无法在服务器上禁用发送日志</string>
+    <string name="srvctrl_activity_log_error_startservice">无法启动日志监听服务</string>
 
     <string name="srvctrl_navbar_players">玩家</string>
     <string name="srvctrl_navbar_console">控制台</string>
+    <!--<string name="srvctrl_navbar_activity">Activity</string>-->
     <string name="srvctrl_navbar_activity">日志</string>
     <string name="srvctrl_navbar_plugins">插件</string>
     <string name="srvctrl_navbar_info">信息</string>
 
+
+    <!--Player Info-->
     <string name="playerinfo_title">玩家信息</string>
     <string name="playerinfo_index">索引:</string>
+    <string name="playerinfo_ban_vac">VAC ban:</string>
+    <string name="playerinfo_ban_trade">Trade ban:</string>
+    <string name="playerinfo_ban_found">Detected</string>
+    <string name="playerinfo_ban_notfound">Not found</string>
     <string name="playerinfo_country">国家:</string>
     <string name="playerinfo_city">城市:</string>
     <string name="playerinfo_ping">Ping: %1$d ms</string>
     <string name="playerinfo_time">游玩时间: %1$s</string>
     <string name="playerinfo_score">比分: %1$d</string>
+    <string name="playerinfo_kills">Kills: %1$d</string>
+    <string name="playerinfo_deaths">Deaths: %1$d</string>
     <string name="playerinfo_flags">管理权限:</string>
     <string name="playerinfo_flagsgmod">组/管理权限:</string>
-    <string name="playerinfo_unknown">位置</string>
     <string name="playerinfo_required">需要 %1$s</string><!--SteamID or CommunnityID-->
     <string name="playerinfo_bansid">封禁SteamID</string>
     <string name="playerinfo_bansip">封禁IP</string>
@@ -208,34 +265,52 @@
     <string name="playerinfo_error_invalidplayer">获取玩家信息的方式错误</string>
     <string name="playerinfo_error_failedget">无法获得 %1$s</string><!--SteamID or CommunnityID-->
 
-    <string name="dialog_accept_title">确认操作</string>
-    <string name="dialog_acceptdelete_descr">不保存退出?</string>
 
-    <string name="dialog_ban_title">封禁玩家</string>
+    <!--Dialogs-->
+    <string name="dialog_fastcmd_title">编辑RCON快捷命令</string>
+    <string name="dialog_accept_action_title">确认操作</string>
+    <string name="dialog_accept_exit_descr">不保存退出?</string>
+    <string name="dialog_accept_recreate_descr">Are you sure you want to restore the default RCON shortcuts list?</string>
+    <string name="dialog_accept_restart_descr">Are you sure you want to restart the server?</string>
+    <string name="dialog_accept_stop_descr">Are you sure you want to stop the server?</string>
+    <string name="dialog_accept_clear_descr">Are you sure you want to clear the database? All saved servers will be deleted.</string>
 
-    <string name="dialog_kick_title">提出玩家</string>
+    <string name="dialog_console_props_title">Console properties</string>
+    <string name="dialog_console_props_linewrap">Line wrap</string>
+    <string name="dialog_console_props_provider">Request type</string>
+    <string name="dialog_console_props_autocomplete">Autocomplete Mode</string>
+    <string name="dialog_console_props_autocomplete_all">Commands and Variables</string>
+    <string name="dialog_console_props_autocomplete_cmds">Commands</string>
+    <string name="dialog_console_props_autocomplete_vars">Variables</string>
 
-    <string name="dialog_mute_title">禁言玩家</string>
-    <string-array name="dialog_mute_type_text">
-        <item>语音和聊天</item>
-        <item>语音</item>
-        <item>聊天</item>
-    </string-array>
+    <string name="dialog_map_change_title">更换地图</string>
+    <string name="dialog_map_change_value_hint">Map</string>
+
+    <string name="dialog_outdated_title">正在检查服务器版本</string>
+    <string name="dialog_outdated_descr">你的服务器版本过旧</string>
+    <string name="dialog_outdated_srvvrs">服务器版本:</string>
+    <string name="dialog_outdated_latestvrs">最新服务器版本:</string>
+    <string name="dialog_outdated_reunion">无法获取服务器版本. 如果你使用了 DProto/Reunion，请将 <b>ServerInfoAnswerType</b> 的值设置为 0</string>
 
     <string name="dialog_variable_oldvalue">旧数值: %1$s</string>
     <string name="dialog_variable_newvalue">新数值</string>
-    <string name="dialog_variable_changed">变量的数值已修改</string>
+    <string name="dialog_variable_changed">变量的数值已修改%1$s</string>
     <string name="dialog_variable_notchanged">无法修改变量的数值</string>
     <string name="dialog_variable_notfound">找不到变量</string>
 
-    <string name="dialog_cmd">命令/插件</string>
-    <string name="dialog_type">类型</string>
-    <string name="dialog_reason">原因</string>
-    <string name="dialog_time_spn">时间</string>
-    <string name="dialog_time_edit">时间 (单位分钟)</string>
-    <string name="dialog_time_error_ban">Incorrect ban time</string>
-    <string name="dialog_time_error_mute">Incorrect mute time</string>
-    <string-array name="dialog_time_text">
+    <string name="dialog_color_picker_title">Choose a color</string>
+
+    <string name="dialog_action_ban_title">封禁玩家</string>
+    <string name="dialog_action_kick_title">提出玩家</string>
+    <string name="dialog_action_mute_title">禁言玩家</string>
+    <string name="dialog_action_type">命令/插件</string>
+    <string name="dialog_action_mode">类型</string>
+    <string name="dialog_action_reason">原因</string>
+    <string name="dialog_action_time_spn">时间</string>
+    <string name="dialog_action_time_edit">时间 (单位分钟)</string>
+    <string name="dialog_action_time_error_ban">Incorrect ban time</string>
+    <string name="dialog_action_time_error_mute">Incorrect mute time</string>
+    <string-array name="dialog_action_time_text">
         <item>永久</item>
         <item>手动</item>
         <item>10 分钟</item>
@@ -262,40 +337,31 @@
         <item>1 年</item>
     </string-array>
 
+
+    <!--App widget-->
     <string name="widget_title">服务器小部件</string>
     <string name="widget_pick_title">小部件首选项</string>
     <string name="widget_pick_server_title">服务器</string>
     <string name="widget_pick_error_srvnotfound">未找到服务器</string>
-    <string name="widget_pick_type_title">小部件样式</string>
-    <string-array name="widget_pick_type_values">
-        <item>图片</item>
-        <item>黑暗</item>
-        <item>明亮</item>
-    </string-array>
+    <string name="widget_pick_transparency">Transparency</string>
+    <string name="widget_pick_outline">Outline</string>
+    <string name="widget_type_title">Widget type</string>
+    <string name="widget_type_mini">Micro</string>
+    <string name="widget_type_compact">Compact</string>
+    <string name="widget_type_normal">Default</string>
+    <string name="widget_type_extended">Extended</string>
+    <string name="widget_style_title">小部件样式</string>
+    <string name="widget_style_image">图片</string>
+    <string name="widget_style_dark">黑暗</string>
+    <string name="widget_style_light">明亮</string>
 
-    <string name="service_listener_title">服务器控制台监听服务</string>
 
+    <!--Notifications-->
     <string name="notify_title">服务器版本过旧</string>
     <string name="notify_name">服务器版本检查器</string>
 
-    <string name="pref_web_title">网页端</string>
-    <string name="pref_notify_title">服务器版本过旧通知</string>
-    <string name="pref_notify_descr">此功能仅在服务器设置中启用检查版本后可用</string>
-    <string name="pref_logsport_title">日志监听端口</string>
-    <string name="pref_logsport_descr">此端口必须在路由器上开放</string>
-    <string name="pref_logsport_error_empty">此字段不能为空</string>
-    <string name="pref_logsport_error_minmax">此字段的数值只能在1024 – 65535之间</string>
-    <string name="pref_logsport_error_alrused">此端口已被占用</string>
 
-    <string name="pref_debug_title">调试</string>
-    <string name="pref_debug_show_title">调试设定</string>
-    <string name="pref_debug_extrasrvinfo_title">附加服务器信息</string>
-    <string name="pref_debug_stacktrace_title">堆栈跟踪</string>
-    <string name="pref_debug_stacktrace_descr">如果应用程序崩溃，显示堆栈跟踪</string>
-    <string name="pref_debug_backgrounddialog_title">后台崩溃对话框</string>
-    <string name="pref_debug_backgrounddialog_descr">在后台发生错误时显示对话框</string>
-    <string name="prefs_debug_remoteconfig_descr">Reduce fetching interval</string>
-
+    <!--Preferences-->
     <string name="pref_syncservice_title">后台同步频率</string>
     <string name="pref_syncservice_descr">基本服务器信息 (玩家, 地图, Ping等)</string>
     <string name="pref_fullsyncservice_title">后台完全同步频率</string>
@@ -319,6 +385,47 @@
         <item>1 周</item>
     </string-array>
 
+    <string name="pref_notify_title">服务器版本过旧通知</string>
+    <string name="pref_notify_descr">此功能仅在服务器设置中启用检查版本后可用</string>
+    <string name="pref_logsport_title">日志监听端口</string>
+    <string name="pref_logsport_descr">此端口必须在路由器上开放</string>
+    <string name="pref_logsport_error_empty">此字段不能为空</string>
+    <string name="pref_logsport_error_minmax">此字段的数值只能在1024 – 65535之间</string>
+    <string name="pref_logsport_error_alrused">此端口已被占用</string>
+
+    <string name="pref_ui_theme">Theme</string>
+    <string name="pref_ui_theme_entry_light">Light</string>
+    <string name="pref_ui_theme_entry_dark">Dark</string>
+    <string name="pref_ui_theme_entry_default">System default</string>
+    <string name="pref_ui_compact_title_title">Compact titles</string>
+    <string name="pref_ui_compact_title_descr">Server names and player names</string>
+    <string name="pref_ui_compact_servers_title">Compact servers list</string>
+    <string name="pref_ui_servers_sort_type">Servers list sorting</string>
+    <string name="pref_ui_servers_sort_type_entry_date">Add date</string>
+    <string name="pref_ui_servers_sort_type_entry_name">Title</string>
+    <string name="pref_ui_servers_sort_type_entry_game">Game</string>
+    <string name="pref_ui_servers_sort_ascending">Sort Ascending</string>
+
+    <string name="pref_web_title">网页端</string>
+    <string name="pref_web_checking">URL checking…</string>
+    <string name="pref_web_founded">A mobile version of the site has been found. Use it? (Desktop version of the site may work incorrectly)</string>
+
+    <string name="pref_debug_title">调试</string>
+    <string name="pref_debug_show_title">调试设定</string>
+    <string name="pref_debug_extrasrvinfo_title">附加服务器信息</string>
+    <string name="pref_debug_adsdebug_title">Ads debug</string>
+    <string name="pref_debug_refresh_error_info_title">Display refresh error info</string>
+    <string name="pref_debug_refresh_error_info_descr">Display the cause of the error after the refresh on the server control screen</string>
+    <string name="pref_debug_refresh_error_send_title">Send refresh error info</string>
+    <string name="pref_debug_refresh_error_send_descr">Send the cause of the error after the refresh on the server control screen to the developer</string>
+    <string name="pref_debug_stacktrace_title">堆栈跟踪</string>
+    <string name="pref_debug_stacktrace_descr">如果应用程序崩溃，显示堆栈跟踪</string>
+    <string name="pref_debug_backgrounddialog_title">后台崩溃对话框</string>
+    <string name="pref_debug_backgrounddialog_descr">在后台发生错误时显示对话框</string>
+    <string name="pref_debug_remoteconfig_descr">Reduce fetching interval</string>
+
+
+    <!--About-->
     <string name="about_enabledebug">调试设置已启用</string>
     <string name="about_description"><![CDATA[<strong>Translation authors:</strong><br>%1$s]]></string>
     <!--Should be as short as possible-->
@@ -326,4 +433,8 @@
     <string name="about_special2_name">更新日志</string>
     <string name="about_special3_name">翻译</string>
 
+
+    <!--Other-->
+    <string name="error_nonetwork">无法连接至网络</string>
+    <string name="error_gplay_services_notfound">Google services are not found. Some app features may not work</string>
 </resources>

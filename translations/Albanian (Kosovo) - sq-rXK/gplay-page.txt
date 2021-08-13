@@ -1,5 +1,6 @@
 Aplikacion për menaxhimin e lojërave 
 
+
 Mbështetja:
 - Mbikqyrëja serveit
 - Detajet e lojtarit
@@ -9,44 +10,62 @@ Mbështetja:
 - Detaje të serverit
 - Burimet e përdorura nga serveri
 - Shikimi dhe ndryshimi i cvar
-- Myarena API (Konzole, ndalo/fillo server, të dhëna tjera)
+- OGP, CW-SERV.RU, CSHost.com.ua dhe Myarena.ru (Konzole, ndalo/fillo server, të dhëna tjera)
 - Kontrollimi Verzionit
 - Tabelat
 
-Planet e ardhëshme: 
-- Menaxhmenti Pluginsave (Metamod, Sourcemod, Amxmod)
-- Bisedë me lojtarët
-- Shtim i mbështetjes për lojra tjera
-- Shtim i mbështetjes për hostinga
-- Përmirësimi i karakteristikave të vjetra
 
 Improve translation:
 https://github.com/MrD1abl0/GSCP-Translation
 
+
 Lojrat e Mbështetura:
+
+Full support:
 - Source engine
+- Alien Swarm
+- Black Mesa
 - CS:S
 - CS:GO
+- Codename CURE
+- DOD:S
+- DOI
+- Gmod
 - HL: DM Source
 - HL2: DM
-- Black Mesa
-- DOD:S
-- TF 2
-- Gmod
+- Insurgency
 - L4D
 - L4D 2
-- Alien Swarm
-- Insurgency
-- DOI
 - NMRIH
-- Codename CURE
+- Synergy
+- TF 2
 - ZP! Source
 
 - GoldSource Engine
+- Adrenaline Gamer
 - CS
 - CS:CZ
-- HL
-- HL:OP
 - DOD
 - DM Classic
+- HL
+- HL:OP
+- Sven Co-op
 - TF Classic
+
+- Insurgency: Sandstorm
+- Q II
+- Q III Arena
+- SA-MP
+- W: ET
+- Xash3D Engine
+
+Partial support:
+- ARK: SE
+- Q World
+- Terraria
+
+Basic support:
+- KF
+- KF 2
+- Q Live
+- Valheim

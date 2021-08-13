@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="22" versionName="0.9.0" date="13.08.2021">
+        <new>Поддержка Android 10 и 11</new>
+        <new>Поддержка AmxBans/AmxBans # Gm/FreshBans</new>
+        <new>Поддержка OGP, CW-SERV.RU и CSHost.com.ua API</new>
+        <new>Полная поддержка для 9 новых игр</new>
+        <new>Частичная поддержка для 3 новых игр</new>
+        <new>Базовая поддержка для 4 новых игр</new>
+        <new>Расширенная информация об игроках</new>
+        <new>Расширенные виджеты главного экрана</new>
+        <new>Тёмная тема</new>
+        <info>Рефакторинг</info>
+        <info>Приложение переписано на Kotlin</info>
+        <info>Переработан диалог смены карты</info>
+        <info>Уменьшен размер приложения</info>
+        <info>Множество мелких улучшений и исправлений</info>
+        <info>Обновлён список поддерживаемых языков[br](Спасибо Tomislav Vasilev)</info>
+    </release>
     <release versionCode="21" versionName="0.8.9" date="01.12.2019">
         <bugfix>Исправлены падения после неправильной установки App Bundle</bugfix>
         <bugfix>Исправлены падения при вводе некорректного AppID</bugfix>
@@ -86,7 +103,7 @@
         <new>Поддержка Android 4.4 и 9.0</new>
         <new>Поддержка Ulysses Mod</new>
         <new>Используемые сервером ресурсы</new>
-        <new>Подробная информация о игроках</new>
+        <new>Подробная информация об игроках</new>
         <new>Быстрые RCON команды</new>
         <new>Чтение логов сервера</new>
         <new>Уведомление если версия сервера устарела</new>

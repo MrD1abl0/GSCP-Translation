@@ -14,12 +14,16 @@
 	<string name="o_action_remove">Remove</string>
 	<string name="o_action_filter">Filter</string>
 	<string name="o_action_search">Search</string>
-	<string name="o_action_criterror">Critical Error</string>
 	<string name="o_action_yes">Yes</string>
 	<string name="o_action_no">No</string>
-	<string name="o_action_loading">Loading…</string>
 	<string name="o_action_load">Load</string>
 	<string name="o_action_save">Save</string>
+	<string name="o_action_criterror">Critical Error</string>
+	<string name="o_action_loading">Loading…</string>
+	<string name="o_action_unknown">Unknown</string>
+	<string name="o_action_on">Enabled</string>
+	<string name="o_action_off">Disabled</string>
+
 	<string name="o_tab_prefs">Settings</string>
 	<string name="o_tab_about">About</string>
 	<string name="o_tab_debug">Debug</string>
@@ -57,7 +61,6 @@
 	<string name="aboutLibraries_description_special1_name">Rate app</string>
 	<string name="aboutLibraries_description_special2_name">Changelog</string>
 
-	<string name="customactivityoncrash_error_invalidopen">@string/o_error_invalidopen</string>
 	<string name="customactivityoncrash_error_activity_close_app">Close app</string>
 	<string name="customactivityoncrash_error_activity_error_details">Error details</string>
 	<string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>

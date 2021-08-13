@@ -14,12 +14,16 @@
     <string name="o_action_error">Ошибка</string>
     <string name="o_action_filter">Фильтр</string>
     <string name="o_action_search">Поиск</string>
-    <string name="o_action_criterror">Критическая ошибка</string>
     <string name="o_action_yes">Да</string>
     <string name="o_action_no">Нет</string>
-    <string name="o_action_loading">Загрузка…</string>
     <string name="o_action_load">Загрузить</string>
     <string name="o_action_save">Сохранить</string>
+    <string name="o_action_criterror">Критическая ошибка</string>
+    <string name="o_action_loading">Загрузка…</string>
+    <string name="o_action_unknown">Неизвестно</string>
+    <string name="o_action_on">Вкл</string>
+    <string name="o_action_off">Выкл</string>
+
     <string name="o_tab_prefs">Настройки</string>
     <string name="o_tab_about">О приложении</string>
     <string name="o_tab_debug">Отладка</string>
@@ -53,13 +57,13 @@
     <string name="aboutLibraries_description_special1_name">Оставить отзыв</string>
     <string name="aboutLibraries_description_special2_name">Изменения</string>
 
-    <string name="customactivityoncrash_error_activity_error_occurred_explanation">Произошло аварийное закрытие приложения.</string>
-    <string name="customactivityoncrash_error_activity_restart_app">Перезапустить приложение</string>
     <string name="customactivityoncrash_error_activity_close_app">Закрыть приложение</string>
     <string name="customactivityoncrash_error_activity_error_details">Подробности ошибки</string>
-    <string name="customactivityoncrash_error_activity_error_details_title">Подробности ошибки</string>
-    <string name="customactivityoncrash_error_activity_error_details_close">Закрыть</string>
-    <string name="customactivityoncrash_error_activity_error_details_copy">Скопировать текст</string>
-    <string name="customactivityoncrash_error_activity_error_details_copied">Скопировано</string>
     <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Информация об ошибке</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Закрыть</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Скопировано</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Скопировать текст</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Подробности ошибки</string>
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">Произошло аварийное закрытие приложения.</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Перезапустить приложение</string>
 </resources>
