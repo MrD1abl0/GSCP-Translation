@@ -24,7 +24,7 @@
     <string name="game_indicator_console_autocomplete">Автодополнение в консоли и список переменных</string>
     <string name="game_indicator_performance">Используемые ресурсы</string>
     <string name="game_indicator_map_change">Смена карты</string>
-    <string name="game_indicator_players_info">Расширенная информация о игроках</string>
+    <string name="game_indicator_players_info">Расширенная информация об игроках</string>
     <string name="game_indicator_players_actions">Бан/Кик/Мут</string>
     <string name="game_indicator_log_listen">Чтение логов</string>
 

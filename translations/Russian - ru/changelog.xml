@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="23" versionName="0.9.1" date="14.08.2021">
+        <bugfix>Исправлено обновление локальной БД если название сервера содержит спец. символы</bugfix>
+        <info>Изменён формат даты окончания аренды сервера</info>
+        <info>Мелкие улучшения и исправления</info>
+    </release>
     <release versionCode="22" versionName="0.9.0" date="13.08.2021">
         <new>Поддержка Android 10 и 11</new>
         <new>Поддержка AmxBans/AmxBans # Gm/FreshBans</new>
