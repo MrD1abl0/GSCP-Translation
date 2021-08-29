@@ -362,7 +362,7 @@
     <string name="playerinfo_index">Index:</string>
     <string name="playerinfo_steamid2" translatable="false">SteamID2:</string>
     <string name="playerinfo_steamid3" translatable="false">SteamID3:</string>
-    <string name="playerinfo_communityid" translatable="false">CommunityID:</string>
+    <string name="playerinfo_steamid64" translatable="false">SteamID64:</string>
     <string name="playerinfo_ban_vac">VAC ban:</string>
     <string name="playerinfo_ban_trade">Trade ban:</string>
     <string name="playerinfo_ban_found">Detected</string>
@@ -381,7 +381,7 @@
     <string name="playerinfo_flags">Admin flags:</string>
     <string name="playerinfo_flagsgmod">Group/Admin flags:</string>
     <string name="playerinfo_unknown" tools:ignore="MissingTranslation">@string/o_action_unknown</string>
-    <string name="playerinfo_required">Required %1$s</string><!--SteamID or CommunnityID-->
+    <string name="playerinfo_required">Required %1$s</string><!--SteamID2/SteamID3/SteamID64-->
     <string name="playerinfo_bansid">Steam ID bans</string>
     <string name="playerinfo_bansip">IP bans</string>
     <string name="playerinfo_mutes">Mutes</string>
@@ -390,7 +390,7 @@
     <string name="playerinfo_name_copy">Player name copied to clipboard</string>
     <string name="playerinfo_name_copyerror">Unable to copy player name to the clipboard</string>
     <string name="playerinfo_error_invalidplayer">Incorrect attempt to open player info</string>
-    <string name="playerinfo_error_failedget">Failed to get %1$s</string><!--SteamID or CommunnityID-->
+    <string name="playerinfo_error_failedget">Failed to get %1$s</string><!--SteamID2/SteamID3/SteamID64-->
 
 
     <!--Dialogs-->

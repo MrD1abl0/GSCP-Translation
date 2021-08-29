@@ -254,7 +254,7 @@
     <string name="playerinfo_deaths">Счёт: %1$d</string>
     <string name="playerinfo_flags">Флаги доступа:</string>
     <string name="playerinfo_flagsgmod">Группа/Флаги доступа:</string>
-    <string name="playerinfo_required">Требуется %1$s</string><!--SteamID or CommunnityID-->
+    <string name="playerinfo_required">Требуется %1$s</string><!--SteamID2/SteamID3/SteamID64-->
     <string name="playerinfo_bansid">Баны по Steam ID</string>
     <string name="playerinfo_bansip">Баны по IP</string>
     <string name="playerinfo_mutes">Муты</string>
@@ -263,7 +263,7 @@
     <string name="playerinfo_name_copy">Ник игрока скопирован в буфер обмена</string>
     <string name="playerinfo_name_copyerror">Не удалось скопировать ник игрока в буфер обмена</string>
     <string name="playerinfo_error_invalidplayer">Некорректная попытка открыть экран информации о игроке</string>
-    <string name="playerinfo_error_failedget">Не удалось получить %1$s</string><!--SteamID or CommunnityID-->
+    <string name="playerinfo_error_failedget">Не удалось получить %1$s</string><!--SteamID2/SteamID3/SteamID64-->
 
 
     <!--Dialogs-->

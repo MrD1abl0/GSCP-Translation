@@ -254,7 +254,7 @@
     <string name="playerinfo_deaths">Deaths: %1$d</string>
     <string name="playerinfo_flags">Админ флагове:</string>
     <string name="playerinfo_flagsgmod">Групи/админ флагове:</string>
-    <string name="playerinfo_required">Искане на %1$s</string><!--SteamID or CommunnityID-->
+    <string name="playerinfo_required">Искане на %1$s</string><!--SteamID2/SteamID3/SteamID64-->
     <string name="playerinfo_bansid">Steam ID Банове</string>
     <string name="playerinfo_bansip">IP Банове</string>
     <string name="playerinfo_mutes">Мютвания</string>
@@ -263,7 +263,7 @@
     <string name="playerinfo_name_copy">Името на играча е копирано в клипборда</string>
     <string name="playerinfo_name_copyerror">Името на играча не може да се копира в клипборда</string>
     <string name="playerinfo_error_invalidplayer">Неправилен опит за отваряне на информация за играча</string>
-    <string name="playerinfo_error_failedget">Неуспешно получаване на %1$s</string><!--SteamID or CommunnityID-->
+    <string name="playerinfo_error_failedget">Неуспешно получаване на %1$s</string><!--SteamID2/SteamID3/SteamID64-->
 
 
     <!--Dialogs-->

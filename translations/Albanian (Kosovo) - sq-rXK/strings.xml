@@ -254,7 +254,7 @@
     <string name="playerinfo_deaths">Deaths: %1$d</string>
     <string name="playerinfo_flags">Akceset Adminit:</string>
     <string name="playerinfo_flagsgmod">Group/Admin akceset:</string>
-    <string name="playerinfo_required">Required %1$s</string><!--SteamID or CommunnityID-->
+    <string name="playerinfo_required">Required %1$s</string><!--SteamID2/SteamID3/SteamID64-->
     <string name="playerinfo_bansid">Steam ID ndalimi</string>
     <string name="playerinfo_bansip">IP ndalimi</string>
     <string name="playerinfo_mutes">Pa zë</string>
@@ -263,7 +263,7 @@
     <string name="playerinfo_name_copy">Emëri lojtarit është kopjuar për kujtesë</string>
     <string name="playerinfo_name_copyerror">Nuk mund të kopjohet emëri lojtarit për kujtesë</string>
     <string name="playerinfo_error_invalidplayer">Përpjekje e gabuar për të hapur info e lojtarit</string>
-    <string name="playerinfo_error_failedget">Failed to get %1$s</string><!--SteamID or CommunnityID-->
+    <string name="playerinfo_error_failedget">Failed to get %1$s</string><!--SteamID2/SteamID3/SteamID64-->
 
 
     <!--Dialogs-->

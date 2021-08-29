@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="24" versionName="0.9.2" date="29.08.2021">
+        <bugfix>Fixed home screen widget settings screen in landscape orientation</bugfix>
+        <bugfix>Fixed game type resetting when opening server edit screen</bugfix>
+        <bugfix>Fixed players counting on Insurgency servers</bugfix>
+        <bugfix>Fixed incorrect server port in servers list</bugfix>
+        <info>Minor UI improvements and fixes</info>
+    </release>
     <release versionCode="23" versionName="0.9.1" date="14.08.2021">
         <bugfix>Fixed local DB updating if the server name contains special chars</bugfix>
         <info>Changed rental end date format</info>

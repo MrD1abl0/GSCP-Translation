@@ -254,7 +254,7 @@
     <string name="playerinfo_deaths">Deaths: %1$d</string>
     <string name="playerinfo_flags">管理权限:</string>
     <string name="playerinfo_flagsgmod">组/管理权限:</string>
-    <string name="playerinfo_required">需要 %1$s</string><!--SteamID or CommunnityID-->
+    <string name="playerinfo_required">需要 %1$s</string><!--SteamID2/SteamID3/SteamID64-->
     <string name="playerinfo_bansid">封禁SteamID</string>
     <string name="playerinfo_bansip">封禁IP</string>
     <string name="playerinfo_mutes">禁言</string>
@@ -263,7 +263,7 @@
     <string name="playerinfo_name_copy">玩家名已复制到粘贴板</string>
     <string name="playerinfo_name_copyerror">无法将玩家名复制到粘贴板</string>
     <string name="playerinfo_error_invalidplayer">获取玩家信息的方式错误</string>
-    <string name="playerinfo_error_failedget">无法获得 %1$s</string><!--SteamID or CommunnityID-->
+    <string name="playerinfo_error_failedget">无法获得 %1$s</string><!--SteamID2/SteamID3/SteamID64-->
 
 
     <!--Dialogs-->
