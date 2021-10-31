@@ -28,7 +28,7 @@
     <string name="game_indicator_players_actions">Ban/Kick/Mute</string>
     <string name="game_indicator_log_listen">Log listening</string>
 
-    <string name="any_type_auto">Auto</string>
+    <string name="any_type_auto">Autoselect</string>
     <string name="any_type_engine">Engine</string>
     <string name="any_type_engine2">Engine 2</string>
 
@@ -95,9 +95,7 @@
     <string name="srvedit_txt_error_empty">Fusha nuk duhet të jetë bosh</string>
     <string name="srvedit_txt_error_greater">Fusha duhet të jetë më e madhe se %1$d</string>
     <string name="srvedit_txt_error_less">Fusha duhet të jetë më pak se %1$d</string>
-    <string name="srvedit_error_unique">Serveri me IP dhe portin e specifikuar tashmë ekziston</string>
-    <string name="srvedit_error_add">Shto gabimet e serverit</string>
-    <string name="srvedit_error_edit">Modifiko gabimet e serverit</string>
+    <string name="srvedit_error_save">An error occurred while saving the server</string>
     <string name="srvedit_error_invalidopen">Përpjekje e gabuar për të hapur ekranin e shtimit/modifikimit të serverit</string>
     <string name="srvedit_warning_port">Ky funksion funksionon vetëm kur është i lidhur me rrjetin nëpërmjet WI-FI. Përveç kësaj, ju duhet të hapni portin %1$d në ruter.</string>
 
@@ -111,7 +109,8 @@
     <string name="srvedit_btn_error_gamenotfound">Përmbajtja serverit nuk u gjetë</string>
     <string name="srvedit_btn_error_token">Qelës i pavlefshëm</string>
     <string name="srvedit_btn_error_url">Invalid URL</string>
-    <string name="srvedit_btn_error_invalid_response">Invalid API response</string>
+    <string name="srvedit_btn_error_invalid_response_api">Invalid API response</string>
+    <string name="srvedit_btn_error_invalid_response_server">Invalid server response</string>
     <string name="srvedit_btn_error_empty_response">Empty response</string>
     <string name="srvedit_btn_error_wronggameorban">Emëri Gabim/Dënoj prej serverit</string>
     <string name="srvedit_btn_error_invalidport">Port i pavlefshëm</string>
@@ -221,7 +220,7 @@
     <string name="srvctrl_activity_log_msg_findip">Getting a public device IP</string>
     <string name="srvctrl_activity_log_msg_rconadd">Enabling sending logs from the server</string>
     <string name="srvctrl_activity_log_msg_listening">Listening…</string>
-    <string name="srvctrl_activity_log_error_wifi">Për të shikuar regjistrat ju duhet të kyqeni në wifi</string>
+    <string name="srvctrl_activity_log_error_wifi">Për të shikuar regjistrat ju duhet të kyqeni në WI-FI</string>
     <string name="srvctrl_activity_log_error_offline">Na vjen keq nuk ka internet</string>
     <string name="srvctrl_activity_log_error_publicip">Dështoi marrja e IP Publike</string>
     <string name="srvctrl_activity_log_error_port">Porti rrjetit është përdorur nga një tjetër aplikacion</string>
@@ -278,8 +277,8 @@
     <string name="dialog_console_props_title">Console properties</string>
     <string name="dialog_console_props_linewrap">Line wrap</string>
     <string name="dialog_console_props_provider">Request type</string>
-    <string name="dialog_console_props_autocomplete">Autocomplete Mode</string>
-    <string name="dialog_console_props_autocomplete_all">Commands and Variables</string>
+    <string name="dialog_console_props_autocomplete">Autocomplete mode</string>
+    <string name="dialog_console_props_autocomplete_all">Commands and variables</string>
     <string name="dialog_console_props_autocomplete_cmds">Commands</string>
     <string name="dialog_console_props_autocomplete_vars">Variables</string>
 
@@ -426,11 +425,9 @@
 
 
     <!--About-->
-    <string name="about_enabledebug">Rregullimet e debugimit janë të disponueshme për përdorim</string>
+    <string name="about_debug_notify">Rregullimet e debugimit janë të disponueshme për përdorim</string>
     <string name="about_description"><![CDATA[<strong>Translation authors:</strong><br>%1$s]]></string>
-    <!--Should be as short as possible-->
     <string name="about_special1_name">Rate app</string>
-    <string name="about_special2_name">Changelog</string>
     <string name="about_special3_name">Translation</string>
 
 

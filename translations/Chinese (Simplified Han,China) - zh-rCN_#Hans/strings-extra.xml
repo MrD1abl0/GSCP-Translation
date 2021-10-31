@@ -49,6 +49,8 @@
 	<string name="appbundle_warning_lite">您安装的应用程序包不正确\n请从Google Play安装此应用程序</string>
 	
 	<string name="changelog_dialog_title">更新日志</string>
+	<string name="changelog_dialog_title_latest">Latest changes</string>
+	<string name="changelog_dialog_title_full">Full changelog</string>
 	<string name="changelog_dialog_rate">评价</string>
 
 	<string name="aboutLibraries_description_special1_name">评价</string>

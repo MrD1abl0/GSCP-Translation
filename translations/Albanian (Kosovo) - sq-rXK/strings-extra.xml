@@ -50,6 +50,8 @@
 	<string name="appbundle_warning_lite">Ju e keni instaluar gabimisht App Bundle.\nJu lutem instaloni prej Google Play</string>
 
 	<string name="changelog_dialog_title">Lista Rregullimeve</string>
+	<string name="changelog_dialog_title_latest">Latest changes</string>
+	<string name="changelog_dialog_title_full">Full changelog</string>
 	<string name="changelog_dialog_rate">Vlerëso app</string>
 
 	<string name="aboutLibraries_description_special1_name">Vlerëso app</string>

@@ -28,7 +28,7 @@
     <string name="game_indicator_players_actions">Бан/Кик/Мут</string>
     <string name="game_indicator_log_listen">Чтение логов</string>
 
-    <string name="any_type_auto">Автоматически</string>
+    <string name="any_type_auto">Автовыбор</string>
     <string name="any_type_engine">Engine</string>
     <string name="any_type_engine2">Engine 2</string>
 
@@ -95,9 +95,7 @@
     <string name="srvedit_txt_error_empty">Поле не должно быть пустым</string>
     <string name="srvedit_txt_error_greater">Поле должно быть больше %1$d</string>
     <string name="srvedit_txt_error_less">Поле должно быть меньше %1$d</string>
-    <string name="srvedit_error_unique">Сервер с таким IP и портом уже существует</string>
-    <string name="srvedit_error_add">Ошибка добавления сервера</string>
-    <string name="srvedit_error_edit">Ошибка изменения сервера</string>
+    <string name="srvedit_error_save">При сохранении сервера произошла ошибка</string>
     <string name="srvedit_error_invalidopen">Некорректная попытка открыть экран создания/редактирования сервера</string>
     <string name="srvedit_warning_port">Данная возможность доступна только при подключении к сети через WI-FI и наличии открытого %1$d порта.</string>
 
@@ -111,7 +109,8 @@
     <string name="srvedit_btn_error_gamenotfound">Контент сервера не найден</string>
     <string name="srvedit_btn_error_token">Неверный ключ</string>
     <string name="srvedit_btn_error_url">Неверный URL</string>
-    <string name="srvedit_btn_error_invalid_response">Некорректный ответ API</string>
+    <string name="srvedit_btn_error_invalid_response_api">Некорректный ответ\nот API</string>
+    <string name="srvedit_btn_error_invalid_response_server">Некорректный ответ\nот сервера</string>
     <string name="srvedit_btn_error_empty_response">Пустой ответ</string>
     <string name="srvedit_btn_error_wronggameorban">Неправильная игра или\nЗабанен сервером</string>
     <string name="srvedit_btn_error_invalidport">Некорректный порт</string>
@@ -199,7 +198,7 @@
     <string name="srvctrl_info_perfs_uptime">Время работы</string>
     <string name="srvctrl_info_perfs_connects">Подключений</string>
     <string name="srvctrl_info_perfs_data_size">%1$d/%2$d МБ (%3$d%%)</string>
-    <string name="srvctrl_info_perfs_error">Не удалось загрузить информацию о используемых ресурсах</string>
+    <string name="srvctrl_info_perfs_error">Не удалось загрузить информацию об используемых ресурсах</string>
 
     <string name="srvctrl_info_cmds_title">Команды</string>
     <string name="srvctrl_info_cmds_copy">Команда скопирована в буфер обмена</string>
@@ -239,7 +238,7 @@
 
 
     <!--Player Info-->
-    <string name="playerinfo_title">Информация о игроке</string>
+    <string name="playerinfo_title">Информация об игроке</string>
     <string name="playerinfo_index">Индекс:</string>
     <string name="playerinfo_ban_vac">VAC бан:</string>
     <string name="playerinfo_ban_trade">Trade бан:</string>
@@ -262,7 +261,7 @@
     <string name="playerinfo_actions">Действия</string>
     <string name="playerinfo_name_copy">Ник игрока скопирован в буфер обмена</string>
     <string name="playerinfo_name_copyerror">Не удалось скопировать ник игрока в буфер обмена</string>
-    <string name="playerinfo_error_invalidplayer">Некорректная попытка открыть экран информации о игроке</string>
+    <string name="playerinfo_error_invalidplayer">Некорректная попытка открыть экран информации об игроке</string>
     <string name="playerinfo_error_failedget">Не удалось получить %1$s</string><!--SteamID2/SteamID3/SteamID64-->
 
 
@@ -426,12 +425,10 @@
 
 
     <!--About-->
-    <string name="about_enabledebug">Настройки отладки доступны для использования</string>
+    <string name="about_debug_notify">Настройки отладки доступны для использования</string>
     <string name="about_description"><![CDATA[<strong>Авторы перевода:</strong><br>%1$s]]></string>
-    <!--Should be as short as possible-->
-    <string name="about_special1_name">Отзыв</string>
-    <string name="about_special2_name">Изменения</string>
-    <string name="about_special3_name">Перевод</string>
+    <string name="about_special1_name">Оценить приложение</string>
+    <string name="about_special3_name">Улучшить перевод</string>
 
 
     <!--Other-->

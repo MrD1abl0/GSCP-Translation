@@ -28,7 +28,7 @@
     <string name="game_indicator_players_actions">Ban/Kick/Mute</string>
     <string name="game_indicator_log_listen">Log listening</string>
 
-    <string name="any_type_auto">Auto</string>
+    <string name="any_type_auto">Autoselect</string>
     <string name="any_type_engine">Engine</string>
     <string name="any_type_engine2">Engine 2</string>
 
@@ -95,9 +95,7 @@
     <string name="srvedit_txt_error_empty">此字段不能为空</string>
     <string name="srvedit_txt_error_greater">此字段必须大于 %1$d</string>
     <string name="srvedit_txt_error_less">此字段必须小于 %1$d</string>
-    <string name="srvedit_error_unique">具有指定IP和端口的服务器已存在</string>
-    <string name="srvedit_error_add">添加服务器时发生错误</string>
-    <string name="srvedit_error_edit">编辑服务器时发生错误</string>
+    <string name="srvedit_error_save">An error occurred while saving the server</string>
     <string name="srvedit_error_invalidopen">打开服务器添加/编辑界面的方式错误</string>
     <string name="srvedit_warning_port">此功能仅在通过WI-FI连接到网络时可用，此外你还需要在路由器上开放端口 %1$d </string>
 
@@ -111,7 +109,8 @@
     <string name="srvedit_btn_error_gamenotfound">找不到服务器内容</string>
     <string name="srvedit_btn_error_token">无效密钥</string>
     <string name="srvedit_btn_error_url">Invalid URL</string>
-    <string name="srvedit_btn_error_invalid_response">Invalid API response</string>
+    <string name="srvedit_btn_error_invalid_response_api">Invalid API response</string>
+    <string name="srvedit_btn_error_invalid_response_server">Invalid server response</string>
     <string name="srvedit_btn_error_empty_response">Empty response</string>
     <string name="srvedit_btn_error_wronggameorban">错误游戏类型\n 或被服务器封禁</string>
     <string name="srvedit_btn_error_invalidport">无效端口</string>
@@ -278,8 +277,8 @@
     <string name="dialog_console_props_title">Console properties</string>
     <string name="dialog_console_props_linewrap">Line wrap</string>
     <string name="dialog_console_props_provider">Request type</string>
-    <string name="dialog_console_props_autocomplete">Autocomplete Mode</string>
-    <string name="dialog_console_props_autocomplete_all">Commands and Variables</string>
+    <string name="dialog_console_props_autocomplete">Autocomplete mode</string>
+    <string name="dialog_console_props_autocomplete_all">Commands and variables</string>
     <string name="dialog_console_props_autocomplete_cmds">Commands</string>
     <string name="dialog_console_props_autocomplete_vars">Variables</string>
 
@@ -426,11 +425,9 @@
 
 
     <!--About-->
-    <string name="about_enabledebug">调试设置已启用</string>
+    <string name="about_debug_notify">调试设置已启用</string>
     <string name="about_description"><![CDATA[<strong>Translation authors:</strong><br>%1$s]]></string>
-    <!--Should be as short as possible-->
     <string name="about_special1_name">评价</string>
-    <string name="about_special2_name">更新日志</string>
     <string name="about_special3_name">翻译</string>
 
 

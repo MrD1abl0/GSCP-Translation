@@ -52,6 +52,8 @@
 	<string name="appbundle_apkpure" translatable="false">Apkpure.com</string>
 
 	<string name="changelog_dialog_title">Changelog</string>
+	<string name="changelog_dialog_title_latest">Latest changes</string>
+	<string name="changelog_dialog_title_full">Full changelog</string>
 	<string name="changelog_dialog_rate">Rate app</string>
 	<string name="changelog_error_invalidopen">@string/o_error_invalidopen</string>
 

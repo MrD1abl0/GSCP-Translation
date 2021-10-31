@@ -28,7 +28,7 @@
     <string name="game_indicator_players_actions">Ban/Kick/Mute</string>
     <string name="game_indicator_log_listen">Log listening</string>
 
-    <string name="any_type_auto">Auto</string>
+    <string name="any_type_auto">Autoselect</string>
     <string name="any_type_engine">Engine</string>
     <string name="any_type_engine2">Engine 2</string>
 
@@ -95,9 +95,7 @@
     <string name="srvedit_txt_error_empty">Полето не трябва да бъде празно</string>
     <string name="srvedit_txt_error_greater">Полето трябва да е по-голямо от %1$d</string>
     <string name="srvedit_txt_error_less">Полето трябва да е по-малко от %1$d</string>
-    <string name="srvedit_error_unique">Сървър с посочения IP и порт вече съществува</string>
-    <string name="srvedit_error_add">Грешка при добавяне на сървър</string>
-    <string name="srvedit_error_edit">Грешка при редактиране на сървър</string>
+    <string name="srvedit_error_save">An error occurred while saving the server</string>
     <string name="srvedit_error_invalidopen">Неправилен опит за отваряне на екрана за добавяне / редактиране на сървър</string>
     <string name="srvedit_warning_port">Тази функция работи само когато е свързана към мрежата чрез WI-FI. В допълнение, трябва да отворите порт %1$d на рутера ви.</string>
 
@@ -111,7 +109,8 @@
     <string name="srvedit_btn_error_gamenotfound">Съдържанието на сървъра не е намерено</string>
     <string name="srvedit_btn_error_token">Грешен ключ</string>
     <string name="srvedit_btn_error_url">Invalid URL</string>
-    <string name="srvedit_btn_error_invalid_response">Invalid API response</string>
+    <string name="srvedit_btn_error_invalid_response_api">Invalid API response</string>
+    <string name="srvedit_btn_error_invalid_response_server">Invalid server response</string>
     <string name="srvedit_btn_error_empty_response">Empty response</string>
     <string name="srvedit_btn_error_wronggameorban">Грешна игра</string>
     <string name="srvedit_btn_error_invalidport">Грешен порт</string>
@@ -278,8 +277,8 @@
     <string name="dialog_console_props_title">Console properties</string>
     <string name="dialog_console_props_linewrap">Line wrap</string>
     <string name="dialog_console_props_provider">Request type</string>
-    <string name="dialog_console_props_autocomplete">Autocomplete Mode</string>
-    <string name="dialog_console_props_autocomplete_all">Commands and Variables</string>
+    <string name="dialog_console_props_autocomplete">Autocomplete mode</string>
+    <string name="dialog_console_props_autocomplete_all">Commands and variables</string>
     <string name="dialog_console_props_autocomplete_cmds">Commands</string>
     <string name="dialog_console_props_autocomplete_vars">Variables</string>
 
@@ -426,11 +425,9 @@
 
 
     <!--About-->
-    <string name="about_enabledebug">Дебъг настройките са достъпни за използване</string>
+    <string name="about_debug_notify">Дебъг настройките са достъпни за използване</string>
     <string name="about_description"><![CDATA[<strong>Translation authors:</strong><br>%1$s]]></string>
-    <!--Should be as short as possible-->
     <string name="about_special1_name">Гласувай за приложението</string>
-    <string name="about_special2_name">Информация с промените</string>
     <string name="about_special3_name">Преводи</string>
 
 

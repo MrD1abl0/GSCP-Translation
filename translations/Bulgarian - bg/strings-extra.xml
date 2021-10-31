@@ -50,6 +50,8 @@
 	<string name="appbundle_warning_lite">Неправилно сте инсталирали пакета.\nМоля, инсталирайте това приложение от Google Play</string>
 
 	<string name="changelog_dialog_title">Информация с промените</string>
+	<string name="changelog_dialog_title_latest">Latest changes</string>
+	<string name="changelog_dialog_title_full">Full changelog</string>
 	<string name="changelog_dialog_rate">Гласувай за приложението</string>
 
 	<string name="aboutLibraries_description_special1_name">Гласувай за приложението</string>

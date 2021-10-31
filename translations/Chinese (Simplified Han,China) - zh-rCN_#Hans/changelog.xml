@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="25" versionName="0.9.3" date="31.10.2021">
+        <bugfix>Fixed wrong calculation of players/bots count on Source servers with Source TV</bugfix>
+        <bugfix>Fixed loading of extended players info on ZPS servers</bugfix>
+        <bugfix>Fixed unavailability of some GoldSource servers</bugfix>
+        <bugfix>Fixed items dragging on the RCON shortcuts editing dialog</bugfix>
+        <info>Improved validation of user-entered server info</info>
+        <info>Minor improvements and fixes</info>
+    </release>
     <release versionCode="24" versionName="0.9.2" date="29.08.2021">
         <bugfix>Fixed home screen widget settings screen in landscape orientation</bugfix>
         <bugfix>Fixed game type resetting when opening server edit screen</bugfix>

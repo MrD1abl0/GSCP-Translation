@@ -52,7 +52,9 @@
     <string name="appbundle_warning_lite">Вы неправильно установили App Bundle.\nПожалуйста, установите это приложение из Google Play</string>
 
     <string name="changelog_dialog_title">Изменения</string>
-    <string name="changelog_dialog_rate">Оставить отзыв</string>
+    <string name="changelog_dialog_title_latest">Последние изменения</string>
+    <string name="changelog_dialog_title_full">Полный список изменения</string>
+    <string name="changelog_dialog_rate">Оставить оценку</string>
 
     <string name="aboutLibraries_description_special1_name">Оставить отзыв</string>
     <string name="aboutLibraries_description_special2_name">Изменения</string>

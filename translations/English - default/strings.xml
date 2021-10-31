@@ -4,7 +4,6 @@
 
 
     <!--Actions-->
-    <string name="action_debug" translatable="false">Debug UI</string>
     <string name="action_removeads">Remove ads</string>
     <string name="action_ban">Ban</string>
     <string name="action_kick">Kick</string>
@@ -79,7 +78,7 @@
     <string name="os_mac" translatable="false">MacOS</string>
     <string name="os_unknown" tools:ignore="MissingTranslation">@string/o_action_unknown</string>
 
-    <string name="any_type_auto">Auto</string>
+    <string name="any_type_auto">Autoselect</string>
     <string name="any_type_engine">Engine</string>
     <string name="any_type_engine2">Engine 2</string>
 
@@ -200,9 +199,7 @@
     <string name="srvedit_txt_error_empty">Field must not be empty</string>
     <string name="srvedit_txt_error_greater">Field must be greater than %1$d</string>
     <string name="srvedit_txt_error_less">Field must be less than %1$d</string>
-    <string name="srvedit_error_unique">Server with the specified IP and port already exists</string>
-    <string name="srvedit_error_add">Add server error</string>
-    <string name="srvedit_error_edit">Edit server error</string>
+    <string name="srvedit_error_save">An error occurred while saving the server</string>
     <string name="srvedit_error_invalidopen">Incorrect attempt to open server add/edit screen</string>
     <string name="srvedit_warning_port">This feature works only when connected to the network via WI-FI. In addition, you need to open port %1$d on the router.</string>
 
@@ -216,7 +213,8 @@
     <string name="srvedit_btn_error_gamenotfound">Server content not found</string>
     <string name="srvedit_btn_error_token">Invalid key</string>
     <string name="srvedit_btn_error_url">Invalid URL</string>
-    <string name="srvedit_btn_error_invalid_response">Invalid API response</string>
+    <string name="srvedit_btn_error_invalid_response_api">Invalid API response</string>
+    <string name="srvedit_btn_error_invalid_response_server">Invalid server response</string>
     <string name="srvedit_btn_error_empty_response">Empty response</string>
     <string name="srvedit_btn_error_wronggameorban">Wrong game or\n Banned by server</string>
     <string name="srvedit_btn_error_invalidport">Invalid port</string>
@@ -342,7 +340,7 @@
     <string name="srvctrl_activity_log_msg_listening">Listening…</string>
     <string name="srvctrl_activity_log_error_rconremove">Failed to disable sending logs from server</string>
     <string name="srvctrl_activity_log_error_startservice">Failed to start log listening service</string>
-    <string name="srvctrl_activity_log_error_wifi">To listen logs you need to connect to wifi</string>
+    <string name="srvctrl_activity_log_error_wifi">To listen logs you need to connect to WI-FI</string>
     <string name="srvctrl_activity_log_error_offline">No network connection</string>
     <string name="srvctrl_activity_log_error_publicip">Failed to get public IP address</string>
     <string name="srvctrl_activity_log_error_port">Network port used by another app</string>
@@ -407,8 +405,8 @@
     <string name="dialog_console_props_provider">Request type</string>
     <string name="dialog_console_props_provider_rcon" translatable="false">RCON</string>
     <string name="dialog_console_props_provider_api" translatable="false">API</string>
-    <string name="dialog_console_props_autocomplete">Autocomplete Mode</string>
-    <string name="dialog_console_props_autocomplete_all">Commands and Variables</string>
+    <string name="dialog_console_props_autocomplete">Autocomplete mode</string>
+    <string name="dialog_console_props_autocomplete_all">Commands and variables</string>
     <string name="dialog_console_props_autocomplete_cmds">Commands</string>
     <string name="dialog_console_props_autocomplete_vars">Variables</string>
 
@@ -630,12 +628,11 @@
 
 
     <!--About-->
-    <string name="about_enabledebug">Debug settings are available for use</string>
+    <string name="about_debug_notify">Debug settings are available for use</string>
     <string name="about_description"><![CDATA[<strong>Translation authors:</strong><br>%1$s]]></string>
-    <!--Should be as short as possible-->
     <string name="about_special1_name">Rate app</string>
-    <string name="about_special2_name">Changelog</string>
-    <string name="about_special3_name">Translation</string>
+    <string name="about_special2_name" tools:ignore="MissingTranslation">@string/changelog_dialog_title_full</string>
+    <string name="about_special3_name">Improve translation</string>
 
 
     <!--Other-->
