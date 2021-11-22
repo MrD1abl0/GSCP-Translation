@@ -53,19 +53,19 @@ https://github.com/MrD1abl0/GSCP-Translation/blob/master/README-ru.md
 - TF Classic
 
 - Insurgency: Sandstorm
-- Q II
-- Q III Arena
+- Quake II
+- Quake III Arena
 - SA-MP
-- W: ET
+- Wolfenstein: ET
 - Xash3D Engine
 
 Частичная поддержка:
 - ARK: SE
-- Q World
+- Quake World
 - Terraria
 
 Базовая поддержка:
 - KF
 - KF 2
-- Q Live
+- Quake Live
 - Valheim

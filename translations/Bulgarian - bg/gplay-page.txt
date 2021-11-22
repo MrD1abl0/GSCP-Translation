@@ -53,19 +53,19 @@ Full support:
 - TF Classic
 
 - Insurgency: Sandstorm
-- Q II
-- Q III Arena
+- Quake II
+- Quake III Arena
 - SA-MP
-- W: ET
+- Wolfenstein: ET
 - Xash3D Engine
 
 Partial support:
 - ARK: SE
-- Q World
+- Quake World
 - Terraria
 
 Basic support:
 - KF
 - KF 2
-- Q Live
+- Quake Live
 - Valheim
