@@ -51,22 +51,22 @@ If you want to add support for a new language or improve the having translation,
 Adding translation changes in app occurs with publication of a major or minor update in Google Play.
 
 ### UI examples (Nexus One - 3,7" 480x800 hdpi)
-<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/1.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/2.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/3.jpg?raw=true" width="276">
+<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/1.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/2.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/3.jpg?raw=true" width="273">
 
-<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/4.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/5.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/6.jpg?raw=true" width="276">
+<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/4.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/5.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/6.jpg?raw=true" width="273">
 
-<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/7.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/8.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/9.jpg?raw=true" width="276">
+<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/7.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/8.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/9.jpg?raw=true" width="273">
 
-<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/10.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/11.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/12.jpg?raw=true" width="276">
+<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/10.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/11.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/12.jpg?raw=true" width="273">
 
-<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/13.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/14.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/15.jpg?raw=true" width="276">
+<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/13.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/14.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/15.jpg?raw=true" width="273">
 
-<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/16.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/17.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/18.jpg?raw=true" width="276">
+<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/16.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/17.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/18.jpg?raw=true" width="273">
 
-<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/19.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/20.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/21.jpg?raw=true" width="276">
+<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/19.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/20.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/21.jpg?raw=true" width="273">
 
-<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/22.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/23.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/24.jpg?raw=true" width="276">
+<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/22.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/23.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/24.jpg?raw=true" width="273">
 
-<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/25.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/26.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/27.jpg?raw=true" width="276">
+<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/25.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/26.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/27.jpg?raw=true" width="273">
 
-<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/28.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/29.jpg?raw=true" width="276"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/30.jpg?raw=true" width="276">
+<img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/28.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/29.jpg?raw=true" width="273"> <img src="https://github.com/MrD1abl0/GSCP-Translation/blob/master/images/30.jpg?raw=true" width="273">
