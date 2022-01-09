@@ -289,7 +289,7 @@
     <string name="dialog_outdated_descr">Serveri juaj është i vjetëruar</string>
     <string name="dialog_outdated_srvvrs">Verzioni Serverit:</string>
     <string name="dialog_outdated_latestvrs">Verzioni Fundit:</string>
-    <string name="dialog_outdated_reunion">Dështoi marrja verzionit të serverit. Nëse jeni duke përdorur DProto/Reunion, vendosni këtë vlerë <b>ServerInfoAnswerType</b> në 0</string>
+    <string name="dialog_outdated_reunion">Dështoi marrja verzionit të serverit. Nëse jeni duke përdorur DProto/Reunion, vendosni këtë vlerë <b>ServerInfoAnswerType</b> në 0 ose 2</string>
 
     <string name="dialog_variable_oldvalue">Vlera vjetër: %1$s</string>
     <string name="dialog_variable_newvalue">Vlera re</string>
@@ -433,5 +433,5 @@
 
     <!--Other-->
     <string name="error_nonetwork">Nuk mund të lidhet në Internet</string>
-    <string name="error_gplay_services_notfound">Google services are not found. Some app features may not work</string>
+    <string name="error_mobile_services_notfound">%1$s are not found. Some app features may not work</string><!--Google Mobile Services/HUAWEI Mobile Services-->
 </resources>

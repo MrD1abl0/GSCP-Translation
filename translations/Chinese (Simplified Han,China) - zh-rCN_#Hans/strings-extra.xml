@@ -45,8 +45,8 @@
 		<item quantity="other">%d 天</item>
 	</plurals>
 
-	<string name="appbundle_warning_full">您安装的应用程序包不正确\n请从Google Play或apkpure.com安装此应用程序</string>
-	<string name="appbundle_warning_lite">您安装的应用程序包不正确\n请从Google Play安装此应用程序</string>
+	<string name="appbundle_warning_multiple">您安装的应用程序包不正确\n请从%1$s或%2$s安装此应用程序</string>
+	<string name="appbundle_warning_single">您安装的应用程序包不正确\n请从%1$s安装此应用程序</string>
 	
 	<string name="changelog_dialog_title">更新日志</string>
 	<string name="changelog_dialog_title_latest">Latest changes</string>

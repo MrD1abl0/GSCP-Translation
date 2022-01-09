@@ -289,7 +289,7 @@
     <string name="dialog_outdated_descr">Ваш сервер устарел</string>
     <string name="dialog_outdated_srvvrs">Версия сервера:</string>
     <string name="dialog_outdated_latestvrs">Актуальная версия:</string>
-    <string name="dialog_outdated_reunion">Не удалось получить версию сервера. Если вы используете DProto/Reunion измени значение <b>ServerInfoAnswerType</b> на 0</string>
+    <string name="dialog_outdated_reunion">Не удалось получить версию сервера. Если вы используете DProto/Reunion измените значение <b>ServerInfoAnswerType</b> на 0 или 2</string>
 
     <string name="dialog_variable_oldvalue">Старое значение: %1$s</string>
     <string name="dialog_variable_newvalue">Новое значение</string>
@@ -433,5 +433,5 @@
 
     <!--Other-->
     <string name="error_nonetwork">Не удалось подключиться к сети</string>
-    <string name="error_gplay_services_notfound">Сервисы Google не обнаружены. Приложение может работать некорректно</string>
+    <string name="error_mobile_services_notfound">%1$s не обнаружены. Приложение может работать некорректно</string><!--Google Mobile Services/HUAWEI Mobile Services-->
 </resources>

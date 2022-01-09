@@ -289,7 +289,7 @@
     <string name="dialog_outdated_descr">Вашият сървър не е ъпдейтнат</string>
     <string name="dialog_outdated_srvvrs">Версия на сървъра:</string>
     <string name="dialog_outdated_latestvrs">Последна версия:</string>
-    <string name="dialog_outdated_reunion">Грешка при изискване на информация за сървърната версия. Ако използвате DProto/Reunion, Направете настройките: <b>ServerInfoAnswerType</b> to 0</string>
+    <string name="dialog_outdated_reunion">Грешка при изискване на информация за сървърната версия. Ако използвате DProto/Reunion, Направете настройките: <b>ServerInfoAnswerType</b> на 0 или 2</string>
 
     <string name="dialog_variable_oldvalue">Стара стойност: %1$s</string>
     <string name="dialog_variable_newvalue">Нова стойност</string>
@@ -433,5 +433,5 @@
 
     <!--Other-->
     <string name="error_nonetwork">Не мога да се свърже с мрежата</string>
-    <string name="error_gplay_services_notfound">Google services are not found. Some app features may not work</string>
+    <string name="error_mobile_services_notfound">%1$s are not found. Some app features may not work</string><!--Google Mobile Services/HUAWEI Mobile Services-->
 </resources>

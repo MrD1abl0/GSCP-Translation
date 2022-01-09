@@ -289,7 +289,7 @@
     <string name="dialog_outdated_descr">你的服务器版本过旧</string>
     <string name="dialog_outdated_srvvrs">服务器版本:</string>
     <string name="dialog_outdated_latestvrs">最新服务器版本:</string>
-    <string name="dialog_outdated_reunion">无法获取服务器版本. 如果你使用了 DProto/Reunion，请将 <b>ServerInfoAnswerType</b> 的值设置为 0</string>
+    <string name="dialog_outdated_reunion">无法获取服务器版本. 如果你使用了 DProto/Reunion，请将 <b>ServerInfoAnswerType</b> 的值设置为 0 或 2</string>
 
     <string name="dialog_variable_oldvalue">旧数值: %1$s</string>
     <string name="dialog_variable_newvalue">新数值</string>
@@ -433,5 +433,5 @@
 
     <!--Other-->
     <string name="error_nonetwork">无法连接至网络</string>
-    <string name="error_gplay_services_notfound">Google services are not found. Some app features may not work</string>
+    <string name="error_mobile_services_notfound">%1$s are not found. Some app features may not work</string><!--Google Mobile Services/HUAWEI Mobile Services-->
 </resources>

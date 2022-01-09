@@ -46,9 +46,10 @@
 		<item quantity="other">%d days</item>
 	</plurals>
 
-	<string name="appbundle_warning_full">You have incorrectly installed App Bundle.\nPlease install this app from Google Play or apkpure.com</string>
-	<string name="appbundle_warning_lite">You have incorrectly installed App Bundle.\nPlease install this app from Google Play</string>
+	<string name="appbundle_warning_multiple">You have incorrectly installed App Bundle.\nPlease install this app from %1$s or %2$s</string>
+	<string name="appbundle_warning_single">You have incorrectly installed App Bundle.\nPlease install this app from %1$s</string>
 	<string name="appbundle_googleplay" translatable="false">Google Play</string>
+	<string name="appbundle_appgallery" translatable="false">AppGallery</string>
 	<string name="appbundle_apkpure" translatable="false">Apkpure.com</string>
 
 	<string name="changelog_dialog_title">Changelog</string>

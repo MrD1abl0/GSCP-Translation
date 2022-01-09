@@ -358,6 +358,7 @@
     <!--Player Info-->
     <string name="playerinfo_title">Player info</string>
     <string name="playerinfo_index">Index:</string>
+    <string name="playerinfo_steamid" translatable="false">SteamID:</string>
     <string name="playerinfo_steamid2" translatable="false">SteamID2:</string>
     <string name="playerinfo_steamid3" translatable="false">SteamID3:</string>
     <string name="playerinfo_steamid64" translatable="false">SteamID64:</string>
@@ -417,7 +418,7 @@
     <string name="dialog_outdated_descr">Your server is outdated</string>
     <string name="dialog_outdated_srvvrs">Server version:</string>
     <string name="dialog_outdated_latestvrs">Latest version:</string>
-    <string name="dialog_outdated_reunion">Failed to get the server version. If you are using DProto/Reunion, set the value of <b>ServerInfoAnswerType</b> to 0</string>
+    <string name="dialog_outdated_reunion">Failed to get the server version. If you are using DProto/Reunion, set the value of <b>ServerInfoAnswerType</b> to 0 or 2</string>
 
     <string name="dialog_variable_oldvalue">Old value: %1$s</string>
     <string name="dialog_variable_newvalue">New value</string>
@@ -637,5 +638,5 @@
 
     <!--Other-->
     <string name="error_nonetwork">Сould not connect to the network</string>
-    <string name="error_gplay_services_notfound">Google services are not found. Some app features may not work</string>
+    <string name="error_mobile_services_notfound">%1$s are not found. Some app features may not work</string><!--Google Mobile Services/HUAWEI Mobile Services-->
 </resources>

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="26" versionName="0.9.4" date="09.01.2022">
+        <bugfix>Fixed players list loading on some GoldSource servers</bugfix>
+        <bugfix>Fixed unavailability of some GoldSource servers if they have Reunion</bugfix>
+        <bugfix>Fixed detection of players access flags on GoldSource servers</bugfix>
+        <bugfix>Fixed getting corrupted data when executing large RCON requests on Sven Co-op servers</bugfix>
+        <bugfix>Fixed unnecessary auth attempts on Source and GoldSource servers if RCON password is not specified</bugfix>
+        <info>Minor improvements and fixes</info>
+    </release>
     <release versionCode="25" versionName="0.9.3" date="31.10.2021">
         <bugfix>Fixed wrong calculation of players/bots count on Source servers with Source TV</bugfix>
         <bugfix>Fixed loading of extended players info on ZPS servers</bugfix>
