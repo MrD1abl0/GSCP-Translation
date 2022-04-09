@@ -46,8 +46,8 @@
 		<item quantity="other">%d ditë</item>
 	</plurals>
 
-	<string name="appbundle_warning_multiple">Ju e keni instaluar gabimisht App Bundle.\nJu lutem instaloni prej %1$s ose %2$s</string>
-	<string name="appbundle_warning_single">Ju e keni instaluar gabimisht App Bundle.\nJu lutem instaloni prej %1$s</string>
+	<string name="appbundle_error_multiple">Ju e keni instaluar gabimisht App Bundle.\nJu lutem instaloni prej %1$s ose %2$s</string>
+	<string name="appbundle_error_single">Ju e keni instaluar gabimisht App Bundle.\nJu lutem instaloni prej %1$s</string>
 
 	<string name="changelog_dialog_title">Lista Rregullimeve</string>
 	<string name="changelog_dialog_title_latest">Latest changes</string>

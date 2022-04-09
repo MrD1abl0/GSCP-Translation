@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="27" versionName="0.9.5" date="09.04.2022">
+        <bugfix>Fixed freezes while opening the console</bugfix>
+        <bugfix>Fixed crashes after entering an invalid logs listening port</bugfix>
+        <bugfix>Fixed SA-MP servers info loading if the server address is specified as a URL</bugfix>
+        <bugfix>Fixed players list loading on Insurgency: Sandstorm servers</bugfix>
+        <bugfix>Fixed calculation of bots count on Insurgency: Sandstorm servers</bugfix>
+        <bugfix>Fixed the appearance of progress bars on Android 4.4</bugfix>
+        <bugfix>Fixed virtual keyboard overlapping on console input field on Android 4.4</bugfix>
+        <bugfix>Fixed double toolbar on Android 4.4-5.1</bugfix>
+        <info>Many minor improvements and fixes</info>
+    </release>
     <release versionCode="26" versionName="0.9.4" date="09.01.2022">
         <bugfix>Fixed players list loading on some GoldSource servers</bugfix>
         <bugfix>Fixed unavailability of some GoldSource servers if they have Reunion</bugfix>

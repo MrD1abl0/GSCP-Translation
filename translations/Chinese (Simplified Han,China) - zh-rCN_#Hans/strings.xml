@@ -41,6 +41,23 @@
     <string name="host_indicator_extra_info">Extra server info</string>
     <string name="host_indicator_server_actions">Server start/restart/stop</string>
 
+    <string name="parsed_error_conn">连接失败</string>
+    <string name="parsed_error_auth">授权错误</string>
+    <string name="parsed_error_ban">被服务器封禁</string>
+    <string name="parsed_error_gamenotfound">找不到服务器内容</string>
+    <string name="parsed_error_cmd">Unknown command</string>
+    <string name="parsed_error_token">无效密钥</string>
+    <string name="parsed_error_url">Invalid URL</string>
+    <string name="parsed_error_invalid_response_api">Invalid API response</string>
+    <string name="parsed_error_invalid_response_server">Invalid server response</string>
+    <string name="parsed_error_empty_response">Empty response</string>
+    <string name="parsed_error_wronggameorban">错误游戏类型\n 或被服务器封禁</string>
+    <string name="parsed_error_invalidport">无效端口</string>
+    <string name="parsed_error_hosting">API error</string>
+    <string name="parsed_error_unknownpacket">未知数据包</string>
+    <string name="parsed_error_unknown">未知错误</string>
+    <string name="parsed_error_reasonmsg">原因: %1$s</string>
+
 
     <!--Servers List-->
     <string name="srvlist_title">服务器列表</string>
@@ -103,21 +120,6 @@
     <string name="srvedit_btn_host_title">校验API密钥</string>
     <string name="srvedit_btn_progress">读取中</string>
     <string name="srvedit_btn_ok">成功</string>
-    <string name="srvedit_btn_error_conn">连接失败</string>
-    <string name="srvedit_btn_error_auth">授权错误</string>
-    <string name="srvedit_btn_error_ban">被服务器封禁</string>
-    <string name="srvedit_btn_error_gamenotfound">找不到服务器内容</string>
-    <string name="srvedit_btn_error_token">无效密钥</string>
-    <string name="srvedit_btn_error_url">Invalid URL</string>
-    <string name="srvedit_btn_error_invalid_response_api">Invalid API response</string>
-    <string name="srvedit_btn_error_invalid_response_server">Invalid server response</string>
-    <string name="srvedit_btn_error_empty_response">Empty response</string>
-    <string name="srvedit_btn_error_wronggameorban">错误游戏类型\n 或被服务器封禁</string>
-    <string name="srvedit_btn_error_invalidport">无效端口</string>
-    <string name="srvedit_btn_error_hosting">API error</string>
-    <string name="srvedit_btn_error_unknownpacket">未知数据包</string>
-    <string name="srvedit_btn_error_unknown">未知错误</string>
-    <string name="srvedit_btn_error_reasonmsg">原因: %1$s</string>
 
 
     <!--QR Code Scanner-->
@@ -166,8 +168,6 @@
     <string name="srvctrl_console_edit">命令</string>
     <string name="srvctrl_console_action_send">发送</string>
     <string name="srvctrl_console_sended">命令已发送</string>
-    <string name="srvctrl_console_autherror">授权错误</string>
-    <string name="srvctrl_console_unknowncmd">Unknown command \"%1$s\"</string>
 
     <string name="srvctrl_info_query_title">服务器信息</string>
     <string name="srvctrl_info_query_copy">数值已复制到粘贴板</string>

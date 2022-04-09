@@ -41,6 +41,23 @@
     <string name="host_indicator_extra_info">Extra server info</string>
     <string name="host_indicator_server_actions">Server start/restart/stop</string>
 
+    <string name="parsed_error_conn">Dështoi të lidhet</string>
+    <string name="parsed_error_auth">Gabim i Autorizimit</string>
+    <string name="parsed_error_ban">Dënoj prej serverit</string>
+    <string name="parsed_error_gamenotfound">Përmbajtja serverit nuk u gjetë</string>
+    <string name="parsed_error_cmd">Unknown command</string>
+    <string name="parsed_error_token">Qelës i pavlefshëm</string>
+    <string name="parsed_error_url">Invalid URL</string>
+    <string name="parsed_error_invalid_response_api">Invalid API response</string>
+    <string name="parsed_error_invalid_response_server">Invalid server response</string>
+    <string name="parsed_error_empty_response">Empty response</string>
+    <string name="parsed_error_wronggameorban">Emëri Gabim/Dënoj prej serverit</string>
+    <string name="parsed_error_invalidport">Port i pavlefshëm</string>
+    <string name="parsed_error_hosting">API error</string>
+    <string name="parsed_error_unknownpacket">Paket e Panjohur</string>
+    <string name="parsed_error_unknown">Gabim i Panjohur</string>
+    <string name="parsed_error_reasonmsg">Arsyeja: %1$s</string>
+
 
     <!--Servers List-->
     <string name="srvlist_title">Lista Serverave</string>
@@ -103,21 +120,6 @@
     <string name="srvedit_btn_host_title">Kontrollo API Key</string>
     <string name="srvedit_btn_progress">Ngarku…</string>
     <string name="srvedit_btn_ok">Sukses</string>
-    <string name="srvedit_btn_error_conn">Dështoi të lidhet</string>
-    <string name="srvedit_btn_error_auth">Gabim i Autorizimit</string>
-    <string name="srvedit_btn_error_ban">Dënoj prej serverit</string>
-    <string name="srvedit_btn_error_gamenotfound">Përmbajtja serverit nuk u gjetë</string>
-    <string name="srvedit_btn_error_token">Qelës i pavlefshëm</string>
-    <string name="srvedit_btn_error_url">Invalid URL</string>
-    <string name="srvedit_btn_error_invalid_response_api">Invalid API response</string>
-    <string name="srvedit_btn_error_invalid_response_server">Invalid server response</string>
-    <string name="srvedit_btn_error_empty_response">Empty response</string>
-    <string name="srvedit_btn_error_wronggameorban">Emëri Gabim/Dënoj prej serverit</string>
-    <string name="srvedit_btn_error_invalidport">Port i pavlefshëm</string>
-    <string name="srvedit_btn_error_hosting">API error</string>
-    <string name="srvedit_btn_error_unknownpacket">Paket e Panjohur</string>
-    <string name="srvedit_btn_error_unknown">Gabim i Panjohur</string>
-    <string name="srvedit_btn_error_reasonmsg">Arsyeja: %1$s</string>
 
 
     <!--QR Code Scanner-->
@@ -166,8 +168,6 @@
     <string name="srvctrl_console_edit">Komanda</string>
     <string name="srvctrl_console_action_send">Dërgo</string>
     <string name="srvctrl_console_sended">Command sended</string>
-    <string name="srvctrl_console_autherror">Gabimi Autorizimit</string>
-    <string name="srvctrl_console_unknowncmd">Unknown command \"%1$s\"</string>
 
     <string name="srvctrl_info_query_title">Vëzhgimi</string>
     <string name="srvctrl_info_query_copy">Vlera u kopjua për kujtesë</string>

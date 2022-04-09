@@ -41,6 +41,23 @@
     <string name="host_indicator_extra_info">Extra server info</string>
     <string name="host_indicator_server_actions">Server start/restart/stop</string>
 
+    <string name="parsed_error_conn">Грешка при свързавне</string>
+    <string name="parsed_error_auth">Грешка при аутеникация</string>
+    <string name="parsed_error_ban">Баннати играчи от сървъра</string>
+    <string name="parsed_error_gamenotfound">Съдържанието на сървъра не е намерено</string>
+    <string name="parsed_error_cmd">Unknown command</string>
+    <string name="parsed_error_token">Грешен ключ</string>
+    <string name="parsed_error_url">Invalid URL</string>
+    <string name="parsed_error_invalid_response_api">Invalid API response</string>
+    <string name="parsed_error_invalid_response_server">Invalid server response</string>
+    <string name="parsed_error_empty_response">Empty response</string>
+    <string name="parsed_error_wronggameorban">Грешна игра</string>
+    <string name="parsed_error_invalidport">Грешен порт</string>
+    <string name="parsed_error_hosting">API error</string>
+    <string name="parsed_error_unknownpacket">Неизвестен пакет</string>
+    <string name="parsed_error_unknown">Неизвестна грешка</string>
+    <string name="parsed_error_reasonmsg">Причина: %1$s</string>
+
 
     <!--Servers List-->
     <string name="srvlist_title">Списък с сървъри</string>
@@ -103,21 +120,6 @@
     <string name="srvedit_btn_host_title">Провери API ключа</string>
     <string name="srvedit_btn_progress">Зареждане</string>
     <string name="srvedit_btn_ok">Успешно</string>
-    <string name="srvedit_btn_error_conn">Грешка при свързавне</string>
-    <string name="srvedit_btn_error_auth">Грешка при аутеникация</string>
-    <string name="srvedit_btn_error_ban">Баннати играчи от сървъра</string>
-    <string name="srvedit_btn_error_gamenotfound">Съдържанието на сървъра не е намерено</string>
-    <string name="srvedit_btn_error_token">Грешен ключ</string>
-    <string name="srvedit_btn_error_url">Invalid URL</string>
-    <string name="srvedit_btn_error_invalid_response_api">Invalid API response</string>
-    <string name="srvedit_btn_error_invalid_response_server">Invalid server response</string>
-    <string name="srvedit_btn_error_empty_response">Empty response</string>
-    <string name="srvedit_btn_error_wronggameorban">Грешна игра</string>
-    <string name="srvedit_btn_error_invalidport">Грешен порт</string>
-    <string name="srvedit_btn_error_hosting">API error</string>
-    <string name="srvedit_btn_error_unknownpacket">Неизвестен пакет</string>
-    <string name="srvedit_btn_error_unknown">Неизвестна грешка</string>
-    <string name="srvedit_btn_error_reasonmsg">Причина: %1$s</string>
 
 
     <!--QR Code Scanner-->
@@ -166,8 +168,6 @@
     <string name="srvctrl_console_edit">Конзола</string>
     <string name="srvctrl_console_action_send">Изпрати</string>
     <string name="srvctrl_console_sended">Командата е изпратена</string>
-    <string name="srvctrl_console_autherror">Грешка при аутеникация</string>
-    <string name="srvctrl_console_unknowncmd">Unknown command \"%1$s\"</string>
 
     <string name="srvctrl_info_query_title">Мониторинг</string>
     <string name="srvctrl_info_query_copy">Стойноста е копирана в клипборда</string>

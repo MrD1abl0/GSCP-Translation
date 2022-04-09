@@ -132,6 +132,23 @@
     <string name="host_indicator_performance" tools:ignore="MissingTranslation">@string/game_indicator_performance</string>
     <string name="host_indicator_map_change" tools:ignore="MissingTranslation">@string/game_indicator_map_change</string>
 
+    <string name="parsed_error_conn">Failed to connect</string>
+    <string name="parsed_error_auth">Authorization Error</string>
+    <string name="parsed_error_ban">Banned by server</string>
+    <string name="parsed_error_gamenotfound">Server content not found</string>
+    <string name="parsed_error_cmd">Unknown command</string>
+    <string name="parsed_error_token">Invalid key</string>
+    <string name="parsed_error_url">Invalid URL</string>
+    <string name="parsed_error_invalid_response_api">Invalid API response</string>
+    <string name="parsed_error_invalid_response_server">Invalid server response</string>
+    <string name="parsed_error_empty_response">Empty response</string>
+    <string name="parsed_error_wronggameorban">Wrong game or\n Banned by server</string>
+    <string name="parsed_error_invalidport">Invalid port</string>
+    <string name="parsed_error_hosting">API error</string>
+    <string name="parsed_error_unknownpacket">Unknown packet</string>
+    <string name="parsed_error_unknown">Unknown error</string>
+    <string name="parsed_error_reasonmsg">Reason: %1$s</string>
+
 
     <!--Servers List-->
     <string name="srvlist_title">Servers list</string>
@@ -207,21 +224,6 @@
     <string name="srvedit_btn_host_title">Check API Key</string>
     <string name="srvedit_btn_progress">Loading</string>
     <string name="srvedit_btn_ok">Success</string>
-    <string name="srvedit_btn_error_conn">Failed to connect</string>
-    <string name="srvedit_btn_error_auth">Authorization Error</string>
-    <string name="srvedit_btn_error_ban">Banned by server</string>
-    <string name="srvedit_btn_error_gamenotfound">Server content not found</string>
-    <string name="srvedit_btn_error_token">Invalid key</string>
-    <string name="srvedit_btn_error_url">Invalid URL</string>
-    <string name="srvedit_btn_error_invalid_response_api">Invalid API response</string>
-    <string name="srvedit_btn_error_invalid_response_server">Invalid server response</string>
-    <string name="srvedit_btn_error_empty_response">Empty response</string>
-    <string name="srvedit_btn_error_wronggameorban">Wrong game or\n Banned by server</string>
-    <string name="srvedit_btn_error_invalidport">Invalid port</string>
-    <string name="srvedit_btn_error_hosting">API error</string>
-    <string name="srvedit_btn_error_unknownpacket">Unknown packet</string>
-    <string name="srvedit_btn_error_unknown">Unknown error</string>
-    <string name="srvedit_btn_error_reasonmsg">Reason: %1$s</string>
 
 
     <!--QR Code Scanner-->
@@ -274,8 +276,6 @@
     <string name="srvctrl_console_action_send">Send</string>
     <string name="srvctrl_console_action_props" tools:ignore="MissingTranslation">@string/dialog_console_props_title</string>
     <string name="srvctrl_console_sended">Command sended</string>
-    <string name="srvctrl_console_autherror">Authorization error</string>
-    <string name="srvctrl_console_unknowncmd">Unknown command \"%1$s\"</string>
 
     <string name="srvctrl_info_query_title">Monitoring</string>
     <string name="srvctrl_info_query_copy">Value copied to clipboard</string>

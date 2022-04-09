@@ -48,8 +48,8 @@
         <item quantity="many">%d дней</item>
     </plurals>
 
-    <string name="appbundle_warning_multiple">Вы неправильно установили App Bundle.\nПожалуйста, установите это приложение из %1$s или %2$s</string>
-    <string name="appbundle_warning_single">Вы неправильно установили App Bundle.\nПожалуйста, установите это приложение из %1$s</string>
+    <string name="appbundle_error_multiple">Вы неправильно установили App Bundle.\nПожалуйста, установите это приложение из %1$s или %2$s</string>
+    <string name="appbundle_error_single">Вы неправильно установили App Bundle.\nПожалуйста, установите это приложение из %1$s</string>
 
     <string name="changelog_dialog_title">Изменения</string>
     <string name="changelog_dialog_title_latest">Последние изменения</string>

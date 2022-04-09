@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="27" versionName="0.9.5" date="09.04.2022">
+        <bugfix>Исправлены подвисания при открытии консоли</bugfix>
+        <bugfix>Исправлены падения после ввода некорректного порта чтения логов</bugfix>
+        <bugfix>Исправлена загрузка информации о серверах SA-MP если адрес сервера указан как URL</bugfix>
+        <bugfix>Исправлена загрузка списка игроков на серверах Insurgency: Sandstorm</bugfix>
+        <bugfix>Исправлен подсчёт кол-ва ботов на серверах Insurgency: Sandstorm</bugfix>
+        <bugfix>Исправлен внешний вид прогресс баров на Android 4.4</bugfix>
+        <bugfix>Исправлено накладывание виртуальной клавиатуры на поле ввода консоли на Android 4.4</bugfix>
+        <bugfix>Исправлено дублирование тулбара на Android 4.4-5.1</bugfix>
+        <info>Множество мелких улучшений и исправлений</info>
+    </release>
     <release versionCode="26" versionName="0.9.4" date="09.01.2022">
         <bugfix>Исправлена загрузка списка игроков на некоторых GoldSource серверах</bugfix>
         <bugfix>Исправлена недоступность некоторых GoldSource серверов если они используют Reunion</bugfix>

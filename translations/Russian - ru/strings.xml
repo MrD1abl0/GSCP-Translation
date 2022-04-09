@@ -41,6 +41,23 @@
     <string name="host_indicator_extra_info">Дополнительная информация о сервере</string>
     <string name="host_indicator_server_actions">Запуск/перезапуск/остановка сервера</string>
 
+    <string name="parsed_error_conn">Не удалось подключиться</string>
+    <string name="parsed_error_auth">Ошибка авторизации</string>
+    <string name="parsed_error_ban">Забанен сервером</string>
+    <string name="parsed_error_gamenotfound">Контент сервера не найден</string>
+    <string name="parsed_error_cmd">Неизвестная команда</string>
+    <string name="parsed_error_token">Неверный ключ</string>
+    <string name="parsed_error_url">Неверный URL</string>
+    <string name="parsed_error_invalid_response_api">Некорректный ответ\nот API</string>
+    <string name="parsed_error_invalid_response_server">Некорректный ответ\nот сервера</string>
+    <string name="parsed_error_empty_response">Пустой ответ</string>
+    <string name="parsed_error_wronggameorban">Неправильная игра или\nЗабанен сервером</string>
+    <string name="parsed_error_invalidport">Некорректный порт</string>
+    <string name="parsed_error_hosting">Ошибка API</string>
+    <string name="parsed_error_unknownpacket">Неизвестный пакет</string>
+    <string name="parsed_error_unknown">Неизвестная ошибка</string>
+    <string name="parsed_error_reasonmsg">Причина: %1$s</string>
+
 
     <!--Servers List-->
     <string name="srvlist_title">Список серверов</string>
@@ -103,21 +120,6 @@
     <string name="srvedit_btn_host_title">Проверить ключ API</string>
     <string name="srvedit_btn_progress">Загрузка</string>
     <string name="srvedit_btn_ok">Успех</string>
-    <string name="srvedit_btn_error_conn">Не удалось подключиться</string>
-    <string name="srvedit_btn_error_auth">Ошибка авторизации</string>
-    <string name="srvedit_btn_error_ban">Забанен сервером</string>
-    <string name="srvedit_btn_error_gamenotfound">Контент сервера не найден</string>
-    <string name="srvedit_btn_error_token">Неверный ключ</string>
-    <string name="srvedit_btn_error_url">Неверный URL</string>
-    <string name="srvedit_btn_error_invalid_response_api">Некорректный ответ\nот API</string>
-    <string name="srvedit_btn_error_invalid_response_server">Некорректный ответ\nот сервера</string>
-    <string name="srvedit_btn_error_empty_response">Пустой ответ</string>
-    <string name="srvedit_btn_error_wronggameorban">Неправильная игра или\nЗабанен сервером</string>
-    <string name="srvedit_btn_error_invalidport">Некорректный порт</string>
-    <string name="srvedit_btn_error_hosting">Ошибка API</string>
-    <string name="srvedit_btn_error_unknownpacket">Неизвестный пакет</string>
-    <string name="srvedit_btn_error_unknown">Неизвестная ошибка</string>
-    <string name="srvedit_btn_error_reasonmsg">Причина: %1$s</string>
 
 
     <!--QR Code Scanner-->
@@ -166,8 +168,6 @@
     <string name="srvctrl_console_edit">Команда</string>
     <string name="srvctrl_console_action_send">Отправить</string>
     <string name="srvctrl_console_sended">Команда отправлена</string>
-    <string name="srvctrl_console_autherror">Ошибка авторизации</string>
-    <string name="srvctrl_console_unknowncmd">Неизвестная команда \"%1$s\"</string>
 
     <string name="srvctrl_info_query_title">Мониторинг</string>
     <string name="srvctrl_info_query_copy">Значение скопировано в буфер обмена</string>
