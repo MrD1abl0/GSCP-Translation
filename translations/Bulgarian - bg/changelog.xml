@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="28" versionName="0.9.6" date="07.08.2022">
+        <bugfix>Fixed sending an invalid ban reason on Insurgency: Sandstorm servers</bugfix>
+        <bugfix>Fixed players list loading on Insurgency: Sandstorm servers if the server has EGS players</bugfix>
+        <info>Reduced installed app size</info>
+        <info>Many minor improvements and fixes</info>
+    </release>
     <release versionCode="27" versionName="0.9.5" date="09.04.2022">
         <bugfix>Fixed freezes while opening the console</bugfix>
         <bugfix>Fixed crashes after entering an invalid logs listening port</bugfix>
