@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="29" versionName="0.9.7" date="28.08.2022">
+        <bugfix>Исправлены падения на Android 4.4 при запуске приложения</bugfix>
+        <info>Мелкие улучшения и исправления</info>
+    </release>
     <release versionCode="28" versionName="0.9.6" date="07.08.2022">
         <bugfix>Исправлена отправка некорректной причины бана на сервера Insurgency: Sandstorm</bugfix>
         <bugfix>Исправлена загрузка списка игроков на серверах Insurgency: Sandstorm если на сервере есть EGS игроки</bugfix>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="29" versionName="0.9.7" date="28.08.2022">
+        <bugfix>Fixed crashes on Android 4.4 after app launch</bugfix>
+        <info>Minor improvements and fixes</info>
+    </release>
     <release versionCode="28" versionName="0.9.6" date="07.08.2022">
         <bugfix>Fixed sending an invalid ban reason on Insurgency: Sandstorm servers</bugfix>
         <bugfix>Fixed players list loading on Insurgency: Sandstorm servers if the server has EGS players</bugfix>
