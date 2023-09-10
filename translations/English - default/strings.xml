@@ -15,7 +15,7 @@
     <string name="status_unknown">Unknown</string>
     <string name="status_online">Online</string>
     <string name="status_offline">Offline</string>
-    <string name="status_restarting">Restarting</string>
+    <string name="status_restarting">Loading/Restarting</string>
     <string name="status_refreshing">Refreshing…</string>
     <string name="status_error">Error</string>
 
@@ -72,6 +72,8 @@
     <string name="game_indicator_players_info">Extended players info</string>
     <string name="game_indicator_players_actions">Ban/Kick/Mute</string>
     <string name="game_indicator_log_listen">Log listening</string>
+    <string name="game_indicator_chat">Chat</string>
+    <string name="game_indicator_addons_manager">Addons manager</string>
 
     <string name="os_win" translatable="false">Windows</string>
     <string name="os_linux" translatable="false">Linux</string>
@@ -100,8 +102,8 @@
     <string name="ban_type_engine" tools:ignore="MissingTranslation">@string/any_type_engine</string>
     <string name="ban_type_sm" translatable="false">Sourcemod</string>
     <string name="ban_type_amx" translatable="false">Amxmod</string>
-    <string name="ban_type_amxb" translatable="false">AmxBans 6.x/AmxBans Gm # 1.5</string>
-    <string name="ban_type_amxbgm" translatable="false">AmxBans 5.x/AmxBans Gm # 1.6</string>
+    <string name="ban_type_amxb" translatable="false">AmxBans 6.x/AmxBans # Gm 1.5</string>
+    <string name="ban_type_amxbgm" translatable="false">AmxBans 5.x/AmxBans # Gm 1.6</string>
     <string name="ban_type_fresh" translatable="false">FreshBans</string>
     <string name="ban_type_ulx" translatable="false">Ulysses mod</string>
 
@@ -120,11 +122,16 @@
     <string name="mute_type_sm" translatable="false">Sourcemod</string>
     <string name="mute_type_sc" translatable="false">Sourcecomms/Sourcebans++</string>
     <string name="mute_type_ulx" translatable="false">Ulysses mod</string>
+    <string name="mute_type_amx" translatable="false">AMXX Gag</string>
+    <string name="mute_type_gagme" translatable="false">Gag Me</string>
+    <string name="mute_type_ca" translatable="false">Chat Additions</string>
 
     <string name="host_myarena" translatable="false">Myarena.ru</string>
     <string name="host_cshost" translatable="false">CSHost.com.ua</string>
     <string name="host_cwserv" translatable="false">CW-SERV.RU</string>
     <string name="host_ogp" translatable="false">Open Game Panel</string>
+    <string name="host_puffer" translatable="false">PufferPanel</string>
+    <string name="host_vulpecula" translatable="false">Vulpecula.HOST</string>
 
     <string name="host_indicator_extra_info">Extra server info</string>
     <string name="host_indicator_console" tools:ignore="MissingTranslation">@string/game_indicator_console</string>
@@ -148,6 +155,164 @@
     <string name="parsed_error_unknownpacket">Unknown packet</string>
     <string name="parsed_error_unknown">Unknown error</string>
     <string name="parsed_error_reasonmsg">Reason: %1$s</string>
+
+    <string name="listener_log_info_checking_network">Network Checking</string>
+    <string name="listener_log_info_finding_ip">Getting a public device IP</string>
+    <string name="listener_log_info_opening_port">Port opening</string>
+    <string name="listener_log_info_enabling_sending">Enabling sending logs from the server</string>
+    <string name="listener_log_info_disabling_sending">Disabling sending logs from the server</string>
+    <string name="listener_log_info_listening">Listening…</string>
+    <string name="listener_log_info_chat_message">Sent message: %s</string>
+    <string name="listener_log_warm_invalid_packet">Received an invalid packet %s</string>
+    <string name="listener_log_warn_opening_port">Turn on UPnP on the router or open the port manually</string>
+    <string name="listener_log_error_disabling_sending">Failed to disable sending logs from server</string>
+    <string name="listener_log_error_start_service">Failed to start log listening service</string>
+    <string name="listener_log_error_status">To listen logs the server must be online</string>
+    <string name="listener_log_error_wifi">To listen logs you need to connect to WI-FI</string>
+    <string name="listener_log_error_network">No network connection</string>
+    <string name="listener_log_error_public_ip">Failed to get public IP address</string>
+    <string name="listener_log_error_opening_port">Failed to open port%s</string>
+    <string name="listener_log_error_port">Network port used by another app</string>
+    <string name="listener_log_error_listening_add">Failed to add device IP to listen</string>
+    <string name="listener_log_error_while_listening">An error occurred while logs listening</string>
+    <string name="listener_log_error_unknown" tools:ignore="MissingTranslation">@string/parsed_error_unknown</string>
+
+    <string name="chat_message_command_tag_engine" translatable="false">say</string>
+    <string name="chat_message_command_name_engine">Engine chat</string>
+    <string name="chat_message_command_tag_source_sm_chat" translatable="false">sm_say</string>
+    <string name="chat_message_command_name_source_sm_chat">SourceMod chat</string>
+    <string name="chat_message_command_tag_source_sm_msg" translatable="false">sm_tsay</string>
+    <string name="chat_message_command_name_source_sm_msg">SourceMod top-left</string>
+    <string name="chat_message_command_tag_source_sm_hint" translatable="false">sm_hsay</string>
+    <string name="chat_message_command_name_source_sm_hint">SourceMod hint</string>
+    <string name="chat_message_command_tag_source_sm_center" translatable="false">sm_csay</string>
+    <string name="chat_message_command_name_source_sm_center">SourceMod centered</string>
+    <string name="chat_message_command_tag_source_sm_menu" translatable="false">sm_msay</string>
+    <string name="chat_message_command_name_source_sm_menu">SourceMod menu</string>
+    <string name="chat_message_command_tag_source_ulx_chat" translatable="false">ulx csay</string>
+    <string name="chat_message_command_name_source_ulx_chat">ULX chat</string>
+    <string name="chat_message_command_tag_source_ulx_center" translatable="false">ulx tsay</string>
+    <string name="chat_message_command_name_source_ulx_center">ULX centered</string>
+    <string name="chat_message_command_tag_source_ulx_admins" translatable="false">ulx asay</string>
+    <string name="chat_message_command_name_source_ulx_admins">To ULX admins</string>
+    <string name="chat_message_command_tag_goldsrc_amx_chat" translatable="false">amx_say</string>
+    <string name="chat_message_command_name_goldsrc_amx_chat">AMX chat</string>
+    <string name="chat_message_command_tag_goldsrc_amx_center" translatable="false">amx_csay</string>
+    <string name="chat_message_command_name_goldsrc_amx_center">AMX centered</string>
+    <string name="chat_message_command_tag_goldsrc_amx_msg" translatable="false">amx_tsay</string>
+    <string name="chat_message_command_name_goldsrc_amx_msg">AMX left side</string>
+    <string name="chat_message_command_tag_goldsrc_amx_admins" translatable="false">amx_chat</string>
+    <string name="chat_message_command_name_goldsrc_amx_admins">To AMX admins</string>
+
+    <string name="chat_message_team_console">Console</string>
+    <string name="chat_message_team_spectators">Spectators</string>
+    <string name="chat_message_team_black_mesa">Black Mesa</string>
+    <string name="chat_message_team_opposing_force">Opposing Force</string>
+    <string name="chat_message_team_scientists">Scientists</string>
+    <string name="chat_message_team_hecu">HECU</string>
+    <string name="chat_message_team_combine">Combine</string>
+    <string name="chat_message_team_rebels">Rebels</string>
+    <string name="chat_message_team_terrorists">Terrorists</string>
+    <string name="chat_message_team_counter_terrorists">Counter-Terrorists</string>
+    <string name="chat_message_team_blue">Blue</string>
+    <string name="chat_message_team_red">Red</string>
+    <string name="chat_message_team_allies">Allies</string>
+    <string name="chat_message_team_axis">Axis</string>
+    <string name="chat_message_team_german_army">German army</string>
+    <string name="chat_message_team_americans">Americans</string>
+    <string name="chat_message_team_commonwealth">Commonwealth</string>
+    <string name="chat_message_team_security">Security</string>
+    <string name="chat_message_team_insurgents">Insurgents</string>
+    <string name="chat_message_team_survivors">Survivors</string>
+    <string name="chat_message_team_infected">Infected</string>
+    <string name="chat_message_team_zombies">Zombies</string>
+    <string name="chat_message_team_cure">Cure</string>
+    <string name="chat_message_team_sas">SAS</string>
+
+    <string name="addons_title_text_vsp" translatable="false">Valve Server Plugins</string>
+    <string name="addons_title_logo_vsp" translatable="false">@string/addons_title_text_vsp</string>
+    <string name="addons_title_text_mms" translatable="false">Metamod:Source</string>
+    <string name="addons_title_logo_mms" translatable="false">METAMOD SOURCE</string>
+    <string name="addons_title_text_sm" translatable="false">SourceMod</string>
+    <string name="addons_title_logo_sm" translatable="false">SOURCEMOD</string>
+    <string name="addons_title_text_sp" translatable="false">Source.Python</string>
+    <string name="addons_title_logo_sp" translatable="false">@string/addons_title_text_sp</string>
+    <string name="addons_title_text_mm" translatable="false">Metamod</string>
+    <string name="addons_title_logo_mm" translatable="false">METAMOD</string>
+    <string name="addons_title_text_amx" translatable="false">AMX Mod X</string>
+    <string name="addons_title_logo_amx" translatable="false">λMX Mod X</string>
+    <string name="addons_action_dialog_hint_vsp" tools:ignore="MissingTranslation">@string/addons_fields_base_file_name</string>
+    <string name="addons_action_dialog_hint_mms" tools:ignore="MissingTranslation">@string/addons_fields_base_file_name</string>
+    <string name="addons_action_dialog_hint_sm" tools:ignore="MissingTranslation">@string/addons_fields_base_file_name</string>
+    <string name="addons_action_dialog_hint_sp" tools:ignore="MissingTranslation">@string/addons_fields_sp_folder_name</string>
+    <string name="addons_action_dialog_hint_mm" tools:ignore="MissingTranslation">@string/addons_fields_base_file_path</string>
+    <string name="addons_addon_action_load_extension">Load extension</string>
+    <string name="addons_addon_action_load_plugin">Load plugin</string>
+    <string name="addons_addon_action_unload_all_plugins">Unload all plugins</string>
+    <string name="addons_addon_action_pause_all_plugins">Pause all plugins</string>
+    <string name="addons_addon_action_unpause_all_plugins">Unpause all plugins</string>
+    <string name="addons_addon_action_refresh_all_plugins">Refresh all plugins</string>
+    <string name="addons_addon_action_reload_all_plugins">Reload all plugins</string>
+    <string name="addons_addon_action_upgrade">Update addon</string>
+    <string name="addons_subaddon_type_extension">Extensions</string>
+    <string name="addons_subaddon_type_module">Modules</string>
+    <string name="addons_subaddon_type_plugin">Plugins</string>
+    <string name="addons_subaddon_action_pause">Pause</string>
+    <string name="addons_subaddon_action_unpause">Unpause</string>
+    <string name="addons_subaddon_action_reload">Reload</string>
+    <string name="addons_subaddon_action_unload">Unload</string>
+    <string name="addons_subaddon_action_force_unload">Force unload</string>
+    <string name="addons_subaddon_action_clear">Clear</string>
+    <string name="addons_subaddon_state_running">Running</string>
+    <string name="addons_subaddon_state_debug">Debug</string>
+    <string name="addons_subaddon_state_paused">Paused</string>
+    <string name="addons_subaddon_state_stopped">Stopped</string>
+    <string name="addons_subaddon_state_error">Load error</string>
+    <string name="addons_subaddon_state_unknown">Unknown</string>
+    <string name="addons_fields_base_name">Name</string>
+    <string name="addons_fields_base_description">Description</string>
+    <string name="addons_fields_base_status">Status</string>
+    <string name="addons_fields_base_status_reason">Status reason</string>
+    <string name="addons_fields_base_author">Author</string>
+    <string name="addons_fields_base_authors">Authors</string>
+    <string name="addons_fields_base_error_reason">Error reason</string>
+    <string name="addons_fields_base_addon_version">Addon version</string>
+    <string name="addons_fields_base_plugin_version">Plugin version</string>
+    <string name="addons_fields_base_api_version">API version</string>
+    <string name="addons_fields_base_build_id">Build ID</string>
+    <string name="addons_fields_base_build_from">Built from</string>
+    <string name="addons_fields_base_build_date">Build date</string>
+    <string name="addons_fields_base_file_name">File name</string>
+    <string name="addons_fields_base_file_path">File path</string>
+    <string name="addons_fields_base_url">URL</string>
+    <string name="addons_fields_mms_interface_version">Plugin interface version</string>
+    <string name="addons_fields_mms_sourcehook_version">SourceHook version</string>
+    <string name="addons_fields_mms_loaded">Loaded As</string>
+    <string name="addons_fields_mms_license">License</string>
+    <string name="addons_fields_sm_spe_version">SourcePawn engine version</string>
+    <string name="addons_fields_sm_spa_version">SourcePawn API version</string>
+    <string name="addons_fields_sm_ext_version">Extension version</string>
+    <string name="addons_fields_sm_loaded">Loaded</string>
+    <string name="addons_fields_sm_load_method">Load method</string>
+    <string name="addons_fields_sm_hash">Hash</string>
+    <string name="addons_fields_sm_reason">Reason</string>
+    <string name="addons_fields_sp_commit">Github commit</string>
+    <string name="addons_fields_sp_checksum">Checksum</string>
+    <string name="addons_fields_sp_date">Date</string>
+    <string name="addons_fields_sp_game">Game</string>
+    <string name="addons_fields_sp_os" tools:ignore="MissingTranslation">@string/srvctrl_info_query_os</string>
+    <string name="addons_fields_sp_permissions">Permissions</string>
+    <string name="addons_fields_sp_public_convar">Public convar</string>
+    <string name="addons_fields_sp_folder_name">Folder name</string>
+    <string name="addons_fields_mm_index">Index</string>
+    <string name="addons_fields_mm_action">Action</string>
+    <string name="addons_fields_mm_source">Source</string>
+    <string name="addons_fields_mm_loadable">Loadable</string>
+    <string name="addons_fields_mm_unloadable">Unloadable</string>
+    <string name="addons_fields_mm_last_loaded">Last loaded</string>
+    <string name="addons_fields_mm_logging_tag">Logging tag</string>
+    <string name="addons_fields_amx_core_mode">Core mode</string>
+    <string name="addons_fields_amx_module_version">Module version</string>
 
 
     <!--Servers List-->
@@ -195,6 +360,12 @@
     <string name="srvedit_group_host">API key</string>
     <string name="srvedit_spn_host_type" translatable="false">API</string>
     <string name="srvedit_txt_host_url" translatable="false">URL</string>
+    <string name="srvedit_txt_host_oauth_id">OAuth2 client ID</string>
+    <string name="srvedit_txt_host_oauth_secret">OAuth2 client secret</string>
+    <string name="srvedit_txt_host_container_id">Server ID</string>
+    <string name="srvedit_txt_host_container_id_helper">Contained in the CP URL (if account has all perms, the field will be filled automatically after API check)</string>
+    <string name="srvedit_txt_host_container_name">Server name</string>
+    <string name="srvedit_txt_host_container_name_helper">Optional field if Server ID is filled</string>
     <string name="srvedit_txt_host_ip" translatable="false">@string/srvedit_txt_ip</string>
     <string name="srvedit_txt_host_port" translatable="false">@string/srvedit_txt_port</string>
     <string name="srvedit_txt_host_key">Key</string>
@@ -207,6 +378,7 @@
     <string name="srvedit_switch_hideplayers">Hide bots in the players list</string>
     <string name="srvedit_switch_checkversion">Alert if server is outdated</string>
     <string name="srvedit_switch_listenlogs">Log listening</string>
+    <string name="srvedit_switch_chat">Chat</string>
     <string name="srvedit_txt_fastcmds">RCON shortcuts</string>
     <string name="srvedit_txt_appid" translatable="false">AppID</string>
     <string name="srvedit_txt_appid_description">ID to check server version</string>
@@ -241,13 +413,15 @@
     <string name="srvctrl_menu_start">Start</string>
     <string name="srvctrl_menu_restart">Restart</string>
     <string name="srvctrl_menu_stop">Stop</string>
+    <string name="srvctrl_menu_stop_force">Force stop</string>
     <string name="srvctrl_menu_map">Change map</string>
     <string name="srvctrl_menu_fullrefresh">Full refresh</string>
     <string name="srvctrl_menu_edit" tools:ignore="MissingTranslation">@string/o_action_edit</string>
 
     <string name="srvctrl_error_request">Request failed</string>
-    <string name="srvctrl_error_conn">Failed to connect</string>
-    <string name="srvctrl_error_invaluddata">An error occurred while loading data</string>
+    <string name="srvctrl_error_response" tools:ignore="MissingTranslation">@string/parsed_error_invalid_response_api</string>
+    <string name="srvctrl_error_token" tools:ignore="MissingTranslation">@string/parsed_error_token</string>
+    <string name="srvctrl_error_invaliddata">An error occurred while loading data</string>
     <string name="srvctrl_error_invalidserver">Invalid attempt to open a server CP</string>
     <string name="srvctrl_error_unknownmap">Failed to change the map because the selected map was not found on the server</string>
     <string name="srvctrl_success_start">Server is starting</string>
@@ -277,6 +451,8 @@
     <string name="srvctrl_console_action_props" tools:ignore="MissingTranslation">@string/dialog_console_props_title</string>
     <string name="srvctrl_console_sended">Command sended</string>
 
+    <string name="srvctrl_addons_not_found">Addons not found</string>
+
     <string name="srvctrl_info_query_title">Monitoring</string>
     <string name="srvctrl_info_query_copy">Value copied to clipboard</string>
     <string name="srvctrl_info_query_copyerror">Unable to copy value to the clipboard</string>
@@ -301,9 +477,13 @@
     <string name="srvctrl_info_query_api">Hosting API</string>
     <string name="srvctrl_info_query_mm" translatable="false">Metamod</string>
     <string name="srvctrl_info_query_amx" translatable="false">Amxmod</string>
+    <string name="srvctrl_info_query_amxxgag" translatable="false">AMXX Gag</string>
+    <string name="srvctrl_info_query_gagme" translatable="false">Gag Me</string>
+    <string name="srvctrl_info_query_ca" translatable="false">Chat Additions</string>
     <string name="srvctrl_info_query_sm" translatable="false">Sourcemod</string>
     <string name="srvctrl_info_query_sc" translatable="false">Sourcecomms/SourceBans++</string>
     <string name="srvctrl_info_query_ulx" translatable="false">Ulxmod</string>
+    <string name="srvctrl_info_query_sp" translatable="false">Source.Python</string>
 
     <string name="srvctrl_info_perfs_title">Resources</string>
     <string name="srvctrl_info_perfs_cpu">CPU</string>
@@ -315,7 +495,8 @@
     <string name="srvctrl_info_perfs_fps" translatable="false">FPS</string>
     <string name="srvctrl_info_perfs_uptime">Uptime</string>
     <string name="srvctrl_info_perfs_connects">Connects</string>
-    <string name="srvctrl_info_perfs_data_size">%1$d/%2$d MB (%3$d%%)</string>
+    <string name="srvctrl_info_perfs_data_size_full">%1$d/%2$d MB (%3$d%%)</string>
+    <string name="srvctrl_info_perfs_data_size_mb">%d MB</string>
     <string name="srvctrl_info_perfs_error">Failed to load info about used resources.</string>
 
     <string name="srvctrl_info_cmds_title">Commands</string>
@@ -328,30 +509,29 @@
     <string name="srvctrl_info_vars_copy">Variable name copied to clipboard</string>
     <string name="srvctrl_info_vars_copyerror">Unable to copy variable name to the clipboard</string>
 
-    <string name="srvctrl_activity_log_title">Main Log</string>
-    <string name="srvctrl_activity_log_date">Date</string>
-    <string name="srvctrl_activity_log_time">Time</string>
-    <string name="srvctrl_activity_log_wrap">Linewrap</string>
-    <string name="srvctrl_activity_log_tag_error">ERROR</string>
-    <string name="srvctrl_activity_log_tag_msg">MESSAGE</string>
-    <string name="srvctrl_activity_log_msg_checknetwork">Network Checking</string>
-    <string name="srvctrl_activity_log_msg_findip">Getting a public device IP</string>
-    <string name="srvctrl_activity_log_msg_rconadd">Enabling sending logs from the server</string>
-    <string name="srvctrl_activity_log_msg_listening">Listening…</string>
-    <string name="srvctrl_activity_log_error_rconremove">Failed to disable sending logs from server</string>
-    <string name="srvctrl_activity_log_error_startservice">Failed to start log listening service</string>
-    <string name="srvctrl_activity_log_error_wifi">To listen logs you need to connect to WI-FI</string>
-    <string name="srvctrl_activity_log_error_offline">No network connection</string>
-    <string name="srvctrl_activity_log_error_publicip">Failed to get public IP address</string>
-    <string name="srvctrl_activity_log_error_port">Network port used by another app</string>
-    <string name="srvctrl_activity_log_error_rcon">Failed to add device IP to listen</string>
-    <string name="srvctrl_activity_log_error_unknown">Unknown error</string>
+    <string name="srvctrl_activities_log_title">Log</string>
+    <string name="srvctrl_activities_log_date">Date</string>
+    <string name="srvctrl_activities_log_time">Time</string>
+    <string name="srvctrl_activities_log_wrap">Linewrap</string>
+    <string name="srvctrl_activities_log_tag_debug">DEBUG</string>
+    <string name="srvctrl_activities_log_tag_info">INFO</string>
+    <string name="srvctrl_activities_log_tag_warning">WARN</string>
+    <string name="srvctrl_activities_log_tag_error">ERROR</string>
+    <string name="srvctrl_activities_chat_title">Chat</string>
+    <string name="srvctrl_activities_chat_message_change_name" formatted="false">Player %1$s changed name to %2$s</string>
+    <string name="srvctrl_activities_chat_message_connected_bot" formatted="false">Bot %s has joined the game</string>
+    <string name="srvctrl_activities_chat_message_connected_human" formatted="false">Player %s has joined the game</string>
+    <string name="srvctrl_activities_chat_message_disconnected_bot" formatted="false">Bot %1$s left the game%2$s</string>
+    <string name="srvctrl_activities_chat_message_disconnected_human" formatted="false">Player %1$s left the game%2$s</string>
+    <string name="srvctrl_activities_chat_field_hint">Message</string>
+    <string name="srvctrl_activities_chat_button_tooltip" tools:ignore="MissingTranslation">@string/srvctrl_console_action_send</string>
+    <string name="srvctrl_activities_chat_error_log">Log listening is not currently active</string>
+    <string name="srvctrl_activities_chat_error_message">Unable to send a message</string>
 
     <string name="srvctrl_navbar_players">Players</string>
     <string name="srvctrl_navbar_console">Console</string>
-    <!--<string name="srvctrl_navbar_activity">Activity</string>-->
-    <string name="srvctrl_navbar_activity">Log</string>
-    <string name="srvctrl_navbar_plugins">Plugins</string>
+    <string name="srvctrl_navbar_activity">Activities</string>
+    <string name="srvctrl_navbar_addons">Addons</string>
     <string name="srvctrl_navbar_info">Info</string>
 
 
@@ -392,7 +572,33 @@
     <string name="playerinfo_error_failedget">Failed to get %1$s</string><!--SteamID2/SteamID3/SteamID64-->
 
 
+    <!--Addon Info-->
+    <string name="addoninfo_title">Addon info</string>
+    <string name="addoninfo_sort" tools:ignore="MissingTranslation">@string/srvctrl_players_sort</string>
+    <string name="addoninfo_sort_ascending" tools:ignore="MissingTranslation">@string/srvctrl_players_sort_ascending</string>
+    <string name="addoninfo_sort_id">Identifier</string>
+    <string name="addoninfo_sort_status">Status</string>
+    <string name="addoninfo_sort_name">Name</string>
+    <string name="addoninfo_sort_author">Author</string>
+    <string name="addoninfo_sort_version">Version</string>
+    <string name="addoninfo_actions" tools:ignore="MissingTranslation">@string/playerinfo_actions</string>
+    <string name="addoninfo_request_sended" tools:ignore="MissingTranslation">@string/srvctrl_players_reqsended</string>
+    <string name="addoninfo_name_copy">Addon name copied to clipboard</string>
+    <string name="addoninfo_name_copyerror">Unable to copy addon name to the clipboard</string>
+    <string name="addoninfo_error_invalidaddon">Incorrect attempt to open addon info</string>
+    <string name="addoninfo_error_action">Action failed</string>
+    <string name="addoninfo_error_description">Unable to load addon description</string>
+    <string name="addoninfo_subaddons_error">Failed to get %1$s list</string><!--Extension/Modules/Plugins-->
+    <string name="addoninfo_subaddons_empty">%1$s not found</string><!--Extension/Modules/Plugins-->
+    <string name="addoninfo_subaddon_status">Status: %1$s</string>
+    <string name="addoninfo_subaddon_file">File: %1$s</string>
+    <string name="addoninfo_subaddon_author">Author: %1$s</string>
+    <string name="addoninfo_subaddon_version">Version: %1$s</string>
+
+
     <!--Dialogs-->
+    <string name="dialog_games_title">Select a game</string>
+    <string name="dialog_hosts_title">Select an API</string>
     <string name="dialog_fastcmd_title">Edit RCON shortcuts</string>
     <string name="dialog_accept_action_title">Confirm action</string>
     <string name="dialog_accept_exit_descr">Exit without saving?</string>
@@ -400,6 +606,10 @@
     <string name="dialog_accept_restart_descr">Are you sure you want to restart the server?</string>
     <string name="dialog_accept_stop_descr">Are you sure you want to stop the server?</string>
     <string name="dialog_accept_clear_descr">Are you sure you want to clear the database? All saved servers will be deleted.</string>
+    <string name="dialog_accept_action_descr">Are you sure you want to perform this action?</string>
+
+    <string name="dialog_input_title">Enter the value</string>
+    <string name="dialog_input_value">Value</string>
 
     <string name="dialog_console_props_title">Console properties</string>
     <string name="dialog_console_props_linewrap">Line wrap</string>
@@ -425,6 +635,24 @@
     <string name="dialog_variable_changed">Variable value changed%1$s</string>
     <string name="dialog_variable_notchanged">Could not change variable value</string>
     <string name="dialog_variable_notfound">Variable not found</string>
+
+    <string name="dialog_chat_message_type_title">Select message type</string>
+
+    <string name="dialog_subaddon_title_extension">Extension info</string>
+    <string name="dialog_subaddon_title_module">Module info</string>
+    <string name="dialog_subaddon_title_plugin">Plugin info</string>
+    <string name="dialog_subaddon_error_description">Unable to load description</string>
+    <string name="dialog_subaddon_tab_actions">Actions</string>
+    <string name="dialog_subaddon_tab_cmds" tools:ignore="MissingTranslation">@string/srvctrl_info_cmds_title</string>
+    <string name="dialog_subaddon_tab_vars" tools:ignore="MissingTranslation">@string/srvctrl_info_vars_title</string>
+    <string name="dialog_subaddon_cmds_error">Failed to get commands list</string>
+    <string name="dialog_subaddon_cmds_empty">Commands not found</string>
+    <string name="dialog_subaddon_cmds_copy" tools:ignore="MissingTranslation">@string/srvctrl_info_cmds_copy</string>
+    <string name="dialog_subaddon_cmds_copyerror" tools:ignore="MissingTranslation">@string/srvctrl_info_cmds_copyerror</string>
+    <string name="dialog_subaddon_vars_error">Failed to get variables list</string>
+    <string name="dialog_subaddon_vars_empty">Variables not found</string>
+    <string name="dialog_subaddon_vars_copy" tools:ignore="MissingTranslation">@string/srvctrl_info_vars_copy</string>
+    <string name="dialog_subaddon_vars_copyerror" tools:ignore="MissingTranslation">@string/srvctrl_info_vars_copyerror</string>
 
     <string name="dialog_color_picker_title">Choose a color</string>
 
@@ -511,8 +739,11 @@
 
 
     <!--Notifications-->
-    <string name="notify_title">Server is outdated</string>
-    <string name="notify_name">Server version checker</string>
+    <string name="notify_outdate_title">Server is outdated</string>
+    <string name="notify_outdate_name">Server version checker</string>
+    <string name="notify_log_listener_name">Chat/Log listener</string>
+    <string name="notify_log_listener_title" tools:ignore="MissingTranslation">@string/notify_log_listener_name</string>
+    <string name="notify_log_listener_description">To stop the log listener, close the server control screen</string>
 
 
     <!--Preferences-->
@@ -565,6 +796,8 @@
     <string name="pref_logsport_error_empty">The field must not be empty</string>
     <string name="pref_logsport_error_minmax">The field can have a value from 1024 to 65535</string>
     <string name="pref_logsport_error_alrused">Port already in use</string>
+    <string name="pref_logsupnp_title" translatable="false">UPnP</string>
+    <string name="pref_logsupnp_descr">Use UPnP to automatically open the port</string>
 
     <string name="pref_ui_title" translatable="false">UI</string>
     <string name="pref_ui_theme">Theme</string>
@@ -638,5 +871,4 @@
 
     <!--Other-->
     <string name="error_nonetwork">Сould not connect to the network</string>
-    <string name="error_mobile_services_notfound">%1$s are not found. Some app features may not work</string><!--Google Mobile Services/HUAWEI Mobile Services-->
 </resources>

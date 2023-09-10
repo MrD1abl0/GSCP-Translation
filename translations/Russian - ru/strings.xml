@@ -12,7 +12,7 @@
     <string name="status_unknown">Неизвестно</string>
     <string name="status_online">Онлайн</string>
     <string name="status_offline">Офлайн</string>
-    <string name="status_restarting">Перезапуск</string>
+    <string name="status_restarting">Загрузка/Перезапуск</string>
     <string name="status_refreshing">Обновление…</string>
     <string name="status_error">Ошибка</string>
 
@@ -27,6 +27,8 @@
     <string name="game_indicator_players_info">Расширенная информация об игроках</string>
     <string name="game_indicator_players_actions">Бан/Кик/Мут</string>
     <string name="game_indicator_log_listen">Чтение логов</string>
+    <string name="game_indicator_chat">Чат</string>
+    <string name="game_indicator_addons_manager">Управление аддонами</string>
 
     <string name="any_type_auto">Автовыбор</string>
     <string name="any_type_engine">Engine</string>
@@ -58,6 +60,131 @@
     <string name="parsed_error_unknown">Неизвестная ошибка</string>
     <string name="parsed_error_reasonmsg">Причина: %1$s</string>
 
+    <string name="listener_log_info_checking_network">Проверка подключения к сети</string>
+    <string name="listener_log_info_finding_ip">Получение публичного IP устройства</string>
+    <string name="listener_log_info_opening_port">Открытие порта</string>
+    <string name="listener_log_info_enabling_sending">Включение отправки логов с сервера</string>
+    <string name="listener_log_info_disabling_sending">Отключение отправки логов с сервера</string>
+    <string name="listener_log_info_listening">Чтение…</string>
+    <string name="listener_log_info_chat_message">Отправлено сообщение: %s</string>
+    <string name="listener_log_warm_invalid_packet">Получен некорректный пакет %s</string>
+    <string name="listener_log_warn_opening_port">Включите UPnP на маршрутизаторе или откройте порт вручную</string>
+    <string name="listener_log_error_disabling_sending">Не удалось остановить отправку логов на устройство</string>
+    <string name="listener_log_error_start_service">Не удалось запустить сервис чтения логов</string>
+    <string name="listener_log_error_status">Для чтения логов сервер должен быть онлайн</string>
+    <string name="listener_log_error_wifi">Для чтения логов необходимо подключение к WI-FI</string>
+    <string name="listener_log_error_network">Отсутствует подключение к сети</string>
+    <string name="listener_log_error_public_ip">Не удалось получить внешний IP адрес</string>
+    <string name="listener_log_error_opening_port">Не удалось открыть порт%s</string>
+    <string name="listener_log_error_port">Сетевой порт уже используется другим приложением</string>
+    <string name="listener_log_error_listening_add">Не удалось добавить IP адрес в список для отправки</string>
+    <string name="listener_log_error_while_listening">Во время чтения логов произошла ошибка</string>
+
+    <string name="chat_message_command_name_engine">Engine чат</string>
+    <string name="chat_message_command_name_source_sm_chat">SourceMod чат</string>
+    <string name="chat_message_command_name_source_sm_msg">SourceMod слева вверху</string>
+    <string name="chat_message_command_name_source_sm_hint">SourceMod хинт</string>
+    <string name="chat_message_command_name_source_sm_center">SourceMod по центру</string>
+    <string name="chat_message_command_name_source_sm_menu">SourceMod меню</string>
+    <string name="chat_message_command_name_source_ulx_chat">ULX чат</string>
+    <string name="chat_message_command_name_source_ulx_center">ULX по центру</string>
+    <string name="chat_message_command_name_source_ulx_admins">Для ULX админов</string>
+    <string name="chat_message_command_name_goldsrc_amx_chat">AMX чат</string>
+    <string name="chat_message_command_name_goldsrc_amx_center">AMX по центру</string>
+    <string name="chat_message_command_name_goldsrc_amx_msg">AMX слева</string>
+    <string name="chat_message_command_name_goldsrc_amx_admins">Для AMX админов</string>
+
+    <string name="chat_message_team_console">Консоль</string>
+    <string name="chat_message_team_spectators">Наблюдатель</string>
+    <string name="chat_message_team_black_mesa">Учёные</string>
+    <string name="chat_message_team_opposing_force">Морпехи</string>
+    <string name="chat_message_team_scientists">Учёные</string>
+    <string name="chat_message_team_hecu">Морпехи</string>
+    <string name="chat_message_team_combine">Альянс</string>
+    <string name="chat_message_team_rebels">Повстанцы</string>
+    <string name="chat_message_team_terrorists">Террористы</string>
+    <string name="chat_message_team_counter_terrorists">Спецназ</string>
+    <string name="chat_message_team_blue">Синие</string>
+    <string name="chat_message_team_red">Красные</string>
+    <string name="chat_message_team_allies">Армия США</string>
+    <string name="chat_message_team_axis">Вермахт</string>
+    <string name="chat_message_team_german_army">Вермахт</string>
+    <string name="chat_message_team_americans">Армия США</string>
+    <string name="chat_message_team_commonwealth">Содружество</string>
+    <string name="chat_message_team_security">Силовики</string>
+    <string name="chat_message_team_insurgents">Повстанцы</string>
+    <string name="chat_message_team_survivors">Выжившие</string>
+    <string name="chat_message_team_infected">Заражённые</string>
+    <string name="chat_message_team_zombies">Зомби</string>
+    <string name="chat_message_team_cure">Cure</string>
+    <string name="chat_message_team_sas">SAS</string>
+
+    <string name="addons_addon_action_load_extension">Загрузить расширение</string>
+    <string name="addons_addon_action_load_plugin">Загрузить плагин</string>
+    <string name="addons_addon_action_unload_all_plugins">Выгрузить все плагины</string>
+    <string name="addons_addon_action_pause_all_plugins">Приостановить все плагины</string>
+    <string name="addons_addon_action_unpause_all_plugins">Возобновить все плагины</string>
+    <string name="addons_addon_action_refresh_all_plugins">Обновить все плагины</string>
+    <string name="addons_addon_action_reload_all_plugins">Перезагрузить все плагины</string>
+    <string name="addons_addon_action_upgrade">Обновить аддон</string>
+    <string name="addons_subaddon_type_extension">Расширения</string>
+    <string name="addons_subaddon_type_module">Модули</string>
+    <string name="addons_subaddon_type_plugin">Плагины</string>
+    <string name="addons_subaddon_action_pause">Приостановить</string>
+    <string name="addons_subaddon_action_unpause">Возобновить</string>
+    <string name="addons_subaddon_action_reload">Перезагрузить</string>
+    <string name="addons_subaddon_action_unload">Выгрузить</string>
+    <string name="addons_subaddon_action_force_unload">Принудительно выгрузить</string>
+    <string name="addons_subaddon_action_clear">Очистить</string>
+    <string name="addons_subaddon_state_running">Работает</string>
+    <string name="addons_subaddon_state_debug">В отладке</string>
+    <string name="addons_subaddon_state_paused">Приостановлен</string>
+    <string name="addons_subaddon_state_stopped">Остановлен</string>
+    <string name="addons_subaddon_state_error">Ошибка</string>
+    <string name="addons_subaddon_state_unknown">Неизвестно</string>
+    <string name="addons_fields_base_name">Название</string>
+    <string name="addons_fields_base_description">Описание</string>
+    <string name="addons_fields_base_status">Статус</string>
+    <string name="addons_fields_base_status_reason">Причина статуса</string>
+    <string name="addons_fields_base_author">Автор</string>
+    <string name="addons_fields_base_authors">Авторы</string>
+    <string name="addons_fields_base_error_reason">Причина ошибки</string>
+    <string name="addons_fields_base_addon_version">Версия аддона</string>
+    <string name="addons_fields_base_plugin_version">Версия плагина</string>
+    <string name="addons_fields_base_api_version">Версия API</string>
+    <string name="addons_fields_base_build_id">ID сборки</string>
+    <string name="addons_fields_base_build_from">Собран из</string>
+    <string name="addons_fields_base_build_date">Дата сборки</string>
+    <string name="addons_fields_base_file_name">Имя файла</string>
+    <string name="addons_fields_base_file_path">Путь к файлу</string>
+    <string name="addons_fields_base_url">URL</string>
+    <string name="addons_fields_mms_interface_version">Версия интерфейса плагинов</string>
+    <string name="addons_fields_mms_sourcehook_version">Версия SourceHook</string>
+    <string name="addons_fields_mms_loaded">Загружен как</string>
+    <string name="addons_fields_mms_license">Лицензия</string>
+    <string name="addons_fields_sm_spe_version">Версия движка SourcePawn</string>
+    <string name="addons_fields_sm_spa_version">Версия SourcePawn API</string>
+    <string name="addons_fields_sm_ext_version">Версия расширения</string>
+    <string name="addons_fields_sm_loaded">Загружен</string>
+    <string name="addons_fields_sm_load_method">Метод загрузки</string>
+    <string name="addons_fields_sm_hash">Хэш</string>
+    <string name="addons_fields_sm_reason">Причина</string>
+    <string name="addons_fields_sp_commit">Коммит Github</string>
+    <string name="addons_fields_sp_checksum">Контрольная сумма</string>
+    <string name="addons_fields_sp_date">Дата</string>
+    <string name="addons_fields_sp_game">Игра</string>
+    <string name="addons_fields_sp_permissions">Разрешения</string>
+    <string name="addons_fields_sp_public_convar">Публичные переменные</string>
+    <string name="addons_fields_sp_folder_name">Имя папки</string>
+    <string name="addons_fields_mm_index">Индекс</string>
+    <string name="addons_fields_mm_action">Действие</string>
+    <string name="addons_fields_mm_source">Источник</string>
+    <string name="addons_fields_mm_loadable">Загружаемый во время</string>
+    <string name="addons_fields_mm_unloadable">Выгружаемый во время</string>
+    <string name="addons_fields_mm_last_loaded">Последняя загрузка</string>
+    <string name="addons_fields_mm_logging_tag">Тег логирования</string>
+    <string name="addons_fields_amx_core_mode">Режим ядра</string>
+    <string name="addons_fields_amx_module_version">Версия модуля</string>
 
     <!--Servers List-->
     <string name="srvlist_title">Список серверов</string>
@@ -95,6 +222,12 @@
     <string name="srvedit_txt_ftp_path">Путь до контента сервера (папка \"%1$s\")</string>
 
     <string name="srvedit_group_host">Ключ API</string>
+    <string name="srvedit_txt_host_oauth_id">OAuth2 ID клиента</string>
+    <string name="srvedit_txt_host_oauth_secret">OAuth2 секрет клиента</string>
+    <string name="srvedit_txt_host_container_id">ID сервера</string>
+    <string name="srvedit_txt_host_container_id_helper">Содержиться в URL ПУ (Будет заполнено автоматически при проверке если у аккаунта есть все необходимые права)</string>
+    <string name="srvedit_txt_host_container_name">Название сервера</string>
+    <string name="srvedit_txt_host_container_name_helper">Необязательное поле если ID сервера уже заполнен</string>
     <string name="srvedit_txt_host_key">Ключ</string>
     <string name="srvedit_txt_host_key_helper">Только если вы используете данный хостинг</string>
     <string name="srvedit_btn_qrcode">QR Код</string>
@@ -105,6 +238,7 @@
     <string name="srvedit_switch_hideplayers">Скрывать ботов в списке игроков</string>
     <string name="srvedit_switch_checkversion">Проверять актуальность версии сервера</string>
     <string name="srvedit_switch_listenlogs">Чтение логов</string>
+    <string name="srvedit_switch_chat">Чат</string>
     <string name="srvedit_txt_fastcmds">Быстрые RCON команды</string>
     <string name="srvedit_txt_appid_description">ID для проверки версии</string>
     <string name="srvedit_btn_fastcmds_recreate">Восстановить стандартный список</string>
@@ -137,12 +271,12 @@
     <string name="srvctrl_menu_start">Старт</string>
     <string name="srvctrl_menu_restart">Рестарт</string>
     <string name="srvctrl_menu_stop">Стоп</string>
+    <string name="srvctrl_menu_stop_force">Принудительный стоп</string>
     <string name="srvctrl_menu_map">Сменить карту</string>
     <string name="srvctrl_menu_fullrefresh">Полное\nобновление</string>
 
-    <string name="srvctrl_error_request">Ошибка запроса</string>
-    <string name="srvctrl_error_conn">Не удалось подключиться</string>
-    <string name="srvctrl_error_invaluddata">При загрузке данных произошла ошибка</string>
+    <string name="srvctrl_error_request">Не удалось выполнить запрос</string>
+    <string name="srvctrl_error_invaliddata">При загрузке данных произошла ошибка</string>
     <string name="srvctrl_error_invalidserver">Некорректная попытка открыть ПУ сервера</string>
     <string name="srvctrl_error_unknownmap">Не удалось сменить карту так как выбранная карта не найдена на сервере</string>
     <string name="srvctrl_success_start">Сервер запускается</string>
@@ -168,6 +302,8 @@
     <string name="srvctrl_console_edit">Команда</string>
     <string name="srvctrl_console_action_send">Отправить</string>
     <string name="srvctrl_console_sended">Команда отправлена</string>
+
+    <string name="srvctrl_addons_not_found">Аддоны не найдены</string>
 
     <string name="srvctrl_info_query_title">Мониторинг</string>
     <string name="srvctrl_info_query_copy">Значение скопировано в буфер обмена</string>
@@ -197,7 +333,8 @@
     <string name="srvctrl_info_perfs_traffic_size">%1$s (КБ/с)</string>
     <string name="srvctrl_info_perfs_uptime">Время работы</string>
     <string name="srvctrl_info_perfs_connects">Подключений</string>
-    <string name="srvctrl_info_perfs_data_size">%1$d/%2$d МБ (%3$d%%)</string>
+    <string name="srvctrl_info_perfs_data_size_full">%1$d/%2$d МБ (%3$d%%)</string>
+    <string name="srvctrl_info_perfs_data_size_mb">%d МБ</string>
     <string name="srvctrl_info_perfs_error">Не удалось загрузить информацию об используемых ресурсах</string>
 
     <string name="srvctrl_info_cmds_title">Команды</string>
@@ -210,30 +347,28 @@
     <string name="srvctrl_info_vars_copy">Название переменной скопировано в буфер обмена</string>
     <string name="srvctrl_info_vars_copyerror">Не удалось скопировать название переменной в буфер обмена</string>
 
-    <string name="srvctrl_activity_log_title">Основной лог</string>
-    <string name="srvctrl_activity_log_date">Дата</string>
-    <string name="srvctrl_activity_log_time">Время</string>
-    <string name="srvctrl_activity_log_wrap">Перенос</string>
-    <string name="srvctrl_activity_log_tag_error">ОШИБКА</string>
-    <string name="srvctrl_activity_log_tag_msg">СООБЩЕНИЕ</string>
-    <string name="srvctrl_activity_log_msg_checknetwork">Проверка подключения к сети</string>
-    <string name="srvctrl_activity_log_msg_findip">Получение публичного IP устройства</string>
-    <string name="srvctrl_activity_log_msg_rconadd">Включение отправки логов с сервера</string>
-    <string name="srvctrl_activity_log_msg_listening">Чтение…</string>
-    <string name="srvctrl_activity_log_error_wifi">Для чтения логов необходимо подключение к WI-FI</string>
-    <string name="srvctrl_activity_log_error_offline">Отсутствует подключение к сети</string>
-    <string name="srvctrl_activity_log_error_publicip">Не удалось получить внешний IP адрес</string>
-    <string name="srvctrl_activity_log_error_port">Сетевой порт уже используется другим приложением</string>
-    <string name="srvctrl_activity_log_error_rcon">Не удалось добавить IP адрес в список для отправки</string>
-    <string name="srvctrl_activity_log_error_unknown">Неизвестная ошибка</string>
-    <string name="srvctrl_activity_log_error_rconremove">Не удалось остановить отправку логов на устройство</string>
-    <string name="srvctrl_activity_log_error_startservice">Не удалось запустить сервис чтения логов</string>
+    <string name="srvctrl_activities_log_title">Лог</string>
+    <string name="srvctrl_activities_log_date">Дата</string>
+    <string name="srvctrl_activities_log_time">Время</string>
+    <string name="srvctrl_activities_log_wrap">Перенос</string>
+    <string name="srvctrl_activities_log_tag_debug">DEBUG</string>
+    <string name="srvctrl_activities_log_tag_info">INFO</string>
+    <string name="srvctrl_activities_log_tag_warning">WARN</string>
+    <string name="srvctrl_activities_log_tag_error">ERROR</string>
+    <string name="srvctrl_activities_chat_title">Чат</string>
+    <string name="srvctrl_activities_chat_message_change_name" formatted="false">Игрок %1$s изменил имя на %2$s</string>
+    <string name="srvctrl_activities_chat_message_connected_bot" formatted="false">Бот %s зашёл на сервер</string>
+    <string name="srvctrl_activities_chat_message_connected_human" formatted="false">Игрок %s зашёл на сервер</string>
+    <string name="srvctrl_activities_chat_message_disconnected_bot" formatted="false">Бот %1$s вышел с сервера%2$s</string>
+    <string name="srvctrl_activities_chat_message_disconnected_human" formatted="false">Игрок %1$s вышел с сервера%2$s</string>
+    <string name="srvctrl_activities_chat_field_hint">Сообщение</string>
+    <string name="srvctrl_activities_chat_error_log">Чтение логов неактивно в данный момент</string>
+    <string name="srvctrl_activities_chat_error_message">Не удалось отправить сообщение</string>
 
     <string name="srvctrl_navbar_players">Игроки</string>
     <string name="srvctrl_navbar_console">Консоль</string>
-    <!--<string name="srvctrl_navbar_activity">Активность</string>-->
-    <string name="srvctrl_navbar_activity">Лог</string>
-    <string name="srvctrl_navbar_plugins">Плагины</string>
+    <string name="srvctrl_navbar_activity">Активности</string>
+    <string name="srvctrl_navbar_addons">Аддоны</string>
     <string name="srvctrl_navbar_info">Информация</string>
 
 
@@ -265,7 +400,29 @@
     <string name="playerinfo_error_failedget">Не удалось получить %1$s</string><!--SteamID2/SteamID3/SteamID64-->
 
 
+    <!--Addon Info-->
+    <string name="addoninfo_title">Информация об аддоне</string>
+    <string name="addoninfo_sort_id">Идентификатор</string>
+    <string name="addoninfo_sort_status">Статус</string>
+    <string name="addoninfo_sort_name">Название</string>
+    <string name="addoninfo_sort_author">Автор</string>
+    <string name="addoninfo_sort_version">Версия</string>
+    <string name="addoninfo_name_copy">Название аддона скопировано в буфер обмена</string>
+    <string name="addoninfo_name_copyerror">Не удалось скопировать название аддона в буфер обмена</string>
+    <string name="addoninfo_error_invalidaddon">Некорректная попытка открыть экран информации об аддоне</string>
+    <string name="addoninfo_error_action">Не удалось выполнить действие</string>
+    <string name="addoninfo_error_description">Не удалось загрузить описание аддона</string>
+    <string name="addoninfo_subaddons_error">Не удалось загрузить %1$s</string><!--Extension/Modules/Plugins-->
+    <string name="addoninfo_subaddons_empty">%1$s не найдены</string><!--Extension/Modules/Plugins-->
+    <string name="addoninfo_subaddon_status">Статус: %1$s</string>
+    <string name="addoninfo_subaddon_file">Файл: %1$s</string>
+    <string name="addoninfo_subaddon_author">Автор: %1$s</string>
+    <string name="addoninfo_subaddon_version">Версия: %1$s</string>
+
+
     <!--Dialogs-->
+    <string name="dialog_games_title">Выберите игру</string>
+    <string name="dialog_hosts_title">Выберите API</string>
     <string name="dialog_fastcmd_title">RCON команды</string>
     <string name="dialog_accept_action_title">Подтвердить действие</string>
     <string name="dialog_accept_exit_descr">Выйти без сохранения?</string>
@@ -273,6 +430,10 @@
     <string name="dialog_accept_restart_descr">Вы уверены, что хотите перезагрузить сервер?</string>
     <string name="dialog_accept_stop_descr">Вы уверены, что хотите остановить сервер?</string>
     <string name="dialog_accept_clear_descr">Вы уверены, что хотите очистить базу данных? Все сохранённые сервера будут удалены.</string>
+    <string name="dialog_accept_action_descr">Вы уверены, что хотите выполнить это действие?</string>
+
+    <string name="dialog_input_title">Введите значение</string>
+    <string name="dialog_input_value">Значение</string>
 
     <string name="dialog_console_props_title">Параметры консоли</string>
     <string name="dialog_console_props_linewrap">Перенос строк</string>
@@ -296,6 +457,18 @@
     <string name="dialog_variable_changed">Значение переменной изменено%1$s</string>
     <string name="dialog_variable_notchanged">Не удалось изменить значение переменной</string>
     <string name="dialog_variable_notfound">Переменная не найдена</string>
+
+    <string name="dialog_chat_message_type_title">Выберите тип сообщения</string>
+
+    <string name="dialog_subaddon_title_extension">Информация о расширении</string>
+    <string name="dialog_subaddon_title_module">Инфмаорция о модуле</string>
+    <string name="dialog_subaddon_title_plugin">Информация о плагине</string>
+    <string name="dialog_subaddon_error_description">Не удалось загрузить описание</string>
+    <string name="dialog_subaddon_tab_actions">Действия</string>
+    <string name="dialog_subaddon_cmds_error">Не удалось загрузить список команд</string>
+    <string name="dialog_subaddon_cmds_empty">Команды не найдены</string>
+    <string name="dialog_subaddon_vars_error">Не удалось загрузить список переменных</string>
+    <string name="dialog_subaddon_vars_empty">Переменные не найдены</string>
 
     <string name="dialog_color_picker_title">Выберите цвет</string>
 
@@ -356,8 +529,10 @@
 
 
     <!--Notifications-->
-    <string name="notify_title">Сервер устарел</string>
-    <string name="notify_name">Проверка версии сервера</string>
+    <string name="notify_outdate_title">Сервер устарел</string>
+    <string name="notify_outdate_name">Проверка версии сервера</string>
+    <string name="notify_log_listener_name">Чат/Чтение лога</string>
+    <string name="notify_log_listener_description">Для остановки закройте экран управления сервером</string>
 
 
     <!--Preferences-->
@@ -391,6 +566,7 @@
     <string name="pref_logsport_error_empty">Поле не должно быть пустым</string>
     <string name="pref_logsport_error_minmax">Поле может иметь значение от 1024 до 65535</string>
     <string name="pref_logsport_error_alrused">Порт уже используется</string>
+    <string name="pref_logsupnp_descr">Использовать UPnP для автоматического открытия порта</string>
 
     <string name="pref_ui_theme">Тема</string>
     <string name="pref_ui_theme_entry_light">Светлая</string>
@@ -433,5 +609,4 @@
 
     <!--Other-->
     <string name="error_nonetwork">Не удалось подключиться к сети</string>
-    <string name="error_mobile_services_notfound">%1$s не обнаружены. Приложение может работать некорректно</string><!--Google Mobile Services/HUAWEI Mobile Services-->
 </resources>

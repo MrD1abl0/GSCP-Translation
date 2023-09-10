@@ -3,20 +3,32 @@
 
 Поддържани функции:
 - Мониторинг на сървъра
-- Информация за играчите
-- Банване,кикване и заглушаване (mute) на играчите
-- Промяна на картата на сървъра
-- RCON достъп с опция за пряк път на телефона
 - Пълна информация за сървъра
 - Използвани ресурси на сървъра
-- Преглед на cvar настройките и промяната им
-- OGP, CW-SERV.RU, CSHost.com.ua и Myarena.ru (Console, stop/start server, extra data)
+- Информация за играчите
+- Банване,кикване и заглушаване (mute) на играчите
+- Chatting with players
+- RCON достъп с опция за пряк път на телефона
+- Addons manager
+- Промяна на картата на сървъра
+- Start/stop server
 - Проверка на сървърната версия
+- Преглед на cvar настройките и промяната им
 - Различни размери на екрана на приложението
 
 
 Преводи:
 https://github.com/MrD1abl0/GSCP-Translation
+
+
+Supported APIs:
+
+CSHost.com.ua
+CW-SERV.RU
+Myarena.ru
+Open Game Panel
+PufferPanel (2.4.0+)
+Vulpecula.HOST
 
 
 Поддържани игри:

@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="30" versionName="1.0.0" date="10.09.2023">
+        <new>Поддержка Android 12 и 12L</new>
+        <new>Поддержка Vulpecula.HOST и PufferPanel API</new>
+        <new>Чат</new>
+        <new>Управление аддонами</new>
+        <new>Мут игроков для GoldSource и Xash3D FWGS серверов</new>
+        <info>Улучшено чтение логов</info>
+        <info>Множество мелких улучшений и исправлений</info>
+        <info>Прекращена поддержка Android 4.4 KitKat</info>
+    </release>
     <release versionCode="29" versionName="0.9.7" date="28.08.2022">
         <bugfix>Исправлены падения на Android 4.4 при запуске приложения</bugfix>
         <info>Мелкие улучшения и исправления</info>

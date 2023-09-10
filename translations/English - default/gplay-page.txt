@@ -3,20 +3,32 @@ App for easy management game servers
 
 Supported features:
 - Servers monitoring
+- Detailed server info
+- Resources used by server
 - Player Details
 - Banning, kicking and muting players
-- Server map change
+- Chatting with players
 - RCON with autocomplete and shortcuts
-- Detailed server info
-- Used resources by server
-- View and change server cvars
-- OGP, CW-SERV.RU, CSHost.com.ua and Myarena.ru (Console, stop/start server, extra data)
+- Addons manager
+- Server map change
+- Start/stop server
 - Version check
-- Widgets
+- View and change server cvars
+- Home screen widgets
 
 
 Improve translation:
 https://github.com/MrD1abl0/GSCP-Translation
+
+
+Supported APIs:
+
+CSHost.com.ua
+CW-SERV.RU
+Myarena.ru
+Open Game Panel
+PufferPanel (2.4.0+)
+Vulpecula.HOST
 
 
 Supported games:

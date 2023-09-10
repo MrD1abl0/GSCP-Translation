@@ -12,7 +12,7 @@
     <string name="status_unknown">Unknown</string>
     <string name="status_online">Online</string>
     <string name="status_offline">Offline</string>
-    <string name="status_restarting">Restarting</string>
+    <string name="status_restarting">Loading/Restarting</string>
     <string name="status_refreshing">Refreshing…</string>
     <string name="status_error">Error</string>
 
@@ -27,6 +27,8 @@
     <string name="game_indicator_players_info">Extended players info</string>
     <string name="game_indicator_players_actions">Ban/Kick/Mute</string>
     <string name="game_indicator_log_listen">Log listening</string>
+    <string name="game_indicator_chat">Chat</string>
+    <string name="game_indicator_addons_manager">Addons manager</string>
 
     <string name="any_type_auto">Autoselect</string>
     <string name="any_type_engine">Engine</string>
@@ -58,6 +60,131 @@
     <string name="parsed_error_unknown">Gabim i Panjohur</string>
     <string name="parsed_error_reasonmsg">Arsyeja: %1$s</string>
 
+    <string name="listener_log_info_checking_network">Network Checking</string>
+    <string name="listener_log_info_finding_ip">Getting a public device IP</string>
+    <string name="listener_log_info_opening_port">Port opening</string>
+    <string name="listener_log_info_enabling_sending">Enabling sending logs from the server</string>
+    <string name="listener_log_info_disabling_sending">Disabling sending logs from the server</string>
+    <string name="listener_log_info_listening">Listening…</string>
+    <string name="listener_log_info_chat_message">Sent message: %s</string>
+    <string name="listener_log_warm_invalid_packet">Received an invalid packet %s</string>
+    <string name="listener_log_warn_opening_port">Turn on UPnP on the router or open the port manually</string>
+    <string name="listener_log_error_disabling_sending">Dështoi në çaktivizimin e dërgimit të regjistrave nga serveri</string>
+    <string name="listener_log_error_start_service">Dështoi në fillimin e shërbimit të dëgjimit të regjistrit</string>
+    <string name="listener_log_error_status">To listen logs the server must be online</string>
+    <string name="listener_log_error_wifi">Për të shikuar regjistrat ju duhet të kyqeni në WI-FI</string>
+    <string name="listener_log_error_network">Na vjen keq nuk ka internet</string>
+    <string name="listener_log_error_public_ip">Dështoi marrja e IP Publike</string>
+    <string name="listener_log_error_opening_port">Failed to open port%s</string>
+    <string name="listener_log_error_port">Porti rrjetit është përdorur nga një tjetër aplikacion</string>
+    <string name="listener_log_error_listening_add">Dështoi shtimi IP në paisje për shikim</string>
+    <string name="listener_log_error_while_listening">An error occurred while logs listening</string>
+
+    <string name="chat_message_command_name_engine">Engine chat</string>
+    <string name="chat_message_command_name_source_sm_chat">SourceMod chat</string>
+    <string name="chat_message_command_name_source_sm_msg">SourceMod top-left</string>
+    <string name="chat_message_command_name_source_sm_hint">SourceMod hint</string>
+    <string name="chat_message_command_name_source_sm_center">SourceMod centered</string>
+    <string name="chat_message_command_name_source_sm_menu">SourceMod menu</string>
+    <string name="chat_message_command_name_source_ulx_chat">ULX chat</string>
+    <string name="chat_message_command_name_source_ulx_center">ULX centered</string>
+    <string name="chat_message_command_name_source_ulx_admins">To ULX admins</string>
+    <string name="chat_message_command_name_goldsrc_amx_chat">AMX chat</string>
+    <string name="chat_message_command_name_goldsrc_amx_center">AMX centered</string>
+    <string name="chat_message_command_name_goldsrc_amx_msg">AMX left side</string>
+    <string name="chat_message_command_name_goldsrc_amx_admins">To AMX admins</string>
+
+    <string name="chat_message_team_console">Console</string>
+    <string name="chat_message_team_spectators">Spectators</string>
+    <string name="chat_message_team_black_mesa">Black Mesa</string>
+    <string name="chat_message_team_opposing_force">Opposing Force</string>
+    <string name="chat_message_team_scientists">Scientists</string>
+    <string name="chat_message_team_hecu">HECU</string>
+    <string name="chat_message_team_combine">Combine</string>
+    <string name="chat_message_team_rebels">Rebels</string>
+    <string name="chat_message_team_terrorists">Terrorists</string>
+    <string name="chat_message_team_counter_terrorists">Counter-Terrorists</string>
+    <string name="chat_message_team_blue">Blue</string>
+    <string name="chat_message_team_red">Red</string>
+    <string name="chat_message_team_allies">Allies</string>
+    <string name="chat_message_team_axis">Axis</string>
+    <string name="chat_message_team_german_army">German army</string>
+    <string name="chat_message_team_americans">Americans</string>
+    <string name="chat_message_team_commonwealth">Commonwealth</string>
+    <string name="chat_message_team_security">Security</string>
+    <string name="chat_message_team_insurgents">Insurgents</string>
+    <string name="chat_message_team_survivors">Survivors</string>
+    <string name="chat_message_team_infected">Infected</string>
+    <string name="chat_message_team_zombies">Zombies</string>
+    <string name="chat_message_team_cure">Cure</string>
+    <string name="chat_message_team_sas">SAS</string>
+
+    <string name="addons_addon_action_load_extension">Load extension</string>
+    <string name="addons_addon_action_load_plugin">Load plugin</string>
+    <string name="addons_addon_action_unload_all_plugins">Unload all plugins</string>
+    <string name="addons_addon_action_pause_all_plugins">Pause all plugins</string>
+    <string name="addons_addon_action_unpause_all_plugins">Unpause all plugins</string>
+    <string name="addons_addon_action_refresh_all_plugins">Refresh all plugins</string>
+    <string name="addons_addon_action_reload_all_plugins">Reload all plugins</string>
+    <string name="addons_addon_action_upgrade">Update addon</string>
+    <string name="addons_subaddon_type_extension">Extensions</string>
+    <string name="addons_subaddon_type_module">Modules</string>
+    <string name="addons_subaddon_type_plugin">Plugins</string>
+    <string name="addons_subaddon_action_pause">Pause</string>
+    <string name="addons_subaddon_action_unpause">Unpause</string>
+    <string name="addons_subaddon_action_reload">Reload</string>
+    <string name="addons_subaddon_action_unload">Unload</string>
+    <string name="addons_subaddon_action_force_unload">Force unload</string>
+    <string name="addons_subaddon_action_clear">Clear</string>
+    <string name="addons_subaddon_state_running">Running</string>
+    <string name="addons_subaddon_state_debug">Debug</string>
+    <string name="addons_subaddon_state_paused">Paused</string>
+    <string name="addons_subaddon_state_stopped">Stopped</string>
+    <string name="addons_subaddon_state_error">Load error</string>
+    <string name="addons_subaddon_state_unknown">Unknown</string>
+    <string name="addons_fields_base_name">Name</string>
+    <string name="addons_fields_base_description">Description</string>
+    <string name="addons_fields_base_status">Status</string>
+    <string name="addons_fields_base_status_reason">Status reason</string>
+    <string name="addons_fields_base_author">Author</string>
+    <string name="addons_fields_base_authors">Authors</string>
+    <string name="addons_fields_base_error_reason">Error reason</string>
+    <string name="addons_fields_base_addon_version">Addon version</string>
+    <string name="addons_fields_base_plugin_version">Plugin version</string>
+    <string name="addons_fields_base_api_version">API version</string>
+    <string name="addons_fields_base_build_id">Build ID</string>
+    <string name="addons_fields_base_build_from">Built from</string>
+    <string name="addons_fields_base_build_date">Build date</string>
+    <string name="addons_fields_base_file_name">File name</string>
+    <string name="addons_fields_base_file_path">File path</string>
+    <string name="addons_fields_base_url">URL</string>
+    <string name="addons_fields_mms_interface_version">Plugin interface version</string>
+    <string name="addons_fields_mms_sourcehook_version">SourceHook version</string>
+    <string name="addons_fields_mms_loaded">Loaded As</string>
+    <string name="addons_fields_mms_license">License</string>
+    <string name="addons_fields_sm_spe_version">SourcePawn engine version</string>
+    <string name="addons_fields_sm_spa_version">SourcePawn API version</string>
+    <string name="addons_fields_sm_ext_version">Extension version</string>
+    <string name="addons_fields_sm_loaded">Loaded</string>
+    <string name="addons_fields_sm_load_method">Load method</string>
+    <string name="addons_fields_sm_hash">Hash</string>
+    <string name="addons_fields_sm_reason">Reason</string>
+    <string name="addons_fields_sp_commit">Github commit</string>
+    <string name="addons_fields_sp_checksum">Checksum</string>
+    <string name="addons_fields_sp_date">Date</string>
+    <string name="addons_fields_sp_game">Game</string>
+    <string name="addons_fields_sp_permissions">Permissions</string>
+    <string name="addons_fields_sp_public_convar">Public convar</string>
+    <string name="addons_fields_sp_folder_name">Folder name</string>
+    <string name="addons_fields_mm_index">Index</string>
+    <string name="addons_fields_mm_action">Action</string>
+    <string name="addons_fields_mm_source">Source</string>
+    <string name="addons_fields_mm_loadable">Loadable</string>
+    <string name="addons_fields_mm_unloadable">Unloadable</string>
+    <string name="addons_fields_mm_last_loaded">Last loaded</string>
+    <string name="addons_fields_mm_logging_tag">Logging tag</string>
+    <string name="addons_fields_amx_core_mode">Core mode</string>
+    <string name="addons_fields_amx_module_version">Module version</string>
 
     <!--Servers List-->
     <string name="srvlist_title">Lista Serverave</string>
@@ -95,6 +222,12 @@
     <string name="srvedit_txt_ftp_path">Rruga për përmbajtjen e serverit (folder \"%1$s\")</string>
 
     <string name="srvedit_group_host">API key</string>
+    <string name="srvedit_txt_host_oauth_id">OAuth2 client ID</string>
+    <string name="srvedit_txt_host_oauth_secret">OAuth2 client secret</string>
+    <string name="srvedit_txt_host_container_id">Server ID</string>
+    <string name="srvedit_txt_host_container_id_helper">Contained in the CP URL (if account has all perms, the field will be filled automatically after API check)</string>
+    <string name="srvedit_txt_host_container_name">Server name</string>
+    <string name="srvedit_txt_host_container_name_helper">Optional field if Server ID is filled</string>
     <string name="srvedit_txt_host_key">Qelësi</string>
     <string name="srvedit_txt_host_key_helper">Vetëm nëse ju jeni duke përdorur hosting</string>
     <string name="srvedit_btn_qrcode">QR Kodi</string>
@@ -105,6 +238,7 @@
     <string name="srvedit_switch_hideplayers">Hide bots in the players list</string>
     <string name="srvedit_switch_checkversion">Lajmëro nëse serveri është i vjetëruar</string>
     <string name="srvedit_switch_listenlogs">Historia Punës</string>
+    <string name="srvedit_switch_chat">Chat</string>
     <string name="srvedit_txt_fastcmds">RCON shpejtë</string>
     <string name="srvedit_txt_appid_description">ID për të kontrolluar verzionin e serverit</string>
     <string name="srvedit_btn_fastcmds_recreate">Restore default list</string>
@@ -137,12 +271,12 @@
     <string name="srvctrl_menu_start">Fillo</string>
     <string name="srvctrl_menu_restart">Rifillo</string>
     <string name="srvctrl_menu_stop">Ndalo</string>
+    <string name="srvctrl_menu_stop_force">Force stop</string>
     <string name="srvctrl_menu_map">Ndrysho hartë</string>
     <string name="srvctrl_menu_fullrefresh">Rifreskim i plotë</string>
 
     <string name="srvctrl_error_request">Kërkesa dështoi</string>
-    <string name="srvctrl_error_conn">Dështoi të lidhet</string>
-    <string name="srvctrl_error_invaluddata">An error occurred while loading data</string>
+    <string name="srvctrl_error_invaliddata">An error occurred while loading data</string>
     <string name="srvctrl_error_invalidserver">Përpjekje e pavlefshme për të hapur një CP të serverit</string>
     <string name="srvctrl_error_unknownmap">Failed to change the map because the selected map was not found on the server</string>
     <string name="srvctrl_success_start">Serveri po fillon</string>
@@ -168,6 +302,8 @@
     <string name="srvctrl_console_edit">Komanda</string>
     <string name="srvctrl_console_action_send">Dërgo</string>
     <string name="srvctrl_console_sended">Command sended</string>
+
+    <string name="srvctrl_addons_not_found">Addons not found</string>
 
     <string name="srvctrl_info_query_title">Vëzhgimi</string>
     <string name="srvctrl_info_query_copy">Vlera u kopjua për kujtesë</string>
@@ -197,7 +333,8 @@
     <string name="srvctrl_info_perfs_traffic_size">%1$s (KB/s)</string>
     <string name="srvctrl_info_perfs_uptime">Aktiv</string>
     <string name="srvctrl_info_perfs_connects">Lidhjet</string>
-    <string name="srvctrl_info_perfs_data_size">%1$d/%2$d MB (%3$d%%)</string>
+    <string name="srvctrl_info_perfs_data_size_full">%1$d/%2$d MB (%3$d%%)</string>
+    <string name="srvctrl_info_perfs_data_size_mb">%d MB</string>
     <string name="srvctrl_info_perfs_error">Dështoi në ngarkimin e informacioneve rreth burimeve të përdorura.</string>
 
     <string name="srvctrl_info_cmds_title">Komandat</string>
@@ -210,30 +347,28 @@
     <string name="srvctrl_info_vars_copy">Vlerat ndryshuese u kopjuan për kujtesë</string>
     <string name="srvctrl_info_vars_copyerror">Nuk mund të kopjohen vlerat ndryshuese të serverit për kujtesë</string>
 
-    <string name="srvctrl_activity_log_title">Regjistrat Kryesore</string>
-    <string name="srvctrl_activity_log_date">Data</string>
-    <string name="srvctrl_activity_log_time">Ora</string>
-    <string name="srvctrl_activity_log_wrap">Përfundimi</string>
-    <string name="srvctrl_activity_log_tag_error">ERROR</string>
-    <string name="srvctrl_activity_log_tag_msg">MESSAGE</string>
-    <string name="srvctrl_activity_log_msg_checknetwork">Network Checking</string>
-    <string name="srvctrl_activity_log_msg_findip">Getting a public device IP</string>
-    <string name="srvctrl_activity_log_msg_rconadd">Enabling sending logs from the server</string>
-    <string name="srvctrl_activity_log_msg_listening">Listening…</string>
-    <string name="srvctrl_activity_log_error_wifi">Për të shikuar regjistrat ju duhet të kyqeni në WI-FI</string>
-    <string name="srvctrl_activity_log_error_offline">Na vjen keq nuk ka internet</string>
-    <string name="srvctrl_activity_log_error_publicip">Dështoi marrja e IP Publike</string>
-    <string name="srvctrl_activity_log_error_port">Porti rrjetit është përdorur nga një tjetër aplikacion</string>
-    <string name="srvctrl_activity_log_error_rcon">Dështoi shtimi IP në paisje për shikim</string>
-    <string name="srvctrl_activity_log_error_unknown">Gabim i panjohur</string>
-    <string name="srvctrl_activity_log_error_rconremove">Dështoi në çaktivizimin e dërgimit të regjistrave nga serveri</string>
-    <string name="srvctrl_activity_log_error_startservice">Dështoi në fillimin e shërbimit të dëgjimit të regjistrit</string>
+    <string name="srvctrl_activities_log_title">Log</string>
+    <string name="srvctrl_activities_log_date">Data</string>
+    <string name="srvctrl_activities_log_time">Ora</string>
+    <string name="srvctrl_activities_log_wrap">Përfundimi</string>
+    <string name="srvctrl_activities_log_tag_debug">DEBUG</string>
+    <string name="srvctrl_activities_log_tag_info">INFO</string>
+    <string name="srvctrl_activities_log_tag_warning">WARN</string>
+    <string name="srvctrl_activities_log_tag_error">ERROR</string>
+    <string name="srvctrl_activities_chat_title">Chat</string>
+    <string name="srvctrl_activities_chat_message_change_name" formatted="false">Player %1$s changed name to %2$s</string>
+    <string name="srvctrl_activities_chat_message_connected_bot" formatted="false">Bot %s has joined the game</string>
+    <string name="srvctrl_activities_chat_message_connected_human" formatted="false">Player %s has joined the game</string>
+    <string name="srvctrl_activities_chat_message_disconnected_bot" formatted="false">Bot %1$s left the game%2$s</string>
+    <string name="srvctrl_activities_chat_message_disconnected_human" formatted="false">Player %1$s left the game%2$s</string>
+    <string name="srvctrl_activities_chat_field_hint">Message</string>
+    <string name="srvctrl_activities_chat_error_log">Log listening is not currently active</string>
+    <string name="srvctrl_activities_chat_error_message">Unable to send a message</string>
 
     <string name="srvctrl_navbar_players">Lojtarët</string>
     <string name="srvctrl_navbar_console">Konzolja</string>
-    <!--<string name="srvctrl_navbar_activity">Aktiviteti</string>-->
-    <string name="srvctrl_navbar_activity">Regjistri</string>
-    <string name="srvctrl_navbar_plugins">Plugins</string>
+    <string name="srvctrl_navbar_activity">Activities</string>
+    <string name="srvctrl_navbar_addons">Addons</string>
     <string name="srvctrl_navbar_info">Info</string>
 
 
@@ -265,7 +400,29 @@
     <string name="playerinfo_error_failedget">Failed to get %1$s</string><!--SteamID2/SteamID3/SteamID64-->
 
 
+    <!--Addon Info-->
+    <string name="addoninfo_title">Addon info</string>
+    <string name="addoninfo_sort_id">Identifier</string>
+    <string name="addoninfo_sort_status">Status</string>
+    <string name="addoninfo_sort_name">Name</string>
+    <string name="addoninfo_sort_author">Author</string>
+    <string name="addoninfo_sort_version">Version</string>
+    <string name="addoninfo_name_copy">Addon name copied to clipboard</string>
+    <string name="addoninfo_name_copyerror">Unable to copy addon name to the clipboard</string>
+    <string name="addoninfo_error_invalidaddon">Incorrect attempt to open addon info</string>
+    <string name="addoninfo_error_action">Action failed</string>
+    <string name="addoninfo_error_description">Unable to load addon description</string>
+    <string name="addoninfo_subaddons_error">Failed to get %1$s list</string><!--Extension/Modules/Plugins-->
+    <string name="addoninfo_subaddons_empty">%1$s not found</string><!--Extension/Modules/Plugins-->
+    <string name="addoninfo_subaddon_status">Status: %1$s</string>
+    <string name="addoninfo_subaddon_file">File: %1$s</string>
+    <string name="addoninfo_subaddon_author">Author: %1$s</string>
+    <string name="addoninfo_subaddon_version">Version: %1$s</string>
+
+
     <!--Dialogs-->
+    <string name="dialog_games_title">Select a game</string>
+    <string name="dialog_hosts_title">Select an API</string>
     <string name="dialog_fastcmd_title">Modifiko RCON shpejtë</string>
     <string name="dialog_accept_action_title">Konfirmo veprimin</string>
     <string name="dialog_accept_exit_descr">Mbylle pa ruajtjen e të dhënave?</string>
@@ -273,6 +430,10 @@
     <string name="dialog_accept_restart_descr">Are you sure you want to restart the server?</string>
     <string name="dialog_accept_stop_descr">Are you sure you want to stop the server?</string>
     <string name="dialog_accept_clear_descr">Are you sure you want to clear the database? All saved servers will be deleted.</string>
+    <string name="dialog_accept_action_descr">Are you sure you want to perform this action?</string>
+
+    <string name="dialog_input_title">Enter the value</string>
+    <string name="dialog_input_value">Value</string>
 
     <string name="dialog_console_props_title">Console properties</string>
     <string name="dialog_console_props_linewrap">Line wrap</string>
@@ -296,6 +457,18 @@
     <string name="dialog_variable_changed">Vlerat ndryshuese u ndryshuan%1$s</string>
     <string name="dialog_variable_notchanged">Nuk mund të ndryshohen vlerat ndryshuese</string>
     <string name="dialog_variable_notfound">Vlerat ndryshuese nuk u gjetën</string>
+
+    <string name="dialog_chat_message_type_title">Select message type</string>
+
+    <string name="dialog_subaddon_title_extension">Extension info</string>
+    <string name="dialog_subaddon_title_module">Module info</string>
+    <string name="dialog_subaddon_title_plugin">Plugin info</string>
+    <string name="dialog_subaddon_error_description">Unable to load description</string>
+    <string name="dialog_subaddon_tab_actions">Actions</string>
+    <string name="dialog_subaddon_cmds_error">Failed to get commands list</string>
+    <string name="dialog_subaddon_cmds_empty">Commands not found</string>
+    <string name="dialog_subaddon_vars_error">Failed to get variables list</string>
+    <string name="dialog_subaddon_vars_empty">Variables not found</string>
 
     <string name="dialog_color_picker_title">Choose a color</string>
 
@@ -356,8 +529,10 @@
 
 
     <!--Notifications-->
-    <string name="notify_title">Server is outdated</string>
-    <string name="notify_name">Server version checker</string>
+    <string name="notify_outdate_title">Server is outdated</string>
+    <string name="notify_outdate_name">Server version checker</string>
+    <string name="notify_log_listener_name">Chat/Log listener</string>
+    <string name="notify_log_listener_description">To stop the log listener, close the server control screen</string>
 
 
     <!--Preferences-->
@@ -391,6 +566,7 @@
     <string name="pref_logsport_error_empty">The field must not be empty</string>
     <string name="pref_logsport_error_minmax">The field can have a value from 1024 to 65535</string>
     <string name="pref_logsport_error_alrused">Port already in use</string>
+    <string name="pref_logsupnp_descr">Use UPnP to automatically open the port</string>
 
     <string name="pref_ui_theme">Theme</string>
     <string name="pref_ui_theme_entry_light">Light</string>
@@ -433,5 +609,4 @@
 
     <!--Other-->
     <string name="error_nonetwork">Nuk mund të lidhet në Internet</string>
-    <string name="error_mobile_services_notfound">%1$s are not found. Some app features may not work</string><!--Google Mobile Services/HUAWEI Mobile Services-->
 </resources>
