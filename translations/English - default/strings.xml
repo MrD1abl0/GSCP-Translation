@@ -150,6 +150,7 @@
     <string name="parsed_error_invalid_response_server">Invalid server response</string>
     <string name="parsed_error_empty_response">Empty response</string>
     <string name="parsed_error_wronggameorban">Wrong game or\n Banned by server</string>
+    <string name="parsed_error_invalidip">Invalid IP</string>
     <string name="parsed_error_invalidport">Invalid port</string>
     <string name="parsed_error_hosting">API error</string>
     <string name="parsed_error_unknownpacket">Unknown packet</string>
@@ -423,7 +424,8 @@
     <string name="srvctrl_error_token" tools:ignore="MissingTranslation">@string/parsed_error_token</string>
     <string name="srvctrl_error_invaliddata">An error occurred while loading data</string>
     <string name="srvctrl_error_invalidserver">Invalid attempt to open a server CP</string>
-    <string name="srvctrl_error_unknownmap">Failed to change the map because the selected map was not found on the server</string>
+    <string name="srvctrl_error_unknownmap">Map with that name not found</string>
+    <string name="srvctrl_error_unknowncommand">Unknown console command</string>
     <string name="srvctrl_success_start">Server is starting</string>
     <string name="srvctrl_success_restart">Server is restarting</string>
 

@@ -54,6 +54,7 @@
     <string name="parsed_error_invalid_response_server">Invalid server response</string>
     <string name="parsed_error_empty_response">Empty response</string>
     <string name="parsed_error_wronggameorban">Emëri Gabim/Dënoj prej serverit</string>
+    <string name="parsed_error_invalidip">Invalid IP</string>
     <string name="parsed_error_invalidport">Port i pavlefshëm</string>
     <string name="parsed_error_hosting">API error</string>
     <string name="parsed_error_unknownpacket">Paket e Panjohur</string>
@@ -278,7 +279,8 @@
     <string name="srvctrl_error_request">Kërkesa dështoi</string>
     <string name="srvctrl_error_invaliddata">An error occurred while loading data</string>
     <string name="srvctrl_error_invalidserver">Përpjekje e pavlefshme për të hapur një CP të serverit</string>
-    <string name="srvctrl_error_unknownmap">Failed to change the map because the selected map was not found on the server</string>
+    <string name="srvctrl_error_unknownmap">Map with that name not found</string>
+    <string name="srvctrl_error_unknowncommand">Unknown console command</string>
     <string name="srvctrl_success_start">Serveri po fillon</string>
     <string name="srvctrl_success_restart">Serveri është duke rifilluar</string>
 

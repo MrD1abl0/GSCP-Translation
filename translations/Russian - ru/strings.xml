@@ -54,6 +54,7 @@
     <string name="parsed_error_invalid_response_server">Некорректный ответ\nот сервера</string>
     <string name="parsed_error_empty_response">Пустой ответ</string>
     <string name="parsed_error_wronggameorban">Неправильная игра или\nЗабанен сервером</string>
+    <string name="parsed_error_invalidip">Некорректный IP</string>
     <string name="parsed_error_invalidport">Некорректный порт</string>
     <string name="parsed_error_hosting">Ошибка API</string>
     <string name="parsed_error_unknownpacket">Неизвестный пакет</string>
@@ -278,7 +279,8 @@
     <string name="srvctrl_error_request">Не удалось выполнить запрос</string>
     <string name="srvctrl_error_invaliddata">При загрузке данных произошла ошибка</string>
     <string name="srvctrl_error_invalidserver">Некорректная попытка открыть ПУ сервера</string>
-    <string name="srvctrl_error_unknownmap">Не удалось сменить карту так как выбранная карта не найдена на сервере</string>
+    <string name="srvctrl_error_unknownmap">Не найдена карта с таким названием</string>
+    <string name="srvctrl_error_unknowncommand">Неизвестная консольная команда</string>
     <string name="srvctrl_success_start">Сервер запускается</string>
     <string name="srvctrl_success_restart">Сервер перезапускается</string>
 

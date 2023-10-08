@@ -54,6 +54,7 @@
     <string name="parsed_error_invalid_response_server">Invalid server response</string>
     <string name="parsed_error_empty_response">Empty response</string>
     <string name="parsed_error_wronggameorban">错误游戏类型\n 或被服务器封禁</string>
+    <string name="parsed_error_invalidip">Invalid IP</string>
     <string name="parsed_error_invalidport">无效端口</string>
     <string name="parsed_error_hosting">API error</string>
     <string name="parsed_error_unknownpacket">未知数据包</string>
@@ -278,7 +279,8 @@
     <string name="srvctrl_error_request">请求错误</string>
     <string name="srvctrl_error_invaliddata">读取数据时发生错误</string>
     <string name="srvctrl_error_invalidserver">打开服务器控制面板的方式错误</string>
-    <string name="srvctrl_error_unknownmap">Failed to change the map because the selected map was not found on the server</string>
+    <string name="srvctrl_error_unknownmap">Map with that name not found</string>
+    <string name="srvctrl_error_unknowncommand">Unknown console command</string>
     <string name="srvctrl_success_start">服务器正在启动</string>
     <string name="srvctrl_success_restart">服务器正在重启</string>
 

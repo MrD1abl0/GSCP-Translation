@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="31" versionName="1.0.1" date="08.10.2023">
+        <bugfix>Fixed rare crashes after minimizing app on the add/edit server screen</bugfix>
+        <bugfix>Fixed rare crashes after clicking the "Edit server" button on the servers list screen</bugfix>
+        <bugfix>Fixed crashes in player ban dialog on GoldSource servers with FreshBans</bugfix>
+        <bugfix>Fixed auth errors after map change on Source servers</bugfix>
+        <bugfix>Fixed invalid home screen widget outline in landscape orientation</bugfix>
+        <bugfix>Fixed RCON for SA-MP servers if the server address is specified as a URL</bugfix>
+        <info>Improved chat/log listener stability</info>
+        <info>Minor improvements and fixes</info>
+    </release>
     <release versionCode="30" versionName="1.0.0" date="10.09.2023">
         <new>Support Android 12 and 12L</new>
         <new>Support Vulpecula.HOST and PufferPanel API</new>

@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="31" versionName="1.0.1" date="08.10.2023">
+        <bugfix>Исправлены редкие падения при сворачивании приложения на экране создания/редактирования сервера</bugfix>
+        <bugfix>Исправлены редкие падения при нажатии на кнопку "Редактировать" на экране списка серверов</bugfix>
+        <bugfix>Исправлены падения в диалоге бана игрока для GoldSource серверов с FreshBans</bugfix>
+        <bugfix>Исправлены ошибки авторизации после смены карты для Source серверов</bugfix>
+        <bugfix>Исправлена некорректная обводка виджетов главного экрана в альбомной ориентации</bugfix>
+        <bugfix>Исправлен RCON для SA-MP серверов, если адрес сервера указан как URL</bugfix>
+        <info>Повышена стабильность чата и чтения логов</info>
+        <info>Мелкие улучшения и исправления</info>
+    </release>
     <release versionCode="30" versionName="1.0.0" date="10.09.2023">
         <new>Поддержка Android 12 и 12L</new>
         <new>Поддержка Vulpecula.HOST и PufferPanel API</new>
