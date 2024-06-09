@@ -3,20 +3,32 @@ Aplikacion për menaxhimin e lojërave
 
 Mbështetja:
 - Mbikqyrëja serveit
-- Detajet e lojtarit
-- Ndalim, largim si dhe ndalim bisede për lojtarët
-- Ndryshim të Hartës
-- RCON së bashku me të gjitha elementet
 - Detaje të serverit
 - Burimet e përdorura nga serveri
-- Shikimi dhe ndryshimi i cvar
-- OGP, CW-SERV.RU, CSHost.com.ua dhe Myarena.ru (Konzole, ndalo/fillo server, të dhëna tjera)
+- Detajet e lojtarit
+- Ndalim, largim si dhe ndalim bisede për lojtarët
+- Chatting with players
+- RCON së bashku me të gjitha elementet
+- Addons manager
+- Ndryshim të Hartës
+- Start/stop server
 - Kontrollimi Verzionit
+- Shikimi dhe ndryshimi i cvar
 - Tabelat
 
 
 Improve translation:
 https://github.com/MrD1abl0/GSCP-Translation
+
+
+Supported APIs:
+
+CSHost.com.ua
+CW-SERV.RU
+Myarena.ru
+Open Game Panel
+PufferPanel (2.4.0+)
+Vulpecula.HOST
 
 
 Lojrat e Mbështetura:
@@ -53,19 +65,19 @@ Full support:
 - TF Classic
 
 - Insurgency: Sandstorm
-- Q II
-- Q III Arena
+- Quake II
+- Quake III Arena
 - SA-MP
-- W: ET
+- Wolfenstein: ET
 - Xash3D Engine
 
 Partial support:
 - ARK: SE
-- Q World
+- Quake World
 - Terraria
 
 Basic support:
 - KF
 - KF 2
-- Q Live
+- Quake Live
 - Valheim

@@ -3,15 +3,17 @@
 
 现支持的功能:
 - 服务器监视
-- 玩家详细信息查看
-- 封禁，踢出和禁言玩家
-- 服务器地图更换
-- 带有自动键入和快捷方式的RCON
 - 服务器详细信息
 - 服务器资源监视
-- 查看和修改服务器的CVARS
-- OGP, CW-SERV.RU,CSHost.com.ua 和 Myarena.ru 密钥 (控制台, 关闭/启动服务器, 附加数据信息)
+- 玩家详细信息查看
+- 封禁，踢出和禁言玩家
+- Chatting with players
+- 带有自动键入和快捷方式的RCON
+- Addons manager
+- 服务器地图更换
+- Start/stop server
 - 版本检查
+- 查看和修改服务器的CVARS
 - 小部件
 
 
@@ -19,7 +21,18 @@
 https://github.com/MrD1abl0/GSCP-Translation
 
 
+Supported APIs:
+
+CSHost.com.ua
+CW-SERV.RU
+Myarena.ru
+Open Game Panel
+PufferPanel (2.4.0+)
+Vulpecula.HOST
+
+
 支持的游戏列表:
+
 Full support:
 - Source engine
 - Alien Swarm
@@ -52,19 +65,19 @@ Full support:
 - TF Classic
 
 - Insurgency: Sandstorm
-- Q II
-- Q III Arena
+- Quake II
+- Quake III Arena
 - SA-MP
-- W: ET
+- Wolfenstein: ET
 - Xash3D Engine
 
 Partial support:
 - ARK: SE
-- Q World
+- Quake World
 - Terraria
 
 Basic support:
 - KF
 - KF 2
-- Q Live
+- Quake Live
 - Valheim
