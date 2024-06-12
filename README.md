@@ -9,8 +9,8 @@ This repository stores the [GSCP](https://play.google.com/store/apps/details?id=
 ### Improving translations
 If you want to add support for a new language or improve the having translation, send new files with translation through:
 - [Pull request](https://github.com/MrD1abl0/GSCP-Translation/pulls "Pull request")
-- Forums ([hlmod](https://hlmod.ru/threads/android-game-server-control-panel.48657/ "hlmod"), [devcs](https://dev-cs.ru/threads/6759/ "devcs"), [goldsrc](https://goldsrc.ru/threads/3948/ "goldsrc"))
-- Messengers ([Telegram](https://t.me/MrD1ablo "Telegram"), [Steam](http://steamcommunity.com/id/wh40k/ "Steam"), [VK](http://vk.com/wh40k "VK"))
+- Forums ([csdevs](https://csdevs.net/threads/game-server-control-panel.1164/ "csdevs"), [hlmod](https://hlmod.ru/threads/android-game-server-control-panel.48657/ "hlmod"), [devcs](https://dev-cs.ru/threads/6759/ "devcs"), [goldsrc](https://goldsrc.ru/threads/3948/ "goldsrc"))
+- Messengers ([Telegram](https://t.me/airv00 "Telegram"), [Steam](http://steamcommunity.com/id/wh40k/ "Steam"), [VK](http://vk.com/wh40k "VK"))
 - Email (a.i.rekunov@gmail.com)
 
 ### Translation files structure
