@@ -27,6 +27,7 @@ CSHost.com.ua
 CW-SERV.RU
 Myarena.ru
 Open Game Panel
+Pterodactyl Panel
 PufferPanel (2.4.0+)
 Vulpecula.HOST
 
@@ -41,8 +42,8 @@ Vulpecula.HOST
 - CS:GO
 - Codename CURE
 - DOD:S
-- DOI
-- Gmod
+- Day of Infamy
+- Garry’s Mod
 - HL: DM Source
 - HL2: DM
 - Insurgency
@@ -51,24 +52,27 @@ Vulpecula.HOST
 - NMRIH
 - Synergy
 - TF 2
-- ZP! Source
+- Zombie Panic! Source
 
 - GoldSource Engine
 - Adrenaline Gamer
 - CS
 - CS:CZ
 - DOD
-- DM Classic
+- Deathmatch Classic
 - HL
 - HL:OP
 - Sven Co-op
 - TF Classic
 
+- CS 2
 - Insurgency: Sandstorm
+- Palworld
+- Project Zomboid
 - Quake II
 - Quake III Arena
 - SA-MP
-- Wolfenstein: ET
+- Wolfenstein: Enemy Territory
 - Xash3D Engine
 
 Частичная поддержка:
@@ -77,7 +81,7 @@ Vulpecula.HOST
 - Terraria
 
 Базовая поддержка:
-- KF
-- KF 2
+- Killing Floor
+- Killing Floor 2
 - Quake Live
 - Valheim

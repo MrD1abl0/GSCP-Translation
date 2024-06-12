@@ -31,6 +31,7 @@
     <string name="game_czero" translatable="false">Counter-Strike: Condition Zero</string>
     <string name="game_cstrike" translatable="false">Counter-Strike: Source</string>
     <string name="game_csgo" translatable="false">Counter-Strike: Global Offensive</string>
+    <string name="game_cs2" translatable="false">Counter-Strike 2</string>
     <string name="game_cure" translatable="false">Codename CURE</string>
     <string name="game_hl" translatable="false">Half-Life</string>
     <string name="game_hlop" translatable="false">Half-Life: Opposing Force</string>
@@ -54,6 +55,7 @@
     <string name="game_l4d" translatable="false">Left 4 Dead</string>
     <string name="game_l4d2" translatable="false">Left 4 Dead 2</string>
     <string name="game_nmrih" translatable="false">No More Room in Hell</string>
+    <string name="game_palworld" translatable="false">Palworld</string>
     <string name="game_quakew" translatable="false">Quake World</string>
     <string name="game_quake2" translatable="false">Quake II</string>
     <string name="game_quake3" translatable="false">Quake III Arena</string>
@@ -61,6 +63,7 @@
     <string name="game_samp" translatable="false">San Andreas Multiplayer</string>
     <string name="game_sandstorm" translatable="false">Insurgency: Sandstorm</string>
     <string name="game_valheim" translatable="false">Valheim</string>
+    <string name="game_zomboid" translatable="false">Project Zomboid</string>
     <string name="game_zps" translatable="false">Zombie Panic! Source</string>
 
     <string name="game_indicator_basic_info">Basic server info</string>
@@ -82,36 +85,53 @@
 
     <string name="any_type_auto">Autoselect</string>
     <string name="any_type_engine">Engine</string>
-    <string name="any_type_engine2">Engine 2</string>
+    <string name="any_type_sm" translatable="false">SourceMod</string>
+    <string name="any_type_amx" translatable="false">Amxmod</string>
+    <string name="any_type_ulx" translatable="false">Ulysses mod</string>
+    <string name="any_type_as" translatable="false">Admin system</string>
+    <string name="any_type_iks" translatable="false">Iks Admin</string>
+    <string name="any_type_sa" translatable="false">CSSharp Panel/SimpleAdmin</string>
 
     <string name="mapchange_type_auto" tools:ignore="MissingTranslation">@string/any_type_auto</string>
     <string name="mapchange_type_engine" tools:ignore="MissingTranslation">@string/any_type_engine</string>
-    <string name="mapchange_type_engine2" tools:ignore="MissingTranslation">@string/any_type_engine2</string>
-    <string name="mapchange_type_sm" translatable="false">Sourcemod</string>
-    <string name="mapchange_type_amx" translatable="false">Amxmod</string>
-    <string name="mapchange_type_ulx" translatable="false">Ulysses mod</string>
+    <string name="mapchange_type_sm" tools:ignore="MissingTranslation">@string/any_type_sm</string>
+    <string name="mapchange_type_amx" tools:ignore="MissingTranslation">@string/any_type_amx</string>
+    <string name="mapchange_type_ulx" tools:ignore="MissingTranslation">@string/any_type_ulx</string>
+    <string name="mapchange_type_as" tools:ignore="MissingTranslation">@string/any_type_as</string>
+    <string name="mapchange_type_iks" tools:ignore="MissingTranslation">@string/any_type_iks</string>
+    <string name="mapchange_type_sa" tools:ignore="MissingTranslation">@string/any_type_sa</string>
     <string name="mapchange_type_hosting" translatable="false">Hosting API</string>
+
+    <string name="mapchange_storage_local">Local</string>
+    <string name="mapchange_storage_workshop" translatable="false">Workshop</string>
 
     <string name="ban_mode_id" translatable="false">ID</string>
     <string name="ban_mode_steam" translatable="false">SteamID</string>
+    <string name="ban_mode_name_ip">Nickname and IP</string>
     <string name="ban_mode_name">Nickname</string>
     <string name="ban_mode_ip" translatable="false">IP</string>
     <string name="ban_mode_xashid" translatable="false">XashID</string>
 
     <string name="ban_type_auto" tools:ignore="MissingTranslation">@string/any_type_auto</string>
     <string name="ban_type_engine" tools:ignore="MissingTranslation">@string/any_type_engine</string>
-    <string name="ban_type_sm" translatable="false">Sourcemod</string>
-    <string name="ban_type_amx" translatable="false">Amxmod</string>
+    <string name="ban_type_sm" tools:ignore="MissingTranslation">@string/any_type_sm</string>
+    <string name="ban_type_amx" tools:ignore="MissingTranslation">@string/any_type_amx</string>
     <string name="ban_type_amxb" translatable="false">AmxBans 6.x/AmxBans # Gm 1.5</string>
     <string name="ban_type_amxbgm" translatable="false">AmxBans 5.x/AmxBans # Gm 1.6</string>
     <string name="ban_type_fresh" translatable="false">FreshBans</string>
-    <string name="ban_type_ulx" translatable="false">Ulysses mod</string>
+    <string name="ban_type_ulx" tools:ignore="MissingTranslation">@string/any_type_ulx</string>
+    <string name="ban_type_as" tools:ignore="MissingTranslation">@string/any_type_as</string>
+    <string name="ban_type_iks" tools:ignore="MissingTranslation">@string/any_type_iks</string>
+    <string name="ban_type_sa" tools:ignore="MissingTranslation">@string/any_type_sa</string>
 
     <string name="kick_type_auto" tools:ignore="MissingTranslation">@string/any_type_auto</string>
     <string name="kick_type_engine" tools:ignore="MissingTranslation">@string/any_type_engine</string>
-    <string name="kick_type_sm" translatable="false">Sourcemod</string>
-    <string name="kick_type_amx" translatable="false">Amxmod</string>
-    <string name="kick_type_ulx" translatable="false">Ulysses mod</string>
+    <string name="kick_type_sm" tools:ignore="MissingTranslation">@string/any_type_sm</string>
+    <string name="kick_type_amx" tools:ignore="MissingTranslation">@string/any_type_amx</string>
+    <string name="kick_type_ulx" tools:ignore="MissingTranslation">@string/any_type_ulx</string>
+    <string name="kick_type_as" tools:ignore="MissingTranslation">@string/any_type_as</string>
+    <string name="kick_type_iks" tools:ignore="MissingTranslation">@string/any_type_iks</string>
+    <string name="kick_type_sa" tools:ignore="MissingTranslation">@string/any_type_sa</string>
 
     <string name="mute_mode_both">Both</string>
     <string name="mute_mode_voice">Voice</string>
@@ -119,17 +139,21 @@
 
     <string name="mute_type_auto" tools:ignore="MissingTranslation">@string/any_type_auto</string>
     <string name="mute_type_engine" tools:ignore="MissingTranslation">@string/any_type_engine</string>
-    <string name="mute_type_sm" translatable="false">Sourcemod</string>
+    <string name="mute_type_sm" tools:ignore="MissingTranslation">@string/any_type_sm</string>
     <string name="mute_type_sc" translatable="false">Sourcecomms/Sourcebans++</string>
-    <string name="mute_type_ulx" translatable="false">Ulysses mod</string>
+    <string name="mute_type_ulx" tools:ignore="MissingTranslation">@string/any_type_ulx</string>
     <string name="mute_type_amx" translatable="false">AMXX Gag</string>
     <string name="mute_type_gagme" translatable="false">Gag Me</string>
     <string name="mute_type_ca" translatable="false">Chat Additions</string>
+    <string name="mute_type_as" tools:ignore="MissingTranslation">@string/any_type_as</string>
+    <string name="mute_type_iks" tools:ignore="MissingTranslation">@string/any_type_iks</string>
+    <string name="mute_type_sa" tools:ignore="MissingTranslation">@string/any_type_sa</string>
 
     <string name="host_myarena" translatable="false">Myarena.ru</string>
     <string name="host_cshost" translatable="false">CSHost.com.ua</string>
     <string name="host_cwserv" translatable="false">CW-SERV.RU</string>
     <string name="host_ogp" translatable="false">Open Game Panel</string>
+    <string name="host_pter" translatable="false">Pterodactyl Panel</string>
     <string name="host_puffer" translatable="false">PufferPanel</string>
     <string name="host_vulpecula" translatable="false">Vulpecula.HOST</string>
 
@@ -157,7 +181,10 @@
     <string name="parsed_error_unknown">Unknown error</string>
     <string name="parsed_error_reasonmsg">Reason: %1$s</string>
 
-    <string name="listener_log_info_checking_network">Network Checking</string>
+    <string name="console_error_status">To start console the server must be online</string>
+    <string name="console_error_network" tools:ignore="MissingTranslation">@string/listener_log_error_network</string>
+
+    <string name="listener_log_info_checking_network">Network checking</string>
     <string name="listener_log_info_finding_ip">Getting a public device IP</string>
     <string name="listener_log_info_opening_port">Port opening</string>
     <string name="listener_log_info_enabling_sending">Enabling sending logs from the server</string>
@@ -204,6 +231,18 @@
     <string name="chat_message_command_name_goldsrc_amx_msg">AMX left side</string>
     <string name="chat_message_command_tag_goldsrc_amx_admins" translatable="false">amx_chat</string>
     <string name="chat_message_command_name_goldsrc_amx_admins">To AMX admins</string>
+    <string name="chat_message_command_tag_cs2_as_center" translatable="false">mm_csay</string>
+    <string name="chat_message_command_name_cs2_as_center">Admin system centered</string>
+    <string name="chat_message_command_tag_cs2_as_hud" translatable="false">mm_hsay</string>
+    <string name="chat_message_command_name_cs2_as_hud">Admin system HUD</string>
+    <string name="chat_message_command_tag_cs2_sa_chat" translatable="false">css_say</string>
+    <string name="chat_message_command_name_cs2_sa_chat">CSSharp Panel/SimpleAdmin chat</string>
+    <string name="chat_message_command_tag_cs2_sa_center" translatable="false">css_csay</string>
+    <string name="chat_message_command_name_cs2_sa_center">CSSharp Panel/SimpleAdmin centered</string>
+    <string name="chat_message_command_tag_cs2_sa_hud" translatable="false">css_hsay</string>
+    <string name="chat_message_command_name_cs2_sa_hud">CSSharp Panel/SimpleAdmin HUD</string>
+    <string name="chat_message_command_tag_cs2_sa_admins" translatable="false">css_asay</string>
+    <string name="chat_message_command_name_cs2_sa_admins">To CSSharp Panel/SimpleAdmin admins</string>
 
     <string name="chat_message_team_console">Console</string>
     <string name="chat_message_team_spectators">Spectators</string>
@@ -238,6 +277,8 @@
     <string name="addons_title_logo_sm" translatable="false">SOURCEMOD</string>
     <string name="addons_title_text_sp" translatable="false">Source.Python</string>
     <string name="addons_title_logo_sp" translatable="false">@string/addons_title_text_sp</string>
+    <string name="addons_title_text_css" translatable="false">CounterStrikeSharp</string>
+    <string name="addons_title_logo_css" translatable="false">@string/addons_title_text_css</string>
     <string name="addons_title_text_mm" translatable="false">Metamod</string>
     <string name="addons_title_logo_mm" translatable="false">METAMOD</string>
     <string name="addons_title_text_amx" translatable="false">AMX Mod X</string>
@@ -337,6 +378,8 @@
     <!--Server edit-->
     <string name="srvedit_title_add">Add server</string>
     <string name="srvedit_title_edit">Edit server</string>
+
+    <string name="srvedit_btn_copy">Copy settings of another server</string>
 
     <string name="srvedit_group_main">Main</string>
     <string name="srvedit_txt_ip" translatable="false">IP</string>
@@ -482,10 +525,12 @@
     <string name="srvctrl_info_query_amxxgag" translatable="false">AMXX Gag</string>
     <string name="srvctrl_info_query_gagme" translatable="false">Gag Me</string>
     <string name="srvctrl_info_query_ca" translatable="false">Chat Additions</string>
-    <string name="srvctrl_info_query_sm" translatable="false">Sourcemod</string>
+    <string name="srvctrl_info_query_sm" translatable="false">SourceMod</string>
     <string name="srvctrl_info_query_sc" translatable="false">Sourcecomms/SourceBans++</string>
     <string name="srvctrl_info_query_ulx" translatable="false">Ulxmod</string>
     <string name="srvctrl_info_query_sp" translatable="false">Source.Python</string>
+    <string name="srvctrl_info_query_css" translatable="false">CounterStrikeSharp</string>
+    <string name="srvctrl_info_query_as" translatable="false">Admin system</string>
 
     <string name="srvctrl_info_perfs_title">Resources</string>
     <string name="srvctrl_info_perfs_cpu">CPU</string>
@@ -493,7 +538,7 @@
     <string name="srvctrl_info_perfs_rom">Storage</string>
     <string name="srvctrl_info_perfs_intraff">Incoming traffic</string>
     <string name="srvctrl_info_perfs_outtraff">Outbound traffic</string>
-    <string name="srvctrl_info_perfs_traffic_size">%1$s (KB/s)</string>
+    <string name="srvctrl_info_perfs_traffic_size">%1$.2f (KB/s)</string>
     <string name="srvctrl_info_perfs_fps" translatable="false">FPS</string>
     <string name="srvctrl_info_perfs_uptime">Uptime</string>
     <string name="srvctrl_info_perfs_connects">Connects</string>
@@ -502,12 +547,13 @@
     <string name="srvctrl_info_perfs_error">Failed to load info about used resources.</string>
 
     <string name="srvctrl_info_cmds_title">Commands</string>
+    <string name="srvctrl_info_cmds_notfound">Server commands not found</string>
     <string name="srvctrl_info_cmds_copy">Command copied to clipboard</string>
     <string name="srvctrl_info_cmds_copyerror">Unable to copy command to the clipboard</string>
-    <string name="srvctrl_info_cmd_notfound">Server commands not found</string>
 
     <string name="srvctrl_info_vars_title">Variables</string>
     <string name="srvctrl_info_vars_error">Failed to get server variables list</string>
+    <string name="srvctrl_info_vars_notfound">Server variables not found</string>
     <string name="srvctrl_info_vars_copy">Variable name copied to clipboard</string>
     <string name="srvctrl_info_vars_copyerror">Unable to copy variable name to the clipboard</string>
 
@@ -527,6 +573,7 @@
     <string name="srvctrl_activities_chat_message_disconnected_human" formatted="false">Player %1$s left the game%2$s</string>
     <string name="srvctrl_activities_chat_field_hint">Message</string>
     <string name="srvctrl_activities_chat_button_tooltip" tools:ignore="MissingTranslation">@string/srvctrl_console_action_send</string>
+    <string name="srvctrl_activities_chat_empty">No messages have been received yet</string>
     <string name="srvctrl_activities_chat_error_log">Log listening is not currently active</string>
     <string name="srvctrl_activities_chat_error_message">Unable to send a message</string>
 
@@ -601,6 +648,8 @@
     <!--Dialogs-->
     <string name="dialog_games_title">Select a game</string>
     <string name="dialog_hosts_title">Select an API</string>
+    <string name="dialog_servers_title">Select a server</string>
+    <string name="dialog_servers_error_description">Failed to load servers list</string>
     <string name="dialog_fastcmd_title">Edit RCON shortcuts</string>
     <string name="dialog_accept_action_title">Confirm action</string>
     <string name="dialog_accept_exit_descr">Exit without saving?</string>
@@ -661,8 +710,9 @@
     <string name="dialog_action_ban_title">Ban player</string>
     <string name="dialog_action_kick_title">Kick player</string>
     <string name="dialog_action_mute_title">Mute player</string>
-    <string name="dialog_action_type">Command/Plugin</string>
     <string name="dialog_action_mode">Type</string>
+    <string name="dialog_action_type">Command/Plugin</string>
+    <string name="dialog_action_storage">Storage</string>
     <string name="dialog_action_reason">Reason</string>
     <string name="dialog_action_time_spn">Time</string>
     <string name="dialog_action_time_edit">Time (in minutes)</string>
@@ -741,10 +791,13 @@
 
 
     <!--Notifications-->
+    <string name="notify_channel_outdate">Server version checker</string>
+    <string name="notify_channel_services">Foreground services</string>
+
     <string name="notify_outdate_title">Server is outdated</string>
-    <string name="notify_outdate_name">Server version checker</string>
-    <string name="notify_log_listener_name">Chat/Log listener</string>
-    <string name="notify_log_listener_title" tools:ignore="MissingTranslation">@string/notify_log_listener_name</string>
+    <string name="notify_console_title">Console</string>
+    <string name="notify_console_description">To stop the console, close the server control screen</string>
+    <string name="notify_log_listener_title">Chat/Log listener</string>
     <string name="notify_log_listener_description">To stop the log listener, close the server control screen</string>
 
 
@@ -847,6 +900,10 @@
     <string name="pref_web_hlx_title" translatable="false">HLstatsX:CE URL</string>
     <string name="pref_web_hlx_hint" translatable="false">https://mysite.com/hlstats</string>
 
+    <string name="pref_privacy_title">Privacy</string>
+    <string name="pref_privacy_gdpr_title">GDPR options</string>
+    <string name="pref_privacy_gdpr_error">Failed to open options form</string>
+
     <string name="pref_debug_title">Debug</string>
     <string name="pref_debug_show_title">Debug settings</string>
     <string name="pref_debug_extrasrvinfo_title">Extra server info</string>
@@ -861,6 +918,8 @@
     <string name="pref_debug_backgrounddialog_descr">Display a dialog when an error occurs in the background</string>
     <string name="pref_debug_remoteconfig_title" translatable="false">Remote Config</string>
     <string name="pref_debug_remoteconfig_descr">Reduce fetching interval</string>
+    <string name="pref_debug_loglistener_title">Log listener</string>
+    <string name="pref_debug_loglistener_descr">Display debug messages in the log</string>
 
 
     <!--About-->

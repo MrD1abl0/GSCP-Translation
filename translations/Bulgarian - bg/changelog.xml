@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="32" versionName="1.1.0" date="12.06.2024">
+        <new>Support Android 13 and 14</new>
+        <new>Support Pterodactyl Panel API</new>
+        <new>Full support for CS2, Palworld and Project Zomboid</new>
+        <new>Copying servers settings</new>
+        <info>Many minor improvements and fixes</info>
+    </release>
     <release versionCode="31" versionName="1.0.1" date="08.10.2023">
         <bugfix>Fixed rare crashes after minimizing app on the add/edit server screen</bugfix>
         <bugfix>Fixed rare crashes after clicking the "Edit server" button on the servers list screen</bugfix>

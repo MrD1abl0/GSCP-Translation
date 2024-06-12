@@ -32,8 +32,10 @@
 
     <string name="any_type_auto">Autoselect</string>
     <string name="any_type_engine">Engine</string>
-    <string name="any_type_engine2">Engine 2</string>
 
+    <string name="mapchange_storage_local">Local</string>
+
+    <string name="ban_mode_name_ip">Nickname and IP</string>
     <string name="ban_mode_name">Nickname</string>
 
     <string name="mute_mode_both">Dyjat</string>
@@ -61,7 +63,9 @@
     <string name="parsed_error_unknown">Gabim i Panjohur</string>
     <string name="parsed_error_reasonmsg">Arsyeja: %1$s</string>
 
-    <string name="listener_log_info_checking_network">Network Checking</string>
+    <string name="console_error_status">To start console the server must be online</string>
+
+    <string name="listener_log_info_checking_network">Network checking</string>
     <string name="listener_log_info_finding_ip">Getting a public device IP</string>
     <string name="listener_log_info_opening_port">Port opening</string>
     <string name="listener_log_info_enabling_sending">Enabling sending logs from the server</string>
@@ -94,6 +98,12 @@
     <string name="chat_message_command_name_goldsrc_amx_center">AMX centered</string>
     <string name="chat_message_command_name_goldsrc_amx_msg">AMX left side</string>
     <string name="chat_message_command_name_goldsrc_amx_admins">To AMX admins</string>
+    <string name="chat_message_command_name_cs2_as_center">Admin system centered</string>
+    <string name="chat_message_command_name_cs2_as_hud">Admin system HUD</string>
+    <string name="chat_message_command_name_cs2_sa_chat">CSSharp Panel/SimpleAdmin chat</string>
+    <string name="chat_message_command_name_cs2_sa_center">CSSharp Panel/SimpleAdmin centered</string>
+    <string name="chat_message_command_name_cs2_sa_hud">CSSharp Panel/SimpleAdmin HUD</string>
+    <string name="chat_message_command_name_cs2_sa_admins">To CSSharp Panel/SimpleAdmin admins</string>
 
     <string name="chat_message_team_console">Console</string>
     <string name="chat_message_team_spectators">Spectators</string>
@@ -207,6 +217,8 @@
     <!--Server edit-->
     <string name="srvedit_title_add">Shto server</string>
     <string name="srvedit_title_edit">Modifiko serverin</string>
+
+    <string name="srvedit_btn_copy">Copy settings of another server</string>
 
     <string name="srvedit_group_main">Kryesorja</string>
     <string name="srvedit_txt_port">Port</string>
@@ -332,7 +344,7 @@
     <string name="srvctrl_info_perfs_rom">Hapësira</string>
     <string name="srvctrl_info_perfs_intraff">Trafiku i ardhjes</string>
     <string name="srvctrl_info_perfs_outtraff">Trafiku i daljes</string>
-    <string name="srvctrl_info_perfs_traffic_size">%1$s (KB/s)</string>
+    <string name="srvctrl_info_perfs_traffic_size">%1$.2f (KB/s)</string>
     <string name="srvctrl_info_perfs_uptime">Aktiv</string>
     <string name="srvctrl_info_perfs_connects">Lidhjet</string>
     <string name="srvctrl_info_perfs_data_size_full">%1$d/%2$d MB (%3$d%%)</string>
@@ -340,12 +352,13 @@
     <string name="srvctrl_info_perfs_error">Dështoi në ngarkimin e informacioneve rreth burimeve të përdorura.</string>
 
     <string name="srvctrl_info_cmds_title">Komandat</string>
+    <string name="srvctrl_info_cmds_notfound">Komandat e serverit nuk mund të gjetën</string>
     <string name="srvctrl_info_cmds_copy">Komandat u kopjuan për kujtesë</string>
     <string name="srvctrl_info_cmds_copyerror">Komandat nuk mund të kopjohen për kujtesë</string>
-    <string name="srvctrl_info_cmd_notfound">Komandat e serverit nuk mund të gjetën</string>
 
     <string name="srvctrl_info_vars_title">Vlerat Ndryshuese</string>
     <string name="srvctrl_info_vars_error">Dështoi marrja e listës së vlerave</string>
+    <string name="srvctrl_info_vars_notfound">Server variables not found</string>
     <string name="srvctrl_info_vars_copy">Vlerat ndryshuese u kopjuan për kujtesë</string>
     <string name="srvctrl_info_vars_copyerror">Nuk mund të kopjohen vlerat ndryshuese të serverit për kujtesë</string>
 
@@ -364,6 +377,7 @@
     <string name="srvctrl_activities_chat_message_disconnected_bot" formatted="false">Bot %1$s left the game%2$s</string>
     <string name="srvctrl_activities_chat_message_disconnected_human" formatted="false">Player %1$s left the game%2$s</string>
     <string name="srvctrl_activities_chat_field_hint">Message</string>
+    <string name="srvctrl_activities_chat_empty">No messages have been received yet</string>
     <string name="srvctrl_activities_chat_error_log">Log listening is not currently active</string>
     <string name="srvctrl_activities_chat_error_message">Unable to send a message</string>
 
@@ -425,6 +439,8 @@
     <!--Dialogs-->
     <string name="dialog_games_title">Select a game</string>
     <string name="dialog_hosts_title">Select an API</string>
+    <string name="dialog_servers_title">Select a server</string>
+    <string name="dialog_servers_error_description">Failed to load servers list</string>
     <string name="dialog_fastcmd_title">Modifiko RCON shpejtë</string>
     <string name="dialog_accept_action_title">Konfirmo veprimin</string>
     <string name="dialog_accept_exit_descr">Mbylle pa ruajtjen e të dhënave?</string>
@@ -477,8 +493,9 @@
     <string name="dialog_action_ban_title">Ndalo lojtarin</string>
     <string name="dialog_action_kick_title">Largo lojtarin</string>
     <string name="dialog_action_mute_title">Ndalo zërin lojtarit</string>
-    <string name="dialog_action_type">Komanda/Plugin</string>
     <string name="dialog_action_mode">Lloji</string>
+    <string name="dialog_action_type">Komanda/Plugin</string>
+    <string name="dialog_action_storage">Storage</string>
     <string name="dialog_action_reason">Arsyeja</string>
     <string name="dialog_action_time_spn">Ora</string>
     <string name="dialog_action_time_edit">Ora (ne minuta)</string>
@@ -531,9 +548,13 @@
 
 
     <!--Notifications-->
+    <string name="notify_channel_outdate">Server version checker</string>
+    <string name="notify_channel_services">Chat/Log listener</string>
+
     <string name="notify_outdate_title">Server is outdated</string>
-    <string name="notify_outdate_name">Server version checker</string>
-    <string name="notify_log_listener_name">Chat/Log listener</string>
+    <string name="notify_console_title">Console</string>
+    <string name="notify_console_description">To stop the console, close the server control screen</string>
+    <string name="notify_log_listener_title">Chat/Log listener</string>
     <string name="notify_log_listener_description">To stop the log listener, close the server control screen</string>
 
 
@@ -587,6 +608,10 @@
     <string name="pref_web_checking">URL checking…</string>
     <string name="pref_web_founded">A mobile version of the site has been found. Use it? (Desktop version of the site may work incorrectly)</string>
 
+    <string name="pref_privacy_title">Privacy</string>
+    <string name="pref_privacy_gdpr_title">GDPR options</string>
+    <string name="pref_privacy_gdpr_error">Failed to open options form</string>
+
     <string name="pref_debug_title">Rregullimi</string>
     <string name="pref_debug_show_title">Rregullimet e debugimit</string>
     <string name="pref_debug_extrasrvinfo_title">Informacion shtesë mbi serverin</string>
@@ -600,6 +625,8 @@
     <string name="pref_debug_backgrounddialog_title">Dialogu i Historisë së Çastit</string>
     <string name="pref_debug_backgrounddialog_descr">Shfaq një dialog kur ndodh një gabim në sfond</string>
     <string name="pref_debug_remoteconfig_descr">Reduce fetching interval</string>
+    <string name="pref_debug_loglistener_title">Log listener</string>
+    <string name="pref_debug_loglistener_descr">Display debug messages in the log</string>
 
 
     <!--About-->

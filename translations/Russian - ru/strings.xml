@@ -32,8 +32,10 @@
 
     <string name="any_type_auto">Автовыбор</string>
     <string name="any_type_engine">Engine</string>
-    <string name="any_type_engine2">Engine 2</string>
 
+    <string name="mapchange_storage_local">Локальное</string>
+
+    <string name="ban_mode_name_ip">Ник и IP</string>
     <string name="ban_mode_name">Ник</string>
 
     <string name="mute_mode_both">Голос и чат</string>
@@ -60,6 +62,8 @@
     <string name="parsed_error_unknownpacket">Неизвестный пакет</string>
     <string name="parsed_error_unknown">Неизвестная ошибка</string>
     <string name="parsed_error_reasonmsg">Причина: %1$s</string>
+
+    <string name="console_error_status">Для запуска консоли необходимо чтобы сервер был онлайн</string>
 
     <string name="listener_log_info_checking_network">Проверка подключения к сети</string>
     <string name="listener_log_info_finding_ip">Получение публичного IP устройства</string>
@@ -94,6 +98,12 @@
     <string name="chat_message_command_name_goldsrc_amx_center">AMX по центру</string>
     <string name="chat_message_command_name_goldsrc_amx_msg">AMX слева</string>
     <string name="chat_message_command_name_goldsrc_amx_admins">Для AMX админов</string>
+    <string name="chat_message_command_name_cs2_as_center">Admin system по центру</string>
+    <string name="chat_message_command_name_cs2_as_hud">Admin system HUD</string>
+    <string name="chat_message_command_name_cs2_sa_chat">CSSharp Panel/SimpleAdmin чат</string>
+    <string name="chat_message_command_name_cs2_sa_center">CSSharp Panel/SimpleAdmin по центру</string>
+    <string name="chat_message_command_name_cs2_sa_hud">CSSharp Panel/SimpleAdmin HUD</string>
+    <string name="chat_message_command_name_cs2_sa_admins">Для CSSharp Panel/SimpleAdmin админов</string>
 
     <string name="chat_message_team_console">Консоль</string>
     <string name="chat_message_team_spectators">Наблюдатель</string>
@@ -207,6 +217,8 @@
     <!--Server edit-->
     <string name="srvedit_title_add">Добавить сервер</string>
     <string name="srvedit_title_edit">Изменить сервер</string>
+
+    <string name="srvedit_btn_copy">Скопировать настройки другого сервера</string>
 
     <string name="srvedit_group_main">Основное</string>
     <string name="srvedit_txt_port">Порт</string>
@@ -332,7 +344,7 @@
     <string name="srvctrl_info_perfs_rom">Диск</string>
     <string name="srvctrl_info_perfs_intraff">Входящий трафик</string>
     <string name="srvctrl_info_perfs_outtraff">Исходящий трафик</string>
-    <string name="srvctrl_info_perfs_traffic_size">%1$s (КБ/с)</string>
+    <string name="srvctrl_info_perfs_traffic_size">%1$.2f (КБ/с)</string>
     <string name="srvctrl_info_perfs_uptime">Время работы</string>
     <string name="srvctrl_info_perfs_connects">Подключений</string>
     <string name="srvctrl_info_perfs_data_size_full">%1$d/%2$d МБ (%3$d%%)</string>
@@ -340,12 +352,13 @@
     <string name="srvctrl_info_perfs_error">Не удалось загрузить информацию об используемых ресурсах</string>
 
     <string name="srvctrl_info_cmds_title">Команды</string>
+    <string name="srvctrl_info_cmds_notfound">Серверные команды не найдены</string>
     <string name="srvctrl_info_cmds_copy">Команда скопирована в буфер обмена</string>
     <string name="srvctrl_info_cmds_copyerror">Не удалось скопировать команду в буфер обмена</string>
-    <string name="srvctrl_info_cmd_notfound">Серверные команды не найдены</string>
 
     <string name="srvctrl_info_vars_title">Переменные</string>
     <string name="srvctrl_info_vars_error">Не удалось загрузить список серверных переменных</string>
+    <string name="srvctrl_info_vars_notfound">Серверные переменные не найдены</string>
     <string name="srvctrl_info_vars_copy">Название переменной скопировано в буфер обмена</string>
     <string name="srvctrl_info_vars_copyerror">Не удалось скопировать название переменной в буфер обмена</string>
 
@@ -364,6 +377,7 @@
     <string name="srvctrl_activities_chat_message_disconnected_bot" formatted="false">Бот %1$s вышел с сервера%2$s</string>
     <string name="srvctrl_activities_chat_message_disconnected_human" formatted="false">Игрок %1$s вышел с сервера%2$s</string>
     <string name="srvctrl_activities_chat_field_hint">Сообщение</string>
+    <string name="srvctrl_activities_chat_empty">Пока что не было получено ни одного сообщения</string>
     <string name="srvctrl_activities_chat_error_log">Чтение логов неактивно в данный момент</string>
     <string name="srvctrl_activities_chat_error_message">Не удалось отправить сообщение</string>
 
@@ -425,6 +439,8 @@
     <!--Dialogs-->
     <string name="dialog_games_title">Выберите игру</string>
     <string name="dialog_hosts_title">Выберите API</string>
+    <string name="dialog_servers_title">Выберите сервер</string>
+    <string name="dialog_servers_error_description">Не удалось загрузить список серверов</string>
     <string name="dialog_fastcmd_title">RCON команды</string>
     <string name="dialog_accept_action_title">Подтвердить действие</string>
     <string name="dialog_accept_exit_descr">Выйти без сохранения?</string>
@@ -477,8 +493,9 @@
     <string name="dialog_action_ban_title">Забанить игрока</string>
     <string name="dialog_action_kick_title">Кикнуть игрока</string>
     <string name="dialog_action_mute_title">Замутить игрока</string>
-    <string name="dialog_action_type">Команда/Плагин</string>
     <string name="dialog_action_mode">Тип</string>
+    <string name="dialog_action_type">Команда/Плагин</string>
+    <string name="dialog_action_storage">Хранилище</string>
     <string name="dialog_action_reason">Причина</string>
     <string name="dialog_action_time_spn">Время</string>
     <string name="dialog_action_time_edit">Время (в минутах)</string>
@@ -531,15 +548,19 @@
 
 
     <!--Notifications-->
+    <string name="notify_channel_outdate">Проверка версии сервера</string>
+    <string name="notify_channel_services">Сервисы запускаемые в процессе работы приложения</string>
+
     <string name="notify_outdate_title">Сервер устарел</string>
-    <string name="notify_outdate_name">Проверка версии сервера</string>
-    <string name="notify_log_listener_name">Чат/Чтение лога</string>
-    <string name="notify_log_listener_description">Для остановки закройте экран управления сервером</string>
+    <string name="notify_console_title">Консоль</string>
+    <string name="notify_console_description">Для остановки закройте экран управления сервером</string>
+    <string name="notify_log_listener_title">Чат/Чтение лога</string>
+    <string name="notify_log_listener_description">@string/notify_console_description</string>
 
 
     <!--Preferences-->
     <string name="pref_syncservice_title">Частота обновления</string>
-    <string name="pref_syncservice_descr">Основная информации о сервере (Игроки, карта, пинг и т.д.)</string>
+    <string name="pref_syncservice_descr">Основная информация о сервере (Игроки, карта, пинг и т.д.)</string>
     <string name="pref_fullsyncservice_title">Частота полного обновления</string>
     <string name="pref_fullsyncservice_descr">Список карт, переменные, доступные возможности и т.д.</string>
     <string-array name="pref_syncservice_text">
@@ -587,6 +608,10 @@
     <string name="pref_web_checking">Проверка URL…</string>
     <string name="pref_web_founded">Обнаружена мобильная версия сайта. Использовать её? (Десктопная версия сайта может работать некорректно)</string>
 
+    <string name="pref_privacy_title">Приватность</string>
+    <string name="pref_privacy_gdpr_title">Настройки GDPR</string>
+    <string name="pref_privacy_gdpr_error">Не удалось загрузить форму настроек</string>
+
     <string name="pref_debug_title">Отладка</string>
     <string name="pref_debug_show_title">Настройки отладки</string>
     <string name="pref_debug_extrasrvinfo_title">Дополнительная информация о сервере</string>
@@ -600,6 +625,8 @@
     <string name="pref_debug_backgrounddialog_title">Диалог при фоновом падении</string>
     <string name="pref_debug_backgrounddialog_descr">Отображать диалог при падении в фоне</string>
     <string name="pref_debug_remoteconfig_descr">Чаще проверять наличие обновлений конфигурации</string>
+    <string name="pref_debug_loglistener_title">Чтение логов</string>
+    <string name="pref_debug_loglistener_descr">Отображать отладочные сообщения в логе</string>
 
 
     <!--About-->

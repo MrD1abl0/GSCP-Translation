@@ -32,8 +32,10 @@
 
     <string name="any_type_auto">Autoselect</string>
     <string name="any_type_engine">Engine</string>
-    <string name="any_type_engine2">Engine 2</string>
 
+    <string name="mapchange_storage_local">Local</string>
+
+    <string name="ban_mode_name_ip">Nickname and IP</string>
     <string name="ban_mode_name">Nickname</string>
 
     <string name="mute_mode_both">语音和聊天</string>
@@ -61,7 +63,9 @@
     <string name="parsed_error_unknown">未知错误</string>
     <string name="parsed_error_reasonmsg">原因: %1$s</string>
 
-    <string name="listener_log_info_checking_network">Network Checking</string>
+    <string name="console_error_status">To start console the server must be online</string>
+
+    <string name="listener_log_info_checking_network">Network checking</string>
     <string name="listener_log_info_finding_ip">Getting a public device IP</string>
     <string name="listener_log_info_opening_port">Port opening</string>
     <string name="listener_log_info_enabling_sending">Enabling sending logs from the server</string>
@@ -94,6 +98,12 @@
     <string name="chat_message_command_name_goldsrc_amx_center">AMX centered</string>
     <string name="chat_message_command_name_goldsrc_amx_msg">AMX left side</string>
     <string name="chat_message_command_name_goldsrc_amx_admins">To AMX admins</string>
+    <string name="chat_message_command_name_cs2_as_center">Admin system centered</string>
+    <string name="chat_message_command_name_cs2_as_hud">Admin system HUD</string>
+    <string name="chat_message_command_name_cs2_sa_chat">CSSharp Panel/SimpleAdmin chat</string>
+    <string name="chat_message_command_name_cs2_sa_center">CSSharp Panel/SimpleAdmin centered</string>
+    <string name="chat_message_command_name_cs2_sa_hud">CSSharp Panel/SimpleAdmin HUD</string>
+    <string name="chat_message_command_name_cs2_sa_admins">To CSSharp Panel/SimpleAdmin admins</string>
 
     <string name="chat_message_team_console">Console</string>
     <string name="chat_message_team_spectators">Spectators</string>
@@ -207,6 +217,8 @@
     <!--Server edit-->
     <string name="srvedit_title_add">添加服务器</string>
     <string name="srvedit_title_edit">编辑服务器</string>
+
+    <string name="srvedit_btn_copy">Copy settings of another server</string>
 
     <string name="srvedit_group_main">主要</string>
     <string name="srvedit_txt_port">端口</string>
@@ -332,7 +344,7 @@
     <string name="srvctrl_info_perfs_rom">储存占用</string>
     <string name="srvctrl_info_perfs_intraff">入站流量</string>
     <string name="srvctrl_info_perfs_outtraff">出站流量</string>
-    <string name="srvctrl_info_perfs_traffic_size">%1$s (KB/s)</string>
+    <string name="srvctrl_info_perfs_traffic_size">%1$.2f (KB/s)</string>
     <string name="srvctrl_info_perfs_uptime">运行时间</string>
     <string name="srvctrl_info_perfs_connects">连接数</string>
     <string name="srvctrl_info_perfs_data_size_full">%1$d/%2$d MB (%3$d%%)</string>
@@ -340,12 +352,13 @@
     <string name="srvctrl_info_perfs_error">无法读取资源信息</string>
 
     <string name="srvctrl_info_cmds_title">命令</string>
+    <string name="srvctrl_info_cmds_notfound">找不到服务器命令</string>
     <string name="srvctrl_info_cmds_copy">命令已复制到粘贴板</string>
     <string name="srvctrl_info_cmds_copyerror">无法将命令复制到粘贴板</string>
-    <string name="srvctrl_info_cmd_notfound">找不到服务器命令</string>
 
     <string name="srvctrl_info_vars_title">变量</string>
     <string name="srvctrl_info_vars_error">无法获取服务器变量列表</string>
+    <string name="srvctrl_info_vars_notfound">Server variables not found</string>
     <string name="srvctrl_info_vars_copy">变量名已复制到粘贴板</string>
     <string name="srvctrl_info_vars_copyerror">无法将变量名复制到粘贴板</string>
 
@@ -364,6 +377,7 @@
     <string name="srvctrl_activities_chat_message_disconnected_bot" formatted="false">Bot %1$s left the game%2$s</string>
     <string name="srvctrl_activities_chat_message_disconnected_human" formatted="false">Player %1$s left the game%2$s</string>
     <string name="srvctrl_activities_chat_field_hint">Message</string>
+    <string name="srvctrl_activities_chat_empty">No messages have been received yet</string>
     <string name="srvctrl_activities_chat_error_log">Log listening is not currently active</string>
     <string name="srvctrl_activities_chat_error_message">Unable to send a message</string>
 
@@ -425,6 +439,8 @@
     <!--Dialogs-->
     <string name="dialog_games_title">Select a game</string>
     <string name="dialog_hosts_title">Select an API</string>
+    <string name="dialog_servers_title">Select a server</string>
+    <string name="dialog_servers_error_description">Failed to load servers list</string>
     <string name="dialog_fastcmd_title">编辑RCON快捷命令</string>
     <string name="dialog_accept_action_title">确认操作</string>
     <string name="dialog_accept_exit_descr">不保存退出?</string>
@@ -477,8 +493,9 @@
     <string name="dialog_action_ban_title">封禁玩家</string>
     <string name="dialog_action_kick_title">提出玩家</string>
     <string name="dialog_action_mute_title">禁言玩家</string>
-    <string name="dialog_action_type">命令/插件</string>
     <string name="dialog_action_mode">类型</string>
+    <string name="dialog_action_type">命令/插件</string>
+    <string name="dialog_action_storage">Storage</string>
     <string name="dialog_action_reason">原因</string>
     <string name="dialog_action_time_spn">时间</string>
     <string name="dialog_action_time_edit">时间 (单位分钟)</string>
@@ -531,9 +548,13 @@
 
 
     <!--Notifications-->
+    <string name="notify_channel_outdate">服务器版本检查器</string>
+    <string name="notify_channel_services">Chat/Log listener</string>
+
     <string name="notify_outdate_title">服务器版本过旧</string>
-    <string name="notify_outdate_name">服务器版本检查器</string>
-    <string name="notify_log_listener_name">Chat/Log listener</string>
+    <string name="notify_console_title">Console</string>
+    <string name="notify_console_description">To stop the console, close the server control screen</string>
+    <string name="notify_log_listener_title">Chat/Log listener</string>
     <string name="notify_log_listener_description">To stop the log listener, close the server control screen</string>
 
 
@@ -587,6 +608,10 @@
     <string name="pref_web_checking">URL checking…</string>
     <string name="pref_web_founded">A mobile version of the site has been found. Use it? (Desktop version of the site may work incorrectly)</string>
 
+    <string name="pref_privacy_title">Privacy</string>
+    <string name="pref_privacy_gdpr_title">GDPR options</string>
+    <string name="pref_privacy_gdpr_error">Failed to open options form</string>
+
     <string name="pref_debug_title">调试</string>
     <string name="pref_debug_show_title">调试设定</string>
     <string name="pref_debug_extrasrvinfo_title">附加服务器信息</string>
@@ -600,6 +625,8 @@
     <string name="pref_debug_backgrounddialog_title">后台崩溃对话框</string>
     <string name="pref_debug_backgrounddialog_descr">在后台发生错误时显示对话框</string>
     <string name="pref_debug_remoteconfig_descr">Reduce fetching interval</string>
+    <string name="pref_debug_loglistener_title">Log listener</string>
+    <string name="pref_debug_loglistener_descr">Display debug messages in the log</string>
 
 
     <!--About-->
