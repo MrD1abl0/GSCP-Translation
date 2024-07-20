@@ -213,6 +213,9 @@
     <string name="srvlist_item_deleted">Сервер удалён</string>
     <string name="srvlist_item_delete_error">При удалении сервера произошла ошибка</string>
 
+    <string name="srvlist_snackbar_restart_title">Обновление готово к установке</string>
+    <string name="srvlist_snackbar_restart_action">Установить</string>
+
 
     <!--Server edit-->
     <string name="srvedit_title_add">Добавить сервер</string>

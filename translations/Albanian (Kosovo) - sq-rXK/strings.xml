@@ -213,6 +213,9 @@
     <string name="srvlist_item_deleted">Serveri u largua</string>
     <string name="srvlist_item_delete_error">Deshtoi largimi serverit</string>
 
+    <string name="srvlist_snackbar_restart_title">An update has just been downloaded</string>
+    <string name="srvlist_snackbar_restart_action">Restart</string>
+
 
     <!--Server edit-->
     <string name="srvedit_title_add">Shto server</string>

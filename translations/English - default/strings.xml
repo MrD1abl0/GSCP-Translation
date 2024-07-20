@@ -374,6 +374,9 @@
     <string name="srvlist_item_deleted">Server removed</string>
     <string name="srvlist_item_delete_error">Failed to remove the server</string>
 
+    <string name="srvlist_snackbar_restart_title">An update has just been downloaded</string>
+    <string name="srvlist_snackbar_restart_action">Restart</string>
+
 
     <!--Server edit-->
     <string name="srvedit_title_add">Add server</string>
@@ -461,6 +464,9 @@
     <string name="srvctrl_menu_map">Change map</string>
     <string name="srvctrl_menu_fullrefresh">Full refresh</string>
     <string name="srvctrl_menu_edit" tools:ignore="MissingTranslation">@string/o_action_edit</string>
+
+    <string name="srvctrl_snackbar_restart_title" tools:ignore="MissingTranslation">@string/srvlist_snackbar_restart_title</string>
+    <string name="srvctrl_snackbar_restart_action" tools:ignore="MissingTranslation">@string/srvlist_snackbar_restart_action</string>
 
     <string name="srvctrl_error_request">Request failed</string>
     <string name="srvctrl_error_response" tools:ignore="MissingTranslation">@string/parsed_error_invalid_response_api</string>
