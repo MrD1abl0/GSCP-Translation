@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+    <release versionCode="34" versionName="1.1.2" date="15.12.2024">
+        <bugfix>Fixed crashes in the "Addons" section of the control screen on Android 5.0-5.1</bugfix>
+        <bugfix>Fixed rare crashes after opening the addon info screen</bugfix>
+        <bugfix>Fixed losing focus on console input field if console output was updated</bugfix>
+        <info>Minor fixes</info>
+    </release>
     <release versionCode="33" versionName="1.1.1" date="20.07.2024">
         <bugfix>Fixed rare crashes after opening the API/game selection dialog on the add/edit server screen</bugfix>
         <bugfix>Fixed rare crashes after minimizing app on bottom sheet dialogs on Android 5.0-6.0</bugfix>
